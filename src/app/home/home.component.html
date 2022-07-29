@@ -1,0 +1,284 @@
+
+
+
+
+
+
+<!-- <button (click)="panel_impostazione = !panel_impostazione" class="alyo-posizione-fisso  alyo-bordo-rotondo-50 alyo-bordo-0px alyo-sfocato-bianco-50 alyo-ombra" style="top: 10px; right: 10px;"><fa-icon [icon]=faSliders></fa-icon></button>
+<div *ngIf="panel_impostazione" class="alyo-posizione-fisso alyo-larghezza-300px alyo-bordo-rotondo-20px alyo-bordo-0px alyo-sfocato-bianco-50 alyo-ombra alyo-padding-10px" style="top: 40px; right: 10px;">
+  <p style="margin: 0;" class="alyo-padding-10px alyo-testo-centro">Impostazioni</p>
+<div class="row alyo-bordo-rotondo-10px alyo-bordo-0px alyo-padding-10px" style="top: 10px; left: 10px;  background-color: rgba(225, 225, 225, 0.5); margin: 0px 0px 10px 0px;">
+  <div class="col-sm-6 "><button (click)="alyoemoticon_alyostalker = true;" class="alyo-bordo-0px alyo-bianco-0 alyo-hover-bianco-50 alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-padding-10px" >Alyo Fonts</button></div>
+  <div class="col-sm-6 "><button (click)="alyoemoticon_alyostalker = false;" class="alyo-bordo-0px alyo-bianco-0 alyo-hover-bianco-50 alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-padding-10px" >Alyo Stalker</button></div>
+</div>
+
+  <div style="background-color: rgba(225, 225, 225, 0.5); margin: 0;" class="row alyo-bordo-rotondo-10px alyo-padding-10px" >
+      <div class="col-sm-6 "><button  class="alyo-bordo-0px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-padding-10px" style="background-color: rgba(225, 225, 225, 0);">Alyo Fonts</button></div>
+      <div class="col-sm-6 "><button  class="col-sm-6 alyo-bordo-0px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-padding-10px" style="background-color: rgba(225, 225, 225, 0);" >Alyo Stalker</button></div>
+  </div>
+</div> -->
+
+
+<div>
+  <div id="contenuti_primopiano" class="alyo-posizione-relativo alyo-altezza-50vmin" style="width: 100%; height: 50vmin; ">
+
+    <!--  1 SLIDER -->
+    <div class="alyo-np-div alyo-posizione-assoluto alyo-padding-10px alyo-altezza-100 alyo-larghezza-100 " style='top: 50%; left: -50%;  transform: translate(-50%, -50%);'>
+
+        <img *ngIf="lista_contenuti_primopiano[0].tipo == 1" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" src="{{ lista_contenuti_primopiano[0].url }}">
+
+        <iframe *ngIf="lista_contenuti_primopiano[0].tipo == 2" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" [src]="lista_contenuti_primopiano[0].url" name="youtube embed" allow="autoplay; encrypted-media" allow='autoplay' frameborder="0" allowfullscreen>
+        </iframe>
+
+        <div *ngIf="lista_contenuti_primopiano[0].tipo == 3" [class]="lista_contenuti_primopiano[0].url.colore" class="row alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" style="margin: 0px; padding: 10px;">
+          <div style="width: 20%; margin: 0px; padding: 0px;">
+            <img *ngIf="lista_contenuti_primopiano[0].url.tipo == 'immagine'; else elseBlock"  class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="lista_contenuti_primopiano[0].url.src">
+
+            <ng-template #elseBlock class="" >
+                <video  class='alyo-zoom-interno alyo-larghezza-100 alyo-bordo-rotondo-10px' style='border-radius: 10px;' controls>
+                   <source src="{{ lista_contenuti_primopiano[0].url.src }}" >
+                </video>
+            </ng-template>
+          </div>
+          <div class="alyo-padding-5px" style="margin: 0px; padding: 5px; width: 80%;">
+            <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[0].url.titolo }}</h3>
+            <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[0].url.luogo }}</h3>
+            <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[0].url.data }}</h3>
+          </div>
+       </div>
+    </div>
+    <!--  2 SLIDER -->
+    <div class="alyo-np-div alyo-posizione-assoluto alyo-padding-10px alyo-altezza-100 alyo-larghezza-100 " style='top: 50%; left: 50%;  transform: translate(-50%, -50%);'>
+
+      <img *ngIf="lista_contenuti_primopiano[1].tipo == 1" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" src="{{ lista_contenuti_primopiano[1].url }}">
+
+      <iframe *ngIf="lista_contenuti_primopiano[1].tipo == 2" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" [src]="lista_contenuti_primopiano[1].url" name="youtube embed" allow="autoplay; encrypted-media" allow='autoplay' frameborder="0" allowfullscreen>
+      </iframe>
+
+      <div *ngIf="lista_contenuti_primopiano[1].tipo == 3" [class]="lista_contenuti_primopiano[1].url.colore" class="row alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" style="margin: 0px; padding: 10px;">
+         <div style="width: 20%; margin: 0px; padding: 0px;">
+           <img *ngIf="lista_contenuti_primopiano[1].url.tipo == 'immagine'; else elseBlock"  class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="lista_contenuti_primopiano[1].url.src">
+
+           <ng-template #elseBlock class="" >
+               <video  class='alyo-zoom-interno alyo-larghezza-100 alyo-bordo-rotondo-10px' style='border-radius: 10px;' controls>
+                  <source src="{{ lista_contenuti_primopiano[1].url.src }}" >
+               </video>
+           </ng-template>
+         </div>
+         <div class="alyo-padding-5px" style="margin: 0px; padding: 5px; width: 80%;">
+           <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[1].url.titolo }}</h3>
+           <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[1].url.luogo }}</h3>
+           <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[1].url.data }}</h3>
+         </div>
+      </div>
+
+    </div>
+    <!--  3 SLIDER -->
+    <div class="alyo-np-div alyo-posizione-assoluto alyo-padding-10px alyo-altezza-100 alyo-larghezza-100 " style='top: 50%; left: 150%;  transform: translate(-50%, -50%);'>
+
+      <img *ngIf="lista_contenuti_primopiano[2].tipo == 1" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" src="{{ lista_contenuti_primopiano[2].url }}">
+
+      <iframe *ngIf="lista_contenuti_primopiano[2].tipo == 2" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" [src]="lista_contenuti_primopiano[2].url" name="youtube embed" allow="autoplay; encrypted-media" allow='autoplay' frameborder="0" allowfullscreen>
+
+      </iframe>
+
+      <div *ngIf="lista_contenuti_primopiano[2].tipo == 3" [class]="lista_contenuti_primopiano[2].url.colore" class="row alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" style="margin: 0px; padding: 10px;">
+        <div style="width: 20%; margin: 0px; padding: 0px;">
+          <img *ngIf="lista_contenuti_primopiano[2].url.tipo == 'immagine'; else elseBlock"  class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="lista_contenuti_primopiano[2].url.src">
+
+          <ng-template #elseBlock class="" >
+              <video  class='alyo-zoom-interno alyo-larghezza-100 alyo-bordo-rotondo-10px' style='border-radius: 10px;' controls>
+                 <source src="{{ lista_contenuti_primopiano[2].url.src }}" >
+              </video>
+          </ng-template>
+        </div>
+        <div class="alyo-padding-5px" style="margin: 0px; padding: 5px; width: 80%;">
+          <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[2].url.titolo }}</h3>
+          <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[2].url.luogo }}</h3>
+          <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[2].url.data }}</h3>
+        </div>
+     </div>
+
+    </div>
+    <!--  4 SLIDER -->
+    <div class="alyo-np-div alyo-posizione-assoluto alyo-padding-10px alyo-altezza-100 alyo-larghezza-100 " style='top: 50%; left: 250%;  transform: translate(-50%, -50%);'>
+
+      <img *ngIf="lista_contenuti_primopiano[3].tipo == 1" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" src="{{ lista_contenuti_primopiano[3].url }}">
+
+      <iframe *ngIf="lista_contenuti_primopiano[3].tipo == 2" class="alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" [src]="lista_contenuti_primopiano[3].url" name="youtube embed" allow="autoplay; encrypted-media" allow='autoplay' frameborder="0" allowfullscreen>
+      </iframe>
+
+      <div *ngIf="lista_contenuti_primopiano[3].tipo == 3" [class]="lista_contenuti_primopiano[3].url.colore" class="row alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100" style="margin: 0px; padding: 10px;">
+        <div style="width: 20%; margin: 0px; padding: 0px;">
+          <img *ngIf="lista_contenuti_primopiano[3].url.tipo == 'immagine'; else elseBlock"  class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="lista_contenuti_primopiano[3].url.src">
+
+          <ng-template #elseBlock class="" >
+              <video  class='alyo-zoom-interno alyo-larghezza-100 alyo-bordo-rotondo-10px' style='border-radius: 10px;' controls>
+                 <source src="{{ lista_contenuti_primopiano[3].url.src }}" >
+              </video>
+          </ng-template>
+        </div>
+        <div class="alyo-padding-5px" style="margin: 0px; padding: 5px; width: 80%;">
+          <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[3].url.titolo }}</h3>
+          <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[3].url.luogo }}</h3>
+          <h3 class="alyo-testo-centro">{{ lista_contenuti_primopiano[3].url.data }}</h3>
+        </div>
+     </div>
+
+    </div>
+
+  </div>
+
+  <div id="nome_profilo" class="alyo-posizione-relativo" style="width: 100%; height: 20vmin;">
+       <h1 class='alyo-np-h1 alyo-posizione-assoluto alyo-padding-10px alyo-sfocato-bianco-80 alyo-bordo-rotondo-10px alyo-ombra alyo-testo-centro' style='top: 50%; left: -50%;  transform: translate(-50%, -50%);'>{{ lista_nome_profilo[0] }}</h1>
+       <h1 class='alyo-np-h1 alyo-posizione-assoluto alyo-padding-10px alyo-sfocato-bianco-80 alyo-bordo-rotondo-10px alyo-ombra alyo-testo-centro' style='top: 50%; left: 50%;  transform: translate(-50%, -50%);'>{{ lista_nome_profilo[1] }}</h1>
+       <h1 class='alyo-np-h1 alyo-posizione-assoluto alyo-padding-10px alyo-sfocato-bianco-80 alyo-bordo-rotondo-10px alyo-ombra alyo-testo-centro' style='top: 50%; left: 150%; transform: translate(-50%, -50%);'>{{ lista_nome_profilo[2] }}</h1>
+  </div>
+</div>
+
+   <div class="row"  class="alyo-padding-10px" alyo-padding-10px style="margin: 0 0 10px 0;">
+         <div class=" row alyo-ombra alyo-bordo-rotondo-20px alyo-sfocato-bianco-80  alyo-margine-0 alyo-padding-5px" style="margin: 0; ">
+            <div class="col-sm-3 alyo-larghezza-100" style="margin: 0; padding: 0; width: 25%;">
+              <button (click)="sezioni_sito[0] = true; sezioni_sito[1] = false; sezioni_sito[2] = false; sezioni_sito[3] = false;" [ngStyle]="{'color': sezioni_sito[0] ? 'blue' : '#A2A2A2'}" class="alyo-larghezza-100   alyo-bordo-0 " style="border: none; background-color: rgba(255, 255, 255, 0);">
+                  <fa-icon [icon]=faVideo></fa-icon><br>
+                  Dirette
+              </button>
+            </div>
+            <div class="col-sm-3 alyo-larghezza-100 " style="margin: 0; padding: 0;  width: 25%;">
+              <button (click)="sezioni_sito[0] = false; sezioni_sito[1] = true; sezioni_sito[2] = false; sezioni_sito[3] = false;" [ngStyle]="{'color': sezioni_sito[1] ? 'blue' : '#A2A2A2'}" class="alyo-larghezza-100   alyo-bordo-0 " style="border: none;  background-color: rgba(255, 255, 255, 0);">
+                  <fa-icon [icon]=faCalendar></fa-icon><br>
+                  Eventi
+              </button>
+            </div>
+            <div class="col-sm-3 alyo-larghezza-100 " style="margin: 0; padding: 0;  width: 25%;">
+              <button (click)="sezioni_sito[0] = false; sezioni_sito[1] = false; sezioni_sito[2] = true; sezioni_sito[3] = false;" [ngStyle]="{'color': sezioni_sito[2] ? 'blue' : '#A2A2A2'}" class="alyo-larghezza-100   alyo-bordo-0 " style="border: none;  background-color: rgba(255, 255, 255, 0);">
+                <fa-icon [icon]=faUserGroup></fa-icon><br>
+                Conduttori
+              </button>
+            </div>
+            <div class="col-sm-3 alyo-larghezza-100 " style="margin: 0; padding: 0;  width: 25%;">
+              <button (click)="sezioni_sito[0] = false; sezioni_sito[1] = false; sezioni_sito[2] = false; sezioni_sito[3] = true;" [ngStyle]="{'color': sezioni_sito[3] ? 'blue' : '#A2A2A2'}" class="alyo-larghezza-100   alyo-bordo-0 " style="border: none;  background-color: rgba(255, 255, 255, 0);">
+                <fa-icon [icon]=faAddressCard></fa-icon><br>
+                Contatti
+              </button>
+            </div>
+         </div>
+
+   </div>
+
+    <!--DIRETTE-->
+    <div *ngIf="sezioni_sito[0]" class="alyo-padding-5px alyo-larghezza-100 alyo-bordo-rotondo-20px alyo-margine-0" style="margin: 0px;">
+
+      <div class="alyo-padding-5px">
+         <div class="row alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-ombra alyo-margine-0" style="margin: 0;">
+            <div class="col-xs-6" style="margin: 0; width: 50%;"><button (click)="lista_video_dinamico.push({src: '',titolo: ''})" class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-testo-grigio30" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faPlus></fa-icon></button></div>
+            <div class="col-xs-6 alyo-testo-destro" style="margin: 0;  width: 50%;"><button [ngStyle]="{'color': mostra_bottoni_elimina[0] ? 'red' : '#B2B2B2'}" (click)="mostra_bottoni_elimina[0] = !mostra_bottoni_elimina[0]" class="alyo-padding-10px alyo-testo-efefef alyo-bordo-rotondo-10px alyo-bordo-0" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faTrashCan></fa-icon></button></div>
+         </div>
+      </div>
+
+     <div class="row alyo-padding-5px" style="margin: 0px; padding: 0;">
+        <div *ngFor="let item of lista_video_dinamico; let i = index" class="col-sm-6 alyo alyo-bordo-rotondo-10px alyo-padding-5px" [ngStyle]="{'z-index': lista_video_dinamico.length-i }" style="margin: 0px; padding: 5px; position: relative;">
+        <div class="alyo-bordo-rotondo-20px alyo-padding-10px alyo-sfocato-bianco-80 alyo-ombra">
+
+           <fa-icon *ngIf="mostra_bottoni_elimina[0]" class="alyo-posizione-assoluto alyo-testo-rosso alyo-bordo-rotondo-50" style="top: -5px; right: -5px; padding: 1px;" (click)="elimina(i)" [icon]=faMinusCircle></fa-icon>
+
+           <iframe class="alyo-bordo-rotondo-10px alyo-larghezza-100  alyo-margine-sotto-10px" style="background-color: rgba(255, 255, 255, 0.3);" [src]="item.src"  frameborder="0" allowfullscreen></iframe>
+           <input class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-larghezza-100 alyo-margine-sotto-10px" [value]="item.url" (keyup)="item.url = onkey($event); item.src = this.sanitize(onkey($event));" style="background-color: rgba(255, 255, 255, 0.5); border: none;" placeholder="Inserisci URL">
+
+           <alyo-input-fonts [testo]="item.titolo" [placeholder]="'Inserisci Titolo'" [stile]="'alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px alyo-larghezza-100 alyo-biaco-opaco-05'" ></alyo-input-fonts>
+
+
+        </div>
+        </div>
+     </div>
+
+    </div>
+
+    <!--EVENTI-->
+    <div *ngIf="sezioni_sito[1]" class="row alyo-padding-5px alyo-larghezza-100 alyo-bordo-rotondo-20px  alyo-margine-0" style="margin: 0px; padding: 5px;">
+
+      <div *ngFor="let item of lista_eventi_dinamico" class="row"  style="margin: 0px; padding: 0px;">
+        <div class="alyo-padding-5px alyo-margine-sopra-10px" style="padding: 5px;">
+            <h1 class="alyo-sfocato-bianco-80 alyo-ombra alyo-bordo-rotondo-20px alyo-padding-10px alyo-margine-0px">{{ item.mese }}</h1>
+        </div>
+        <div *ngFor="let item2 of item.lista" class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px;">
+                <div class="row alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-ombra " [class]="item2.colore" style="margin: 0px; padding: 5px;">
+                   <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px; ">
+                      <div *ngIf="item2.tipo == 'immagine'; else elseBlock" ><img class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="item2.src">
+                      </div>
+                      <ng-template #elseBlock>
+                          <video class="alyo-bordo-rotondo-10px alyo-larghezza-100" controls>
+                             <source src="{{ item2.src }}" >
+                         </video>
+                      </ng-template>
+                   </div>
+                   <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px; ">
+                       <alyo-input-fonts [testo]="item2.titolo" [placeholder]="'Inserisci Titolo'" [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px'" ></alyo-input-fonts>
+                       <input  [value]="item2.data" class="alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px " (keyup)="item2.data = onkey($event);"  placeholder="Inserisci Data">
+                       <alyo-input-fonts [testo]="item2.luogo" [placeholder]="'Inserisci Luogo'" [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px '"  ></alyo-input-fonts>
+                       <button class="alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px ">Carica Immagine</button>
+                   </div>
+                </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--CONDUTTORI-->
+    <div *ngIf="sezioni_sito[2]" class="row alyo-larghezza-100 alyo-margine-0" style="margin: 0px; padding: 5px;">
+
+     <div class="alyo-padding-5px" style="padding: 5px;">
+        <div class="row alyo-bordo-rotondo-10px alyo-margine-0 alyo-ombra alyo-bordo-rotondo-20px alyo-sfocato-bianco-80" style="margin: 0;">
+           <div class="col-xs-6" style="margin: 0; width: 50%;"><button (click)="lista_conduttori_dinamico.push({nome: '',url: percorso+'radio_man.jpeg'})" class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-testo-grigio30" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faPlus></fa-icon></button></div>
+           <div class="col-xs-6 alyo-testo-destro" style="margin: 0;  width: 50%;"><button [ngStyle]="{'color': mostra_bottoni_elimina[1] ? 'red' : '#B2B2B2'}" (click)="mostra_bottoni_elimina[1] = !mostra_bottoni_elimina[1]" class="alyo-padding-10px alyo-testo-efefef alyo-bordo-rotondo-10px alyo-bordo-0" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faTrashCan></fa-icon></button></div>
+        </div>
+     </div>
+     <div *ngFor="let item of lista_conduttori_dinamico; let i = index" [ngStyle]="{'z-index': lista_conduttori_dinamico.length+1-i }" class="col-xs-6 col-sm-4 alyo-padding-5px alyo-posizione-relativo" style="margin: 0; padding: 5px; width: 50%;">
+        <div class="alyo-ombra alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-padding-10px">
+           <fa-icon *ngIf="mostra_bottoni_elimina[1]" class="alyo-posizione-assoluto alyo-posizione-assoluto alyo-testo-rosso alyo-bordo-rotondo-50" style="top: -5px; right: -5px; padding: 1px;" (click)="elimina_conduttore(i)" [icon]=faMinusCircle></fa-icon>
+           <img class="alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-zoom-interno alyo-margine-sotto-10px alyo-bordo alyo-bordo-efefef" style="margin-bottom: 10px; height: 40vmin;" [src]="item.url">
+           <!-- <input class="alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px" [value]="item.nome" style="background-color: rgba(255, 255, 255, 0.3);">-->
+           <alyo-input-fonts [testo]="item.nome" [placeholder]="'Inserisci Nome'" [stile]="'alyo-biaco-opaco-05 alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px'"  ></alyo-input-fonts>
+
+          </div>
+     </div>
+
+
+
+    </div>
+
+    <!--CONTATTI-->
+    <div *ngIf="sezioni_sito[3]" class="row alyo-padding-5px" style="margin: 0px; padding: 5px;">
+       <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px;">
+         <div class="alyo-ombra alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-padding-10px">
+
+           <img class="alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-margine-sotto-10px" src="./../../assets/immagini_profilo/liveislifenetwork.jpeg">
+           <button class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03 alyo-margine-sotto-10px" >Carica Immagine</button>
+           <p class="alyo-margine-0px">Radio Ospitante</p>
+           <!-- <input class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03 alyo-margine-sotto-10px" value="🎙 lเvє เร lเŦє ภєtฬ๏гк"> -->
+           <alyo-input-fonts [testo]="{valore: '',item: null}" [placeholder]="'Inserisci Nome Radio'" [stile]="'alyo-biaco-opaco-05 alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px'"  ></alyo-input-fonts>
+
+           <p class="alyo-margine-0px">Mappe: </p>
+           <input class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03" placeholder="Inserisci Url" value="">
+          </div>
+       </div>
+       <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px;">
+        <div class="alyo-ombra alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-padding-10px">
+          <img class="alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-margine-sotto-10px" src="./../../assets/immagini_profilo/image1.jpeg">
+          <button class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03 alyo-margine-sotto-10px" >Carica Immagine</button>
+          <p class="alyo-margine-0px">Conduttore: </p>
+          <!-- <input class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03 alyo-margine-sotto-10px" placeholder="Inserisci Nome" value="𝙹𝚊𝚌𝚔 𝙸𝚛𝚛𝚒𝚟𝚎𝚛𝚎𝚗𝚝𝚎"> -->
+          <alyo-input-fonts [testo]="{valore: '',item: null}" [placeholder]="'Inserisci Nome'" [stile]="'alyo-biaco-opaco-05 alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px'"  ></alyo-input-fonts>
+
+          <p class="alyo-margine-0px">Instagram: </p>
+          <input class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03" placeholder="Inserisci Url" value="">
+        </div>
+      </div>
+
+
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+

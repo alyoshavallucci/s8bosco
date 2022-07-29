@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title id="nome_sito"></title>
+<meta charset="utf-8">
+<base href="/"
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link id="logositoweb" rel="icon" type="image/x-icon" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src=”https://code.jquery.com/jquery-3.3.1.js" integrity=”sha256–2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=” crossorigin=”anonymous”></script>
+
+</head>
+<body>
+
+<script>
+
+    var lista_loghi = ["./assets/logo1.png","./assets/logo2.png","./assets/logo3.png","./assets/logo4.png","./assets/logo5.png","./assets/logo6.png","./assets/logo7.png","./assets/logo8.png","./assets/logo9.png","./assets/logo10.png"]
+    var lista_nome_sito = ["S8БФSϾФ","Ⓢ⑧ⒷⓄⓈⒸⓄ","Ṡ8ḄÖṠĊÖ","$8ßØ$ĈØ","𝒮𝟾𝐵𝒪𝒮𝒞𝒪","ꌗ8ꌃꂦꌗꉓꂦ","𝕊𝟠𝔹𝕆𝕊ℂ𝕆","💲8🅱️🅾️💲☪️🅾️","🅢8🅑🅞🅢🅒🅞","🅂8🄱🄾🅂🄲🄾"]
+    var cont = 0;
+    document.getElementById("logositoweb").href = lista_loghi[cont];
+    $("#nome_sito").html(lista_nome_sito[cont]);
+
+    setInterval(() => {
+      cont++;
+      if(cont > lista_nome_sito.length-1 ){ cont = 0;}
+      document.getElementById("logositoweb").href = lista_loghi[cont];
+      $("#nome_sito").html(lista_nome_sito[cont]);
+    }, 10000);
+
+</script>
+
+
+<app-root></app-root>
+
+</body>
+</html>

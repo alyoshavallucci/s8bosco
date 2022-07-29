@@ -1,0 +1,19 @@
+
+<div class="alyo-posizione-relativo alyo-larghezza-100 " >
+
+    <input class="{{ stile }}"  type="text"  [(ngModel)]="testo.valore" (keyup)="testo.valore = convertiTesto(testo.item,onkey($event)); testo_originale = convertiTestoOriginale(testo.item,onkey($event));  lunghezza_testo();" (focusin)="lunghezza_testo();" placeholder="{{ placeholder }}"  >
+
+    <fa-icon  *ngIf="testo.valore.length > 0;" [icon]=faCircleXmark class="alyo-posizione-assoluto alyo-testo-grigio30" (click)="testo.valore = ''; testo_originale = ''; lunghezza_testo();"  style="top: 50%; right: 5px;  transform: translate(-50%, -50%);"></fa-icon>
+
+    <div *ngIf="panello_lista_fonts" class="alyo-posizione-assoluto alyo-sfocato-bianco-80 alyo-larghezza-100 alyo-altezza-300px alyo-overflow-scrollo alyo-overflow-scrollo-nascosto alyo-bordo-rotondo-10px alyo-ombra" style="top: 50px; z-index: 10;">
+      <div  class="alyo-padding-10px alyo-larghezza-100 ">
+        <div *ngFor="let item of caratteri | keyvalue" style="color: black;">
+          <button (click)="testo.valore = convertiTesto(item,testo_originale); testo.item = item; panello_lista_fonts = false;" class="alyo-hover-bianco-50 alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-bianco-0" style="outline: none; color: black;">{{ convertiTesto(item,testo_originale) }}</button>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+

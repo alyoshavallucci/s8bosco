@@ -1,0 +1,2863 @@
+body {
+  background-color: #efefef;
+  font-size: 14vw;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Libreria: alyo CSS
+     Versione: 1.0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------
+                Padding px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-0px { padding: 0px;  }
+ .alyo-padding-5px { padding: 5px;  }
+ .alyo-padding-10px { padding: 10px;  }
+ .alyo-padding-15px { padding: 15px;  }
+ .alyo-padding-20px { padding: 20px;  }
+ .alyo-padding-25px { padding: 25px;  }
+ .alyo-padding-30px { padding: 30px;  }
+ .alyo-padding-35px { padding: 35px;  }
+ .alyo-padding-40px { padding: 40px;  }
+ .alyo-padding-45px { padding: 45px;  }
+ .alyo-padding-50px { padding: 50px;  }
+ .alyo-padding-55px { padding: 55px;  }
+ .alyo-padding-60px { padding: 60px;  }
+ .alyo-padding-65px { padding: 65px;  }
+ .alyo-padding-70px { padding: 70px;  }
+ .alyo-padding-75px { padding: 75px;  }
+ .alyo-padding-80px { padding: 80px;  }
+ .alyo-padding-85px { padding: 85px;  }
+ .alyo-padding-90px { padding: 90px;  }
+ .alyo-padding-95px { padding: 95px;  }
+ .alyo-padding-100px { padding: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Sinistro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-sinistro-0px { padding-left: 0px;  }
+ .alyo-padding-sinistro-5px { padding-left: 5px;  }
+ .alyo-padding-sinistro-10px { padding-left: 10px;  }
+ .alyo-padding-sinistro-15px { padding-left: 15px;  }
+ .alyo-padding-sinistro-20px { padding-left: 20px;  }
+ .alyo-padding-sinistro-25px { padding-left: 25px;  }
+ .alyo-padding-sinistro-30px { padding-left: 30px;  }
+ .alyo-padding-sinistro-35px { padding-left: 35px;  }
+ .alyo-padding-sinistro-40px { padding-left: 40px;  }
+ .alyo-padding-sinistro-45px { padding-left: 45px;  }
+ .alyo-padding-sinistro-50px { padding-left: 50px;  }
+ .alyo-padding-sinistro-55px { padding-left: 55px;  }
+ .alyo-padding-sinistro-60px { padding-left: 60px;  }
+ .alyo-padding-sinistro-65px { padding-left: 65px;  }
+ .alyo-padding-sinistro-70px { padding-left: 70px;  }
+ .alyo-padding-sinistro-75px { padding-left: 75px;  }
+ .alyo-padding-sinistro-80px { padding-left: 80px;  }
+ .alyo-padding-sinistro-85px { padding-left: 85px;  }
+ .alyo-padding-sinistro-90px { padding-left: 90px;  }
+ .alyo-padding-sinistro-95px { padding-left: 95px;  }
+ .alyo-padding-sinistro-100px { padding-left: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Destro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-destro-0px { padding-right: 0px;  }
+ .alyo-padding-destro-5px { padding-right: 5px;  }
+ .alyo-padding-destro-10px { padding-right: 10px;  }
+ .alyo-padding-destro-15px { padding-right: 15px;  }
+ .alyo-padding-destro-20px { padding-right: 20px;  }
+ .alyo-padding-destro-25px { padding-right: 25px;  }
+ .alyo-padding-destro-30px { padding-right: 30px;  }
+ .alyo-padding-destro-35px { padding-right: 35px;  }
+ .alyo-padding-destro-40px { padding-right: 40px;  }
+ .alyo-padding-destro-45px { padding-right: 45px;  }
+ .alyo-padding-destro-50px { padding-right: 50px;  }
+ .alyo-padding-destro-55px { padding-right: 55px;  }
+ .alyo-padding-destro-60px { padding-right: 60px;  }
+ .alyo-padding-destro-65px { padding-right: 65px;  }
+ .alyo-padding-destro-70px { padding-right: 70px;  }
+ .alyo-padding-destro-75px { padding-right: 75px;  }
+ .alyo-padding-destro-80px { padding-right: 80px;  }
+ .alyo-padding-destro-85px { padding-right: 85px;  }
+ .alyo-padding-destro-90px { padding-right: 90px;  }
+ .alyo-padding-destro-95px { padding-right: 95px;  }
+ .alyo-padding-destro-100px { padding-right: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Sopra px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-sopra-0px { padding-top: 0px;  }
+ .alyo-padding-sopra-5px { padding-top: 5px;  }
+ .alyo-padding-sopra-10px { padding-top: 10px;  }
+ .alyo-padding-sopra-15px { padding-top: 15px;  }
+ .alyo-padding-sopra-20px { padding-top: 20px;  }
+ .alyo-padding-sopra-25px { padding-top: 25px;  }
+ .alyo-padding-sopra-30px { padding-top: 30px;  }
+ .alyo-padding-sopra-35px { padding-top: 35px;  }
+ .alyo-padding-sopra-40px { padding-top: 40px;  }
+ .alyo-padding-sopra-45px { padding-top: 45px;  }
+ .alyo-padding-sopra-50px { padding-top: 50px;  }
+ .alyo-padding-sopra-55px { padding-top: 55px;  }
+ .alyo-padding-sopra-60px { padding-top: 60px;  }
+ .alyo-padding-sopra-65px { padding-top: 65px;  }
+ .alyo-padding-sopra-70px { padding-top: 70px;  }
+ .alyo-padding-sopra-75px { padding-top: 75px;  }
+ .alyo-padding-sopra-80px { padding-top: 80px;  }
+ .alyo-padding-sopra-85px { padding-top: 85px;  }
+ .alyo-padding-sopra-90px { padding-top: 90px;  }
+ .alyo-padding-sopra-95px { padding-top: 95px;  }
+ .alyo-padding-sopra-100px { padding-top: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Sotto px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-sotto-0px { padding-bottom: 0px;  }
+ .alyo-padding-sotto-5px { padding-bottom: 5px;  }
+ .alyo-padding-sotto-10px { padding-bottom: 10px;  }
+ .alyo-padding-sotto-15px { padding-bottom: 15px;  }
+ .alyo-padding-sotto-20px { padding-bottom: 20px;  }
+ .alyo-padding-sotto-25px { padding-bottom: 25px;  }
+ .alyo-padding-sotto-30px { padding-bottom: 30px;  }
+ .alyo-padding-sotto-35px { padding-bottom: 35px;  }
+ .alyo-padding-sotto-40px { padding-bottom: 40px;  }
+ .alyo-padding-sotto-45px { padding-bottom: 45px;  }
+ .alyo-padding-sotto-50px { padding-bottom: 50px;  }
+ .alyo-padding-sotto-55px { padding-bottom: 55px;  }
+ .alyo-padding-sotto-60px { padding-bottom: 60px;  }
+ .alyo-padding-sotto-65px { padding-bottom: 65px;  }
+ .alyo-padding-sotto-70px { padding-bottom: 70px;  }
+ .alyo-padding-sotto-75px { padding-bottom: 75px;  }
+ .alyo-padding-sotto-80px { padding-bottom: 80px;  }
+ .alyo-padding-sotto-85px { padding-bottom: 85px;  }
+ .alyo-padding-sotto-90px { padding-bottom: 90px;  }
+ .alyo-padding-sotto-95px { padding-bottom: 95px;  }
+ .alyo-padding-sotto-100px { padding-bottom: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-0px { margin: 0px;  }
+ .alyo-margine-5px { margin: 5px;  }
+ .alyo-margine-10px { margin: 10px;  }
+ .alyo-margine-15px { margin: 15px;  }
+ .alyo-margine-20px { margin: 20px;  }
+ .alyo-margine-25px { margin: 25px;  }
+ .alyo-margine-30px { margin: 30px;  }
+ .alyo-margine-35px { margin: 35px;  }
+ .alyo-margine-40px { margin: 40px;  }
+ .alyo-margine-45px { margin: 45px;  }
+ .alyo-margine-50px { margin: 50px;  }
+ .alyo-margine-55px { margin: 55px;  }
+ .alyo-margine-60px { margin: 60px;  }
+ .alyo-margine-65px { margin: 65px;  }
+ .alyo-margine-70px { margin: 70px;  }
+ .alyo-margine-75px { margin: 75px;  }
+ .alyo-margine-80px { margin: 80px;  }
+ .alyo-margine-85px { margin: 85px;  }
+ .alyo-margine-90px { margin: 90px;  }
+ .alyo-margine-95px { margin: 95px;  }
+ .alyo-margine-100px { margin: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Sinistro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-sinistro-0px { margin-left: 0px;  }
+ .alyo-margine-sinistro-5px { margin-left: 5px;  }
+ .alyo-margine-sinistro-10px { margin-left: 10px;  }
+ .alyo-margine-sinistro-15px { margin-left: 15px;  }
+ .alyo-margine-sinistro-20px { margin-left: 20px;  }
+ .alyo-margine-sinistro-25px { margin-left: 25px;  }
+ .alyo-margine-sinistro-30px { margin-left: 30px;  }
+ .alyo-margine-sinistro-35px { margin-left: 35px;  }
+ .alyo-margine-sinistro-40px { margin-left: 40px;  }
+ .alyo-margine-sinistro-45px { margin-left: 45px;  }
+ .alyo-margine-sinistro-50px { margin-left: 50px;  }
+ .alyo-margine-sinistro-55px { margin-left: 55px;  }
+ .alyo-margine-sinistro-60px { margin-left: 60px;  }
+ .alyo-margine-sinistro-65px { margin-left: 65px;  }
+ .alyo-margine-sinistro-70px { margin-left: 70px;  }
+ .alyo-margine-sinistro-75px { margin-left: 75px;  }
+ .alyo-margine-sinistro-80px { margin-left: 80px;  }
+ .alyo-margine-sinistro-85px { margin-left: 85px;  }
+ .alyo-margine-sinistro-90px { margin-left: 90px;  }
+ .alyo-margine-sinistro-95px { margin-left: 95px;  }
+ .alyo-margine-sinistro-100px { margin-left: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Destro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-destro-0px { margin-right: 0px;  }
+ .alyo-margine-destro-5px { margin-right: 5px;  }
+ .alyo-margine-destro-10px { margin-right: 10px;  }
+ .alyo-margine-destro-15px { margin-right: 15px;  }
+ .alyo-margine-destro-20px { margin-right: 20px;  }
+ .alyo-margine-destro-25px { margin-right: 25px;  }
+ .alyo-margine-destro-30px { margin-right: 30px;  }
+ .alyo-margine-destro-35px { margin-right: 35px;  }
+ .alyo-margine-destro-40px { margin-right: 40px;  }
+ .alyo-margine-destro-45px { margin-right: 45px;  }
+ .alyo-margine-destro-50px { margin-right: 50px;  }
+ .alyo-margine-destro-55px { margin-right: 55px;  }
+ .alyo-margine-destro-60px { margin-right: 60px;  }
+ .alyo-margine-destro-65px { margin-right: 65px;  }
+ .alyo-margine-destro-70px { margin-right: 70px;  }
+ .alyo-margine-destro-75px { margin-right: 75px;  }
+ .alyo-margine-destro-80px { margin-right: 80px;  }
+ .alyo-margine-destro-85px { margin-right: 85px;  }
+ .alyo-margine-destro-90px { margin-right: 90px;  }
+ .alyo-margine-destro-95px { margin-right: 95px;  }
+ .alyo-margine-destro-100px { margin-right: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Sopra px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-sopra-0px { margin-top: 0px;  }
+ .alyo-margine-sopra-5px { margin-top: 5px;  }
+ .alyo-margine-sopra-10px { margin-top: 10px;  }
+ .alyo-margine-sopra-15px { margin-top: 15px;  }
+ .alyo-margine-sopra-20px { margin-top: 20px;  }
+ .alyo-margine-sopra-25px { margin-top: 25px;  }
+ .alyo-margine-sopra-30px { margin-top: 30px;  }
+ .alyo-margine-sopra-35px { margin-top: 35px;  }
+ .alyo-margine-sopra-40px { margin-top: 40px;  }
+ .alyo-margine-sopra-45px { margin-top: 45px;  }
+ .alyo-margine-sopra-50px { margin-top: 50px;  }
+ .alyo-margine-sopra-55px { margin-top: 55px;  }
+ .alyo-margine-sopra-60px { margin-top: 60px;  }
+ .alyo-margine-sopra-65px { margin-top: 65px;  }
+ .alyo-margine-sopra-70px { margin-top: 70px;  }
+ .alyo-margine-sopra-75px { margin-top: 75px;  }
+ .alyo-margine-sopra-80px { margin-top: 80px;  }
+ .alyo-margine-sopra-85px { margin-top: 85px;  }
+ .alyo-margine-sopra-90px { margin-top: 90px;  }
+ .alyo-margine-sopra-95px { margin-top: 95px;  }
+ .alyo-margine-sopra-100px { margin-top: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Sotto px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-sotto-0px { margin-bottom: 0px;  }
+ .alyo-margine-sotto-5px { margin-bottom: 5px;  }
+ .alyo-margine-sotto-10px { margin-bottom: 10px;  }
+ .alyo-margine-sotto-15px { margin-bottom: 15px;  }
+ .alyo-margine-sotto-20px { margin-bottom: 20px;  }
+ .alyo-margine-sotto-25px { margin-bottom: 25px;  }
+ .alyo-margine-sotto-30px { margin-bottom: 30px;  }
+ .alyo-margine-sotto-35px { margin-bottom: 35px;  }
+ .alyo-margine-sotto-40px { margin-bottom: 40px;  }
+ .alyo-margine-sotto-45px { margin-bottom: 45px;  }
+ .alyo-margine-sotto-50px { margin-bottom: 50px;  }
+ .alyo-margine-sotto-55px { margin-bottom: 55px;  }
+ .alyo-margine-sotto-60px { margin-bottom: 60px;  }
+ .alyo-margine-sotto-65px { margin-bottom: 65px;  }
+ .alyo-margine-sotto-70px { margin-bottom: 70px;  }
+ .alyo-margine-sotto-75px { margin-bottom: 75px;  }
+ .alyo-margine-sotto-80px { margin-bottom: 80px;  }
+ .alyo-margine-sotto-85px { margin-bottom: 85px;  }
+ .alyo-margine-sotto-90px { margin-bottom: 90px;  }
+ .alyo-margine-sotto-95px { margin-bottom: 95px;  }
+ .alyo-margine-sotto-100px { margin-bottom: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-0px { border-radius: 0px;  }
+ .alyo-bordo-rotondo-5px { border-radius: 5px;  }
+ .alyo-bordo-rotondo-10px { border-radius: 10px;  }
+ .alyo-bordo-rotondo-15px { border-radius: 15px;  }
+ .alyo-bordo-rotondo-20px { border-radius: 20px;  }
+ .alyo-bordo-rotondo-25px { border-radius: 25px;  }
+ .alyo-bordo-rotondo-30px { border-radius: 30px;  }
+ .alyo-bordo-rotondo-35px { border-radius: 35px;  }
+ .alyo-bordo-rotondo-40px { border-radius: 40px;  }
+ .alyo-bordo-rotondo-45px { border-radius: 45px;  }
+ .alyo-bordo-rotondo-50px { border-radius: 50px;  }
+ .alyo-bordo-rotondo-55px { border-radius: 55px;  }
+ .alyo-bordo-rotondo-60px { border-radius: 60px;  }
+ .alyo-bordo-rotondo-65px { border-radius: 65px;  }
+ .alyo-bordo-rotondo-70px { border-radius: 70px;  }
+ .alyo-bordo-rotondo-75px { border-radius: 75px;  }
+ .alyo-bordo-rotondo-80px { border-radius: 80px;  }
+ .alyo-bordo-rotondo-85px { border-radius: 85px;  }
+ .alyo-bordo-rotondo-90px { border-radius: 90px;  }
+ .alyo-bordo-rotondo-95px { border-radius: 95px;  }
+ .alyo-bordo-rotondo-100px { border-radius: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sopra Sinistro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sopra-sinistro-0px { border-top-left-radius: 0px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-5px { border-top-left-radius: 5px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-10px { border-top-left-radius: 10px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-15px { border-top-left-radius: 15px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-20px { border-top-left-radius: 20px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-25px { border-top-left-radius: 25px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-30px { border-top-left-radius: 30px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-35px { border-top-left-radius: 35px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-40px { border-top-left-radius: 40px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-45px { border-top-left-radius: 45px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-50px { border-top-left-radius: 50px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-55px { border-top-left-radius: 55px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-60px { border-top-left-radius: 60px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-65px { border-top-left-radius: 65px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-70px { border-top-left-radius: 70px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-75px { border-top-left-radius: 75px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-80px { border-top-left-radius: 80px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-85px { border-top-left-radius: 85px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-90px { border-top-left-radius: 90px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-95px { border-top-left-radius: 95px;  }
+ .alyo-bordo-rotondo-sopra-sinistro-100px { border-top-left-radius: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sopra Destro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sopra-destro-0px { border-top-right-radius: 0px;  }
+ .alyo-bordo-rotondo-sopra-destro-5px { border-top-right-radius: 5px;  }
+ .alyo-bordo-rotondo-sopra-destro-10px { border-top-right-radius: 10px;  }
+ .alyo-bordo-rotondo-sopra-destro-15px { border-top-right-radius: 15px;  }
+ .alyo-bordo-rotondo-sopra-destro-20px { border-top-right-radius: 20px;  }
+ .alyo-bordo-rotondo-sopra-destro-25px { border-top-right-radius: 25px;  }
+ .alyo-bordo-rotondo-sopra-destro-30px { border-top-right-radius: 30px;  }
+ .alyo-bordo-rotondo-sopra-destro-35px { border-top-right-radius: 35px;  }
+ .alyo-bordo-rotondo-sopra-destro-40px { border-top-right-radius: 40px;  }
+ .alyo-bordo-rotondo-sopra-destro-45px { border-top-right-radius: 45px;  }
+ .alyo-bordo-rotondo-sopra-destro-50px { border-top-right-radius: 50px;  }
+ .alyo-bordo-rotondo-sopra-destro-55px { border-top-right-radius: 55px;  }
+ .alyo-bordo-rotondo-sopra-destro-60px { border-top-right-radius: 60px;  }
+ .alyo-bordo-rotondo-sopra-destro-65px { border-top-right-radius: 65px;  }
+ .alyo-bordo-rotondo-sopra-destro-70px { border-top-right-radius: 70px;  }
+ .alyo-bordo-rotondo-sopra-destro-75px { border-top-right-radius: 75px;  }
+ .alyo-bordo-rotondo-sopra-destro-80px { border-top-right-radius: 80px;  }
+ .alyo-bordo-rotondo-sopra-destro-85px { border-top-right-radius: 85px;  }
+ .alyo-bordo-rotondo-sopra-destro-90px { border-top-right-radius: 90px;  }
+ .alyo-bordo-rotondo-sopra-destro-95px { border-top-right-radius: 95px;  }
+ .alyo-bordo-rotondo-sopra-destro-100px { border-top-right-radius: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sotto Sinistro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sotto-sinistro-0px { border-bottom-left-radius: 0px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-5px { border-bottom-left-radius: 5px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-10px { border-bottom-left-radius: 10px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-15px { border-bottom-left-radius: 15px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-20px { border-bottom-left-radius: 20px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-25px { border-bottom-left-radius: 25px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-30px { border-bottom-left-radius: 30px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-35px { border-bottom-left-radius: 35px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-40px { border-bottom-left-radius: 40px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-45px { border-bottom-left-radius: 45px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-50px { border-bottom-left-radius: 50px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-55px { border-bottom-left-radius: 55px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-60px { border-bottom-left-radius: 60px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-65px { border-bottom-left-radius: 65px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-70px { border-bottom-left-radius: 70px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-75px { border-bottom-left-radius: 75px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-80px { border-bottom-left-radius: 80px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-85px { border-bottom-left-radius: 85px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-90px { border-bottom-left-radius: 90px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-95px { border-bottom-left-radius: 95px;  }
+ .alyo-bordo-rotondo-sotto-sinistro-100px { border-bottom-left-radius: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sotto Destro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sotto-destro-0px { border-bottom-right-radius: 0px;  }
+ .alyo-bordo-rotondo-sotto-destro-5px { border-bottom-right-radius: 5px;  }
+ .alyo-bordo-rotondo-sotto-destro-10px { border-bottom-right-radius: 10px;  }
+ .alyo-bordo-rotondo-sotto-destro-15px { border-bottom-right-radius: 15px;  }
+ .alyo-bordo-rotondo-sotto-destro-20px { border-bottom-right-radius: 20px;  }
+ .alyo-bordo-rotondo-sotto-destro-25px { border-bottom-right-radius: 25px;  }
+ .alyo-bordo-rotondo-sotto-destro-30px { border-bottom-right-radius: 30px;  }
+ .alyo-bordo-rotondo-sotto-destro-35px { border-bottom-right-radius: 35px;  }
+ .alyo-bordo-rotondo-sotto-destro-40px { border-bottom-right-radius: 40px;  }
+ .alyo-bordo-rotondo-sotto-destro-45px { border-bottom-right-radius: 45px;  }
+ .alyo-bordo-rotondo-sotto-destro-50px { border-bottom-right-radius: 50px;  }
+ .alyo-bordo-rotondo-sotto-destro-55px { border-bottom-right-radius: 55px;  }
+ .alyo-bordo-rotondo-sotto-destro-60px { border-bottom-right-radius: 60px;  }
+ .alyo-bordo-rotondo-sotto-destro-65px { border-bottom-right-radius: 65px;  }
+ .alyo-bordo-rotondo-sotto-destro-70px { border-bottom-right-radius: 70px;  }
+ .alyo-bordo-rotondo-sotto-destro-75px { border-bottom-right-radius: 75px;  }
+ .alyo-bordo-rotondo-sotto-destro-80px { border-bottom-right-radius: 80px;  }
+ .alyo-bordo-rotondo-sotto-destro-85px { border-bottom-right-radius: 85px;  }
+ .alyo-bordo-rotondo-sotto-destro-90px { border-bottom-right-radius: 90px;  }
+ .alyo-bordo-rotondo-sotto-destro-95px { border-bottom-right-radius: 95px;  }
+ .alyo-bordo-rotondo-sotto-destro-100px { border-bottom-right-radius: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-larghezza-0px { width: 0px;  }
+ .alyo-larghezza-10px { width: 10px;  }
+ .alyo-larghezza-20px { width: 20px;  }
+ .alyo-larghezza-30px { width: 30px;  }
+ .alyo-larghezza-40px { width: 40px;  }
+ .alyo-larghezza-50px { width: 50px;  }
+ .alyo-larghezza-60px { width: 60px;  }
+ .alyo-larghezza-70px { width: 70px;  }
+ .alyo-larghezza-80px { width: 80px;  }
+ .alyo-larghezza-90px { width: 90px;  }
+ .alyo-larghezza-100px { width: 100px;  }
+ .alyo-larghezza-110px { width: 110px;  }
+ .alyo-larghezza-120px { width: 120px;  }
+ .alyo-larghezza-130px { width: 130px;  }
+ .alyo-larghezza-140px { width: 140px;  }
+ .alyo-larghezza-150px { width: 150px;  }
+ .alyo-larghezza-160px { width: 160px;  }
+ .alyo-larghezza-170px { width: 170px;  }
+ .alyo-larghezza-180px { width: 180px;  }
+ .alyo-larghezza-190px { width: 190px;  }
+ .alyo-larghezza-200px { width: 200px;  }
+ .alyo-larghezza-210px { width: 210px;  }
+ .alyo-larghezza-220px { width: 220px;  }
+ .alyo-larghezza-230px { width: 230px;  }
+ .alyo-larghezza-240px { width: 240px;  }
+ .alyo-larghezza-250px { width: 250px;  }
+ .alyo-larghezza-260px { width: 260px;  }
+ .alyo-larghezza-270px { width: 270px;  }
+ .alyo-larghezza-280px { width: 280px;  }
+ .alyo-larghezza-290px { width: 290px;  }
+ .alyo-larghezza-300px { width: 300px;  }
+ .alyo-larghezza-310px { width: 310px;  }
+ .alyo-larghezza-320px { width: 320px;  }
+ .alyo-larghezza-330px { width: 330px;  }
+ .alyo-larghezza-340px { width: 340px;  }
+ .alyo-larghezza-350px { width: 350px;  }
+ .alyo-larghezza-360px { width: 360px;  }
+ .alyo-larghezza-370px { width: 370px;  }
+ .alyo-larghezza-380px { width: 380px;  }
+ .alyo-larghezza-390px { width: 390px;  }
+ .alyo-larghezza-400px { width: 400px;  }
+ .alyo-larghezza-410px { width: 410px;  }
+ .alyo-larghezza-420px { width: 420px;  }
+ .alyo-larghezza-430px { width: 430px;  }
+ .alyo-larghezza-440px { width: 440px;  }
+ .alyo-larghezza-450px { width: 450px;  }
+ .alyo-larghezza-460px { width: 460px;  }
+ .alyo-larghezza-470px { width: 470px;  }
+ .alyo-larghezza-480px { width: 480px;  }
+ .alyo-larghezza-490px { width: 490px;  }
+ .alyo-larghezza-500px { width: 500px;  }
+ .alyo-larghezza-510px { width: 510px;  }
+ .alyo-larghezza-520px { width: 520px;  }
+ .alyo-larghezza-530px { width: 530px;  }
+ .alyo-larghezza-540px { width: 540px;  }
+ .alyo-larghezza-550px { width: 550px;  }
+ .alyo-larghezza-560px { width: 560px;  }
+ .alyo-larghezza-570px { width: 570px;  }
+ .alyo-larghezza-580px { width: 580px;  }
+ .alyo-larghezza-590px { width: 590px;  }
+ .alyo-larghezza-600px { width: 600px;  }
+ .alyo-larghezza-610px { width: 610px;  }
+ .alyo-larghezza-620px { width: 620px;  }
+ .alyo-larghezza-630px { width: 630px;  }
+ .alyo-larghezza-640px { width: 640px;  }
+ .alyo-larghezza-650px { width: 650px;  }
+ .alyo-larghezza-660px { width: 660px;  }
+ .alyo-larghezza-670px { width: 670px;  }
+ .alyo-larghezza-680px { width: 680px;  }
+ .alyo-larghezza-690px { width: 690px;  }
+ .alyo-larghezza-700px { width: 700px;  }
+ .alyo-larghezza-710px { width: 710px;  }
+ .alyo-larghezza-720px { width: 720px;  }
+ .alyo-larghezza-730px { width: 730px;  }
+ .alyo-larghezza-740px { width: 740px;  }
+ .alyo-larghezza-750px { width: 750px;  }
+ .alyo-larghezza-760px { width: 760px;  }
+ .alyo-larghezza-770px { width: 770px;  }
+ .alyo-larghezza-780px { width: 780px;  }
+ .alyo-larghezza-790px { width: 790px;  }
+ .alyo-larghezza-800px { width: 800px;  }
+ .alyo-larghezza-810px { width: 810px;  }
+ .alyo-larghezza-820px { width: 820px;  }
+ .alyo-larghezza-830px { width: 830px;  }
+ .alyo-larghezza-840px { width: 840px;  }
+ .alyo-larghezza-850px { width: 850px;  }
+ .alyo-larghezza-860px { width: 860px;  }
+ .alyo-larghezza-870px { width: 870px;  }
+ .alyo-larghezza-880px { width: 880px;  }
+ .alyo-larghezza-890px { width: 890px;  }
+ .alyo-larghezza-900px { width: 900px;  }
+ .alyo-larghezza-910px { width: 910px;  }
+ .alyo-larghezza-920px { width: 920px;  }
+ .alyo-larghezza-930px { width: 930px;  }
+ .alyo-larghezza-940px { width: 940px;  }
+ .alyo-larghezza-950px { width: 950px;  }
+ .alyo-larghezza-960px { width: 960px;  }
+ .alyo-larghezza-970px { width: 970px;  }
+ .alyo-larghezza-980px { width: 980px;  }
+ .alyo-larghezza-990px { width: 990px;  }
+ .alyo-larghezza-1000px { width: 1000px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza Masima px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-larghezza-massima-0px { max-width: 0px;  }
+ .alyo-larghezza-massima-10px { max-width: 10px;  }
+ .alyo-larghezza-massima-20px { max-width: 20px;  }
+ .alyo-larghezza-massima-30px { max-width: 30px;  }
+ .alyo-larghezza-massima-40px { max-width: 40px;  }
+ .alyo-larghezza-massima-50px { max-width: 50px;  }
+ .alyo-larghezza-massima-60px { max-width: 60px;  }
+ .alyo-larghezza-massima-70px { max-width: 70px;  }
+ .alyo-larghezza-massima-80px { max-width: 80px;  }
+ .alyo-larghezza-massima-90px { max-width: 90px;  }
+ .alyo-larghezza-massima-100px { max-width: 100px;  }
+ .alyo-larghezza-massima-110px { max-width: 110px;  }
+ .alyo-larghezza-massima-120px { max-width: 120px;  }
+ .alyo-larghezza-massima-130px { max-width: 130px;  }
+ .alyo-larghezza-massima-140px { max-width: 140px;  }
+ .alyo-larghezza-massima-150px { max-width: 150px;  }
+ .alyo-larghezza-massima-160px { max-width: 160px;  }
+ .alyo-larghezza-massima-170px { max-width: 170px;  }
+ .alyo-larghezza-massima-180px { max-width: 180px;  }
+ .alyo-larghezza-massima-190px { max-width: 190px;  }
+ .alyo-larghezza-massima-200px { max-width: 200px;  }
+ .alyo-larghezza-massima-210px { max-width: 210px;  }
+ .alyo-larghezza-massima-220px { max-width: 220px;  }
+ .alyo-larghezza-massima-230px { max-width: 230px;  }
+ .alyo-larghezza-massima-240px { max-width: 240px;  }
+ .alyo-larghezza-massima-250px { max-width: 250px;  }
+ .alyo-larghezza-massima-260px { max-width: 260px;  }
+ .alyo-larghezza-massima-270px { max-width: 270px;  }
+ .alyo-larghezza-massima-280px { max-width: 280px;  }
+ .alyo-larghezza-massima-290px { max-width: 290px;  }
+ .alyo-larghezza-massima-300px { max-width: 300px;  }
+ .alyo-larghezza-massima-310px { max-width: 310px;  }
+ .alyo-larghezza-massima-320px { max-width: 320px;  }
+ .alyo-larghezza-massima-330px { max-width: 330px;  }
+ .alyo-larghezza-massima-340px { max-width: 340px;  }
+ .alyo-larghezza-massima-350px { max-width: 350px;  }
+ .alyo-larghezza-massima-360px { max-width: 360px;  }
+ .alyo-larghezza-massima-370px { max-width: 370px;  }
+ .alyo-larghezza-massima-380px { max-width: 380px;  }
+ .alyo-larghezza-massima-390px { max-width: 390px;  }
+ .alyo-larghezza-massima-400px { max-width: 400px;  }
+ .alyo-larghezza-massima-410px { max-width: 410px;  }
+ .alyo-larghezza-massima-420px { max-width: 420px;  }
+ .alyo-larghezza-massima-430px { max-width: 430px;  }
+ .alyo-larghezza-massima-440px { max-width: 440px;  }
+ .alyo-larghezza-massima-450px { max-width: 450px;  }
+ .alyo-larghezza-massima-460px { max-width: 460px;  }
+ .alyo-larghezza-massima-470px { max-width: 470px;  }
+ .alyo-larghezza-massima-480px { max-width: 480px;  }
+ .alyo-larghezza-massima-490px { max-width: 490px;  }
+ .alyo-larghezza-massima-500px { max-width: 500px;  }
+ .alyo-larghezza-massima-510px { max-width: 510px;  }
+ .alyo-larghezza-massima-520px { max-width: 520px;  }
+ .alyo-larghezza-massima-530px { max-width: 530px;  }
+ .alyo-larghezza-massima-540px { max-width: 540px;  }
+ .alyo-larghezza-massima-550px { max-width: 550px;  }
+ .alyo-larghezza-massima-560px { max-width: 560px;  }
+ .alyo-larghezza-massima-570px { max-width: 570px;  }
+ .alyo-larghezza-massima-580px { max-width: 580px;  }
+ .alyo-larghezza-massima-590px { max-width: 590px;  }
+ .alyo-larghezza-massima-600px { max-width: 600px;  }
+ .alyo-larghezza-massima-610px { max-width: 610px;  }
+ .alyo-larghezza-massima-620px { max-width: 620px;  }
+ .alyo-larghezza-massima-630px { max-width: 630px;  }
+ .alyo-larghezza-massima-640px { max-width: 640px;  }
+ .alyo-larghezza-massima-650px { max-width: 650px;  }
+ .alyo-larghezza-massima-660px { max-width: 660px;  }
+ .alyo-larghezza-massima-670px { max-width: 670px;  }
+ .alyo-larghezza-massima-680px { max-width: 680px;  }
+ .alyo-larghezza-massima-690px { max-width: 690px;  }
+ .alyo-larghezza-massima-700px { max-width: 700px;  }
+ .alyo-larghezza-massima-710px { max-width: 710px;  }
+ .alyo-larghezza-massima-720px { max-width: 720px;  }
+ .alyo-larghezza-massima-730px { max-width: 730px;  }
+ .alyo-larghezza-massima-740px { max-width: 740px;  }
+ .alyo-larghezza-massima-750px { max-width: 750px;  }
+ .alyo-larghezza-massima-760px { max-width: 760px;  }
+ .alyo-larghezza-massima-770px { max-width: 770px;  }
+ .alyo-larghezza-massima-780px { max-width: 780px;  }
+ .alyo-larghezza-massima-790px { max-width: 790px;  }
+ .alyo-larghezza-massima-800px { max-width: 800px;  }
+ .alyo-larghezza-massima-810px { max-width: 810px;  }
+ .alyo-larghezza-massima-820px { max-width: 820px;  }
+ .alyo-larghezza-massima-830px { max-width: 830px;  }
+ .alyo-larghezza-massima-840px { max-width: 840px;  }
+ .alyo-larghezza-massima-850px { max-width: 850px;  }
+ .alyo-larghezza-massima-860px { max-width: 860px;  }
+ .alyo-larghezza-massima-870px { max-width: 870px;  }
+ .alyo-larghezza-massima-880px { max-width: 880px;  }
+ .alyo-larghezza-massima-890px { max-width: 890px;  }
+ .alyo-larghezza-massima-900px { max-width: 900px;  }
+ .alyo-larghezza-massima-910px { max-width: 910px;  }
+ .alyo-larghezza-massima-920px { max-width: 920px;  }
+ .alyo-larghezza-massima-930px { max-width: 930px;  }
+ .alyo-larghezza-massima-940px { max-width: 940px;  }
+ .alyo-larghezza-massima-950px { max-width: 950px;  }
+ .alyo-larghezza-massima-960px { max-width: 960px;  }
+ .alyo-larghezza-massima-970px { max-width: 970px;  }
+ .alyo-larghezza-massima-980px { max-width: 980px;  }
+ .alyo-larghezza-massima-990px { max-width: 990px;  }
+ .alyo-larghezza-massima-1000px { max-width: 1000px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza Minima px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-larghezza-minima-0px { min-width: 0px;  }
+ .alyo-larghezza-minima-10px { min-width: 10px;  }
+ .alyo-larghezza-minima-20px { min-width: 20px;  }
+ .alyo-larghezza-minima-30px { min-width: 30px;  }
+ .alyo-larghezza-minima-40px { min-width: 40px;  }
+ .alyo-larghezza-minima-50px { min-width: 50px;  }
+ .alyo-larghezza-minima-60px { min-width: 60px;  }
+ .alyo-larghezza-minima-70px { min-width: 70px;  }
+ .alyo-larghezza-minima-80px { min-width: 80px;  }
+ .alyo-larghezza-minima-90px { min-width: 90px;  }
+ .alyo-larghezza-minima-100px { min-width: 100px;  }
+ .alyo-larghezza-minima-110px { min-width: 110px;  }
+ .alyo-larghezza-minima-120px { min-width: 120px;  }
+ .alyo-larghezza-minima-130px { min-width: 130px;  }
+ .alyo-larghezza-minima-140px { min-width: 140px;  }
+ .alyo-larghezza-minima-150px { min-width: 150px;  }
+ .alyo-larghezza-minima-160px { min-width: 160px;  }
+ .alyo-larghezza-minima-170px { min-width: 170px;  }
+ .alyo-larghezza-minima-180px { min-width: 180px;  }
+ .alyo-larghezza-minima-190px { min-width: 190px;  }
+ .alyo-larghezza-minima-200px { min-width: 200px;  }
+ .alyo-larghezza-minima-210px { min-width: 210px;  }
+ .alyo-larghezza-minima-220px { min-width: 220px;  }
+ .alyo-larghezza-minima-230px { min-width: 230px;  }
+ .alyo-larghezza-minima-240px { min-width: 240px;  }
+ .alyo-larghezza-minima-250px { min-width: 250px;  }
+ .alyo-larghezza-minima-260px { min-width: 260px;  }
+ .alyo-larghezza-minima-270px { min-width: 270px;  }
+ .alyo-larghezza-minima-280px { min-width: 280px;  }
+ .alyo-larghezza-minima-290px { min-width: 290px;  }
+ .alyo-larghezza-minima-300px { min-width: 300px;  }
+ .alyo-larghezza-minima-310px { min-width: 310px;  }
+ .alyo-larghezza-minima-320px { min-width: 320px;  }
+ .alyo-larghezza-minima-330px { min-width: 330px;  }
+ .alyo-larghezza-minima-340px { min-width: 340px;  }
+ .alyo-larghezza-minima-350px { min-width: 350px;  }
+ .alyo-larghezza-minima-360px { min-width: 360px;  }
+ .alyo-larghezza-minima-370px { min-width: 370px;  }
+ .alyo-larghezza-minima-380px { min-width: 380px;  }
+ .alyo-larghezza-minima-390px { min-width: 390px;  }
+ .alyo-larghezza-minima-400px { min-width: 400px;  }
+ .alyo-larghezza-minima-410px { min-width: 410px;  }
+ .alyo-larghezza-minima-420px { min-width: 420px;  }
+ .alyo-larghezza-minima-430px { min-width: 430px;  }
+ .alyo-larghezza-minima-440px { min-width: 440px;  }
+ .alyo-larghezza-minima-450px { min-width: 450px;  }
+ .alyo-larghezza-minima-460px { min-width: 460px;  }
+ .alyo-larghezza-minima-470px { min-width: 470px;  }
+ .alyo-larghezza-minima-480px { min-width: 480px;  }
+ .alyo-larghezza-minima-490px { min-width: 490px;  }
+ .alyo-larghezza-minima-500px { min-width: 500px;  }
+ .alyo-larghezza-minima-510px { min-width: 510px;  }
+ .alyo-larghezza-minima-520px { min-width: 520px;  }
+ .alyo-larghezza-minima-530px { min-width: 530px;  }
+ .alyo-larghezza-minima-540px { min-width: 540px;  }
+ .alyo-larghezza-minima-550px { min-width: 550px;  }
+ .alyo-larghezza-minima-560px { min-width: 560px;  }
+ .alyo-larghezza-minima-570px { min-width: 570px;  }
+ .alyo-larghezza-minima-580px { min-width: 580px;  }
+ .alyo-larghezza-minima-590px { min-width: 590px;  }
+ .alyo-larghezza-minima-600px { min-width: 600px;  }
+ .alyo-larghezza-minima-610px { min-width: 610px;  }
+ .alyo-larghezza-minima-620px { min-width: 620px;  }
+ .alyo-larghezza-minima-630px { min-width: 630px;  }
+ .alyo-larghezza-minima-640px { min-width: 640px;  }
+ .alyo-larghezza-minima-650px { min-width: 650px;  }
+ .alyo-larghezza-minima-660px { min-width: 660px;  }
+ .alyo-larghezza-minima-670px { min-width: 670px;  }
+ .alyo-larghezza-minima-680px { min-width: 680px;  }
+ .alyo-larghezza-minima-690px { min-width: 690px;  }
+ .alyo-larghezza-minima-700px { min-width: 700px;  }
+ .alyo-larghezza-minima-710px { min-width: 710px;  }
+ .alyo-larghezza-minima-720px { min-width: 720px;  }
+ .alyo-larghezza-minima-730px { min-width: 730px;  }
+ .alyo-larghezza-minima-740px { min-width: 740px;  }
+ .alyo-larghezza-minima-750px { min-width: 750px;  }
+ .alyo-larghezza-minima-760px { min-width: 760px;  }
+ .alyo-larghezza-minima-770px { min-width: 770px;  }
+ .alyo-larghezza-minima-780px { min-width: 780px;  }
+ .alyo-larghezza-minima-790px { min-width: 790px;  }
+ .alyo-larghezza-minima-800px { min-width: 800px;  }
+ .alyo-larghezza-minima-810px { min-width: 810px;  }
+ .alyo-larghezza-minima-820px { min-width: 820px;  }
+ .alyo-larghezza-minima-830px { min-width: 830px;  }
+ .alyo-larghezza-minima-840px { min-width: 840px;  }
+ .alyo-larghezza-minima-850px { min-width: 850px;  }
+ .alyo-larghezza-minima-860px { min-width: 860px;  }
+ .alyo-larghezza-minima-870px { min-width: 870px;  }
+ .alyo-larghezza-minima-880px { min-width: 880px;  }
+ .alyo-larghezza-minima-890px { min-width: 890px;  }
+ .alyo-larghezza-minima-900px { min-width: 900px;  }
+ .alyo-larghezza-minima-910px { min-width: 910px;  }
+ .alyo-larghezza-minima-920px { min-width: 920px;  }
+ .alyo-larghezza-minima-930px { min-width: 930px;  }
+ .alyo-larghezza-minima-940px { min-width: 940px;  }
+ .alyo-larghezza-minima-950px { min-width: 950px;  }
+ .alyo-larghezza-minima-960px { min-width: 960px;  }
+ .alyo-larghezza-minima-970px { min-width: 970px;  }
+ .alyo-larghezza-minima-980px { min-width: 980px;  }
+ .alyo-larghezza-minima-990px { min-width: 990px;  }
+ .alyo-larghezza-minima-1000px { min-width: 1000px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Altezza px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-altezza-0px { height: 0px;  }
+ .alyo-altezza-10px { height: 10px;  }
+ .alyo-altezza-20px { height: 20px;  }
+ .alyo-altezza-30px { height: 30px;  }
+ .alyo-altezza-40px { height: 40px;  }
+ .alyo-altezza-50px { height: 50px;  }
+ .alyo-altezza-60px { height: 60px;  }
+ .alyo-altezza-70px { height: 70px;  }
+ .alyo-altezza-80px { height: 80px;  }
+ .alyo-altezza-90px { height: 90px;  }
+ .alyo-altezza-100px { height: 100px;  }
+ .alyo-altezza-110px { height: 110px;  }
+ .alyo-altezza-120px { height: 120px;  }
+ .alyo-altezza-130px { height: 130px;  }
+ .alyo-altezza-140px { height: 140px;  }
+ .alyo-altezza-150px { height: 150px;  }
+ .alyo-altezza-160px { height: 160px;  }
+ .alyo-altezza-170px { height: 170px;  }
+ .alyo-altezza-180px { height: 180px;  }
+ .alyo-altezza-190px { height: 190px;  }
+ .alyo-altezza-200px { height: 200px;  }
+ .alyo-altezza-210px { height: 210px;  }
+ .alyo-altezza-220px { height: 220px;  }
+ .alyo-altezza-230px { height: 230px;  }
+ .alyo-altezza-240px { height: 240px;  }
+ .alyo-altezza-250px { height: 250px;  }
+ .alyo-altezza-260px { height: 260px;  }
+ .alyo-altezza-270px { height: 270px;  }
+ .alyo-altezza-280px { height: 280px;  }
+ .alyo-altezza-290px { height: 290px;  }
+ .alyo-altezza-300px { height: 300px;  }
+ .alyo-altezza-310px { height: 310px;  }
+ .alyo-altezza-320px { height: 320px;  }
+ .alyo-altezza-330px { height: 330px;  }
+ .alyo-altezza-340px { height: 340px;  }
+ .alyo-altezza-350px { height: 350px;  }
+ .alyo-altezza-360px { height: 360px;  }
+ .alyo-altezza-370px { height: 370px;  }
+ .alyo-altezza-380px { height: 380px;  }
+ .alyo-altezza-390px { height: 390px;  }
+ .alyo-altezza-400px { height: 400px;  }
+ .alyo-altezza-410px { height: 410px;  }
+ .alyo-altezza-420px { height: 420px;  }
+ .alyo-altezza-430px { height: 430px;  }
+ .alyo-altezza-440px { height: 440px;  }
+ .alyo-altezza-450px { height: 450px;  }
+ .alyo-altezza-460px { height: 460px;  }
+ .alyo-altezza-470px { height: 470px;  }
+ .alyo-altezza-480px { height: 480px;  }
+ .alyo-altezza-490px { height: 490px;  }
+ .alyo-altezza-500px { height: 500px;  }
+ .alyo-altezza-510px { height: 510px;  }
+ .alyo-altezza-520px { height: 520px;  }
+ .alyo-altezza-530px { height: 530px;  }
+ .alyo-altezza-540px { height: 540px;  }
+ .alyo-altezza-550px { height: 550px;  }
+ .alyo-altezza-560px { height: 560px;  }
+ .alyo-altezza-570px { height: 570px;  }
+ .alyo-altezza-580px { height: 580px;  }
+ .alyo-altezza-590px { height: 590px;  }
+ .alyo-altezza-600px { height: 600px;  }
+ .alyo-altezza-610px { height: 610px;  }
+ .alyo-altezza-620px { height: 620px;  }
+ .alyo-altezza-630px { height: 630px;  }
+ .alyo-altezza-640px { height: 640px;  }
+ .alyo-altezza-650px { height: 650px;  }
+ .alyo-altezza-660px { height: 660px;  }
+ .alyo-altezza-670px { height: 670px;  }
+ .alyo-altezza-680px { height: 680px;  }
+ .alyo-altezza-690px { height: 690px;  }
+ .alyo-altezza-700px { height: 700px;  }
+ .alyo-altezza-710px { height: 710px;  }
+ .alyo-altezza-720px { height: 720px;  }
+ .alyo-altezza-730px { height: 730px;  }
+ .alyo-altezza-740px { height: 740px;  }
+ .alyo-altezza-750px { height: 750px;  }
+ .alyo-altezza-760px { height: 760px;  }
+ .alyo-altezza-770px { height: 770px;  }
+ .alyo-altezza-780px { height: 780px;  }
+ .alyo-altezza-790px { height: 790px;  }
+ .alyo-altezza-800px { height: 800px;  }
+ .alyo-altezza-810px { height: 810px;  }
+ .alyo-altezza-820px { height: 820px;  }
+ .alyo-altezza-830px { height: 830px;  }
+ .alyo-altezza-840px { height: 840px;  }
+ .alyo-altezza-850px { height: 850px;  }
+ .alyo-altezza-860px { height: 860px;  }
+ .alyo-altezza-870px { height: 870px;  }
+ .alyo-altezza-880px { height: 880px;  }
+ .alyo-altezza-890px { height: 890px;  }
+ .alyo-altezza-900px { height: 900px;  }
+ .alyo-altezza-910px { height: 910px;  }
+ .alyo-altezza-920px { height: 920px;  }
+ .alyo-altezza-930px { height: 930px;  }
+ .alyo-altezza-940px { height: 940px;  }
+ .alyo-altezza-950px { height: 950px;  }
+ .alyo-altezza-960px { height: 960px;  }
+ .alyo-altezza-970px { height: 970px;  }
+ .alyo-altezza-980px { height: 980px;  }
+ .alyo-altezza-990px { height: 990px;  }
+ .alyo-altezza-1000px { height: 1000px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Altezza Massima px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-altezza-massima-0px { max-height: 0px;  }
+ .alyo-altezza-massima-10px { max-height: 10px;  }
+ .alyo-altezza-massima-20px { max-height: 20px;  }
+ .alyo-altezza-massima-30px { max-height: 30px;  }
+ .alyo-altezza-massima-40px { max-height: 40px;  }
+ .alyo-altezza-massima-50px { max-height: 50px;  }
+ .alyo-altezza-massima-60px { max-height: 60px;  }
+ .alyo-altezza-massima-70px { max-height: 70px;  }
+ .alyo-altezza-massima-80px { max-height: 80px;  }
+ .alyo-altezza-massima-90px { max-height: 90px;  }
+ .alyo-altezza-massima-100px { max-height: 100px;  }
+ .alyo-altezza-massima-110px { max-height: 110px;  }
+ .alyo-altezza-massima-120px { max-height: 120px;  }
+ .alyo-altezza-massima-130px { max-height: 130px;  }
+ .alyo-altezza-massima-140px { max-height: 140px;  }
+ .alyo-altezza-massima-150px { max-height: 150px;  }
+ .alyo-altezza-massima-160px { max-height: 160px;  }
+ .alyo-altezza-massima-170px { max-height: 170px;  }
+ .alyo-altezza-massima-180px { max-height: 180px;  }
+ .alyo-altezza-massima-190px { max-height: 190px;  }
+ .alyo-altezza-massima-200px { max-height: 200px;  }
+ .alyo-altezza-massima-210px { max-height: 210px;  }
+ .alyo-altezza-massima-220px { max-height: 220px;  }
+ .alyo-altezza-massima-230px { max-height: 230px;  }
+ .alyo-altezza-massima-240px { max-height: 240px;  }
+ .alyo-altezza-massima-250px { max-height: 250px;  }
+ .alyo-altezza-massima-260px { max-height: 260px;  }
+ .alyo-altezza-massima-270px { max-height: 270px;  }
+ .alyo-altezza-massima-280px { max-height: 280px;  }
+ .alyo-altezza-massima-290px { max-height: 290px;  }
+ .alyo-altezza-massima-300px { max-height: 300px;  }
+ .alyo-altezza-massima-310px { max-height: 310px;  }
+ .alyo-altezza-massima-320px { max-height: 320px;  }
+ .alyo-altezza-massima-330px { max-height: 330px;  }
+ .alyo-altezza-massima-340px { max-height: 340px;  }
+ .alyo-altezza-massima-350px { max-height: 350px;  }
+ .alyo-altezza-massima-360px { max-height: 360px;  }
+ .alyo-altezza-massima-370px { max-height: 370px;  }
+ .alyo-altezza-massima-380px { max-height: 380px;  }
+ .alyo-altezza-massima-390px { max-height: 390px;  }
+ .alyo-altezza-massima-400px { max-height: 400px;  }
+ .alyo-altezza-massima-410px { max-height: 410px;  }
+ .alyo-altezza-massima-420px { max-height: 420px;  }
+ .alyo-altezza-massima-430px { max-height: 430px;  }
+ .alyo-altezza-massima-440px { max-height: 440px;  }
+ .alyo-altezza-massima-450px { max-height: 450px;  }
+ .alyo-altezza-massima-460px { max-height: 460px;  }
+ .alyo-altezza-massima-470px { max-height: 470px;  }
+ .alyo-altezza-massima-480px { max-height: 480px;  }
+ .alyo-altezza-massima-490px { max-height: 490px;  }
+ .alyo-altezza-massima-500px { max-height: 500px;  }
+ .alyo-altezza-massima-510px { max-height: 510px;  }
+ .alyo-altezza-massima-520px { max-height: 520px;  }
+ .alyo-altezza-massima-530px { max-height: 530px;  }
+ .alyo-altezza-massima-540px { max-height: 540px;  }
+ .alyo-altezza-massima-550px { max-height: 550px;  }
+ .alyo-altezza-massima-560px { max-height: 560px;  }
+ .alyo-altezza-massima-570px { max-height: 570px;  }
+ .alyo-altezza-massima-580px { max-height: 580px;  }
+ .alyo-altezza-massima-590px { max-height: 590px;  }
+ .alyo-altezza-massima-600px { max-height: 600px;  }
+ .alyo-altezza-massima-610px { max-height: 610px;  }
+ .alyo-altezza-massima-620px { max-height: 620px;  }
+ .alyo-altezza-massima-630px { max-height: 630px;  }
+ .alyo-altezza-massima-640px { max-height: 640px;  }
+ .alyo-altezza-massima-650px { max-height: 650px;  }
+ .alyo-altezza-massima-660px { max-height: 660px;  }
+ .alyo-altezza-massima-670px { max-height: 670px;  }
+ .alyo-altezza-massima-680px { max-height: 680px;  }
+ .alyo-altezza-massima-690px { max-height: 690px;  }
+ .alyo-altezza-massima-700px { max-height: 700px;  }
+ .alyo-altezza-massima-710px { max-height: 710px;  }
+ .alyo-altezza-massima-720px { max-height: 720px;  }
+ .alyo-altezza-massima-730px { max-height: 730px;  }
+ .alyo-altezza-massima-740px { max-height: 740px;  }
+ .alyo-altezza-massima-750px { max-height: 750px;  }
+ .alyo-altezza-massima-760px { max-height: 760px;  }
+ .alyo-altezza-massima-770px { max-height: 770px;  }
+ .alyo-altezza-massima-780px { max-height: 780px;  }
+ .alyo-altezza-massima-790px { max-height: 790px;  }
+ .alyo-altezza-massima-800px { max-height: 800px;  }
+ .alyo-altezza-massima-810px { max-height: 810px;  }
+ .alyo-altezza-massima-820px { max-height: 820px;  }
+ .alyo-altezza-massima-830px { max-height: 830px;  }
+ .alyo-altezza-massima-840px { max-height: 840px;  }
+ .alyo-altezza-massima-850px { max-height: 850px;  }
+ .alyo-altezza-massima-860px { max-height: 860px;  }
+ .alyo-altezza-massima-870px { max-height: 870px;  }
+ .alyo-altezza-massima-880px { max-height: 880px;  }
+ .alyo-altezza-massima-890px { max-height: 890px;  }
+ .alyo-altezza-massima-900px { max-height: 900px;  }
+ .alyo-altezza-massima-910px { max-height: 910px;  }
+ .alyo-altezza-massima-920px { max-height: 920px;  }
+ .alyo-altezza-massima-930px { max-height: 930px;  }
+ .alyo-altezza-massima-940px { max-height: 940px;  }
+ .alyo-altezza-massima-950px { max-height: 950px;  }
+ .alyo-altezza-massima-960px { max-height: 960px;  }
+ .alyo-altezza-massima-970px { max-height: 970px;  }
+ .alyo-altezza-massima-980px { max-height: 980px;  }
+ .alyo-altezza-massima-990px { max-height: 990px;  }
+ .alyo-altezza-massima-1000px { max-height: 1000px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Altezza Minima px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-altezza-minima-0px { min-height: 0px;  }
+ .alyo-altezza-minima-10px { min-height: 10px;  }
+ .alyo-altezza-minima-20px { min-height: 20px;  }
+ .alyo-altezza-minima-30px { min-height: 30px;  }
+ .alyo-altezza-minima-40px { min-height: 40px;  }
+ .alyo-altezza-minima-50px { min-height: 50px;  }
+ .alyo-altezza-minima-60px { min-height: 60px;  }
+ .alyo-altezza-minima-70px { min-height: 70px;  }
+ .alyo-altezza-minima-80px { min-height: 80px;  }
+ .alyo-altezza-minima-90px { min-height: 90px;  }
+ .alyo-altezza-minima-100px { min-height: 100px;  }
+ .alyo-altezza-minima-110px { min-height: 110px;  }
+ .alyo-altezza-minima-120px { min-height: 120px;  }
+ .alyo-altezza-minima-130px { min-height: 130px;  }
+ .alyo-altezza-minima-140px { min-height: 140px;  }
+ .alyo-altezza-minima-150px { min-height: 150px;  }
+ .alyo-altezza-minima-160px { min-height: 160px;  }
+ .alyo-altezza-minima-170px { min-height: 170px;  }
+ .alyo-altezza-minima-180px { min-height: 180px;  }
+ .alyo-altezza-minima-190px { min-height: 190px;  }
+ .alyo-altezza-minima-200px { min-height: 200px;  }
+ .alyo-altezza-minima-210px { min-height: 210px;  }
+ .alyo-altezza-minima-220px { min-height: 220px;  }
+ .alyo-altezza-minima-230px { min-height: 230px;  }
+ .alyo-altezza-minima-240px { min-height: 240px;  }
+ .alyo-altezza-minima-250px { min-height: 250px;  }
+ .alyo-altezza-minima-260px { min-height: 260px;  }
+ .alyo-altezza-minima-270px { min-height: 270px;  }
+ .alyo-altezza-minima-280px { min-height: 280px;  }
+ .alyo-altezza-minima-290px { min-height: 290px;  }
+ .alyo-altezza-minima-300px { min-height: 300px;  }
+ .alyo-altezza-minima-310px { min-height: 310px;  }
+ .alyo-altezza-minima-320px { min-height: 320px;  }
+ .alyo-altezza-minima-330px { min-height: 330px;  }
+ .alyo-altezza-minima-340px { min-height: 340px;  }
+ .alyo-altezza-minima-350px { min-height: 350px;  }
+ .alyo-altezza-minima-360px { min-height: 360px;  }
+ .alyo-altezza-minima-370px { min-height: 370px;  }
+ .alyo-altezza-minima-380px { min-height: 380px;  }
+ .alyo-altezza-minima-390px { min-height: 390px;  }
+ .alyo-altezza-minima-400px { min-height: 400px;  }
+ .alyo-altezza-minima-410px { min-height: 410px;  }
+ .alyo-altezza-minima-420px { min-height: 420px;  }
+ .alyo-altezza-minima-430px { min-height: 430px;  }
+ .alyo-altezza-minima-440px { min-height: 440px;  }
+ .alyo-altezza-minima-450px { min-height: 450px;  }
+ .alyo-altezza-minima-460px { min-height: 460px;  }
+ .alyo-altezza-minima-470px { min-height: 470px;  }
+ .alyo-altezza-minima-480px { min-height: 480px;  }
+ .alyo-altezza-minima-490px { min-height: 490px;  }
+ .alyo-altezza-minima-500px { min-height: 500px;  }
+ .alyo-altezza-minima-510px { min-height: 510px;  }
+ .alyo-altezza-minima-520px { min-height: 520px;  }
+ .alyo-altezza-minima-530px { min-height: 530px;  }
+ .alyo-altezza-minima-540px { min-height: 540px;  }
+ .alyo-altezza-minima-550px { min-height: 550px;  }
+ .alyo-altezza-minima-560px { min-height: 560px;  }
+ .alyo-altezza-minima-570px { min-height: 570px;  }
+ .alyo-altezza-minima-580px { min-height: 580px;  }
+ .alyo-altezza-minima-590px { min-height: 590px;  }
+ .alyo-altezza-minima-600px { min-height: 600px;  }
+ .alyo-altezza-minima-610px { min-height: 610px;  }
+ .alyo-altezza-minima-620px { min-height: 620px;  }
+ .alyo-altezza-minima-630px { min-height: 630px;  }
+ .alyo-altezza-minima-640px { min-height: 640px;  }
+ .alyo-altezza-minima-650px { min-height: 650px;  }
+ .alyo-altezza-minima-660px { min-height: 660px;  }
+ .alyo-altezza-minima-670px { min-height: 670px;  }
+ .alyo-altezza-minima-680px { min-height: 680px;  }
+ .alyo-altezza-minima-690px { min-height: 690px;  }
+ .alyo-altezza-minima-700px { min-height: 700px;  }
+ .alyo-altezza-minima-710px { min-height: 710px;  }
+ .alyo-altezza-minima-720px { min-height: 720px;  }
+ .alyo-altezza-minima-730px { min-height: 730px;  }
+ .alyo-altezza-minima-740px { min-height: 740px;  }
+ .alyo-altezza-minima-750px { min-height: 750px;  }
+ .alyo-altezza-minima-760px { min-height: 760px;  }
+ .alyo-altezza-minima-770px { min-height: 770px;  }
+ .alyo-altezza-minima-780px { min-height: 780px;  }
+ .alyo-altezza-minima-790px { min-height: 790px;  }
+ .alyo-altezza-minima-800px { min-height: 800px;  }
+ .alyo-altezza-minima-810px { min-height: 810px;  }
+ .alyo-altezza-minima-820px { min-height: 820px;  }
+ .alyo-altezza-minima-830px { min-height: 830px;  }
+ .alyo-altezza-minima-840px { min-height: 840px;  }
+ .alyo-altezza-minima-850px { min-height: 850px;  }
+ .alyo-altezza-minima-860px { min-height: 860px;  }
+ .alyo-altezza-minima-870px { min-height: 870px;  }
+ .alyo-altezza-minima-880px { min-height: 880px;  }
+ .alyo-altezza-minima-890px { min-height: 890px;  }
+ .alyo-altezza-minima-900px { min-height: 900px;  }
+ .alyo-altezza-minima-910px { min-height: 910px;  }
+ .alyo-altezza-minima-920px { min-height: 920px;  }
+ .alyo-altezza-minima-930px { min-height: 930px;  }
+ .alyo-altezza-minima-940px { min-height: 940px;  }
+ .alyo-altezza-minima-950px { min-height: 950px;  }
+ .alyo-altezza-minima-960px { min-height: 960px;  }
+ .alyo-altezza-minima-970px { min-height: 970px;  }
+ .alyo-altezza-minima-980px { min-height: 980px;  }
+ .alyo-altezza-minima-990px { min-height: 990px;  }
+ .alyo-altezza-minima-1000px { min-height: 1000px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Piano
+-------------------------------------------------------------------------------------------------------------------------*/
+
+ .alyo-piano--1 { z-index: -1;  }
+ .alyo-piano-0 { z-index: 0;  }
+ .alyo-piano-1 { z-index: 1;  }
+ .alyo-piano-2 { z-index: 2;  }
+ .alyo-piano-3 { z-index: 3;  }
+ .alyo-piano-4 { z-index: 4;  }
+ .alyo-piano-5 { z-index: 5;  }
+ .alyo-piano-6 { z-index: 6;  }
+ .alyo-piano-7 { z-index: 7;  }
+ .alyo-piano-8 { z-index: 8;  }
+ .alyo-piano-9 { z-index: 9;  }
+ .alyo-piano-10 { z-index: 10;  }
+ .alyo-piano-11 { z-index: 11;  }
+ .alyo-piano-12 { z-index: 12;  }
+ .alyo-piano-13 { z-index: 13;  }
+ .alyo-piano-14 { z-index: 14;  }
+ .alyo-piano-15 { z-index: 15;  }
+ .alyo-piano-16 { z-index: 16;  }
+ .alyo-piano-17 { z-index: 17;  }
+ .alyo-piano-18 { z-index: 18;  }
+ .alyo-piano-19 { z-index: 19;  }
+ .alyo-piano-20 { z-index: 20;  }
+ .alyo-piano-21 { z-index: 21;  }
+ .alyo-piano-22 { z-index: 22;  }
+ .alyo-piano-23 { z-index: 23;  }
+ .alyo-piano-24 { z-index: 24;  }
+ .alyo-piano-25 { z-index: 25;  }
+ .alyo-piano-26 { z-index: 26;  }
+ .alyo-piano-27 { z-index: 27;  }
+ .alyo-piano-28 { z-index: 28;  }
+ .alyo-piano-29 { z-index: 29;  }
+ .alyo-piano-30 { z-index: 30;  }
+ .alyo-piano-31 { z-index: 31;  }
+ .alyo-piano-32 { z-index: 32;  }
+ .alyo-piano-33 { z-index: 33;  }
+ .alyo-piano-34 { z-index: 34;  }
+ .alyo-piano-35 { z-index: 35;  }
+ .alyo-piano-36 { z-index: 36;  }
+ .alyo-piano-37 { z-index: 37;  }
+ .alyo-piano-38 { z-index: 38;  }
+ .alyo-piano-39 { z-index: 39;  }
+ .alyo-piano-40 { z-index: 40;  }
+ .alyo-piano-41 { z-index: 41;  }
+ .alyo-piano-42 { z-index: 42;  }
+ .alyo-piano-43 { z-index: 43;  }
+ .alyo-piano-44 { z-index: 44;  }
+ .alyo-piano-45 { z-index: 45;  }
+ .alyo-piano-46 { z-index: 46;  }
+ .alyo-piano-47 { z-index: 47;  }
+ .alyo-piano-48 { z-index: 48;  }
+ .alyo-piano-49 { z-index: 49;  }
+ .alyo-piano-50 { z-index: 50;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-0 { padding: 0%;  }
+ .alyo-padding-5 { padding: 5%;  }
+ .alyo-padding-10 { padding: 10%;  }
+ .alyo-padding-15 { padding: 15%;  }
+ .alyo-padding-20 { padding: 20%;  }
+ .alyo-padding-25 { padding: 25%;  }
+ .alyo-padding-30 { padding: 30%;  }
+ .alyo-padding-35 { padding: 35%;  }
+ .alyo-padding-40 { padding: 40%;  }
+ .alyo-padding-45 { padding: 45%;  }
+ .alyo-padding-50 { padding: 50%;  }
+ .alyo-padding-55 { padding: 55%;  }
+ .alyo-padding-60 { padding: 60%;  }
+ .alyo-padding-65 { padding: 65%;  }
+ .alyo-padding-70 { padding: 70%;  }
+ .alyo-padding-75 { padding: 75%;  }
+ .alyo-padding-80 { padding: 80%;  }
+ .alyo-padding-85 { padding: 85%;  }
+ .alyo-padding-90 { padding: 90%;  }
+ .alyo-padding-95 { padding: 95%;  }
+ .alyo-padding-100 { padding: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Sinistro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-sinistro-0 { padding-left: 0%;  }
+ .alyo-padding-sinistro-5 { padding-left: 5%;  }
+ .alyo-padding-sinistro-10 { padding-left: 10%;  }
+ .alyo-padding-sinistro-15 { padding-left: 15%;  }
+ .alyo-padding-sinistro-20 { padding-left: 20%;  }
+ .alyo-padding-sinistro-25 { padding-left: 25%;  }
+ .alyo-padding-sinistro-30 { padding-left: 30%;  }
+ .alyo-padding-sinistro-35 { padding-left: 35%;  }
+ .alyo-padding-sinistro-40 { padding-left: 40%;  }
+ .alyo-padding-sinistro-45 { padding-left: 45%;  }
+ .alyo-padding-sinistro-50 { padding-left: 50%;  }
+ .alyo-padding-sinistro-55 { padding-left: 55%;  }
+ .alyo-padding-sinistro-60 { padding-left: 60%;  }
+ .alyo-padding-sinistro-65 { padding-left: 65%;  }
+ .alyo-padding-sinistro-70 { padding-left: 70%;  }
+ .alyo-padding-sinistro-75 { padding-left: 75%;  }
+ .alyo-padding-sinistro-80 { padding-left: 80%;  }
+ .alyo-padding-sinistro-85 { padding-left: 85%;  }
+ .alyo-padding-sinistro-90 { padding-left: 90%;  }
+ .alyo-padding-sinistro-95 { padding-left: 95%;  }
+ .alyo-padding-sinistro-100 { padding-left: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Destro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-destro-0 { padding-right: 0%;  }
+ .alyo-padding-destro-5 { padding-right: 5%;  }
+ .alyo-padding-destro-10 { padding-right: 10%;  }
+ .alyo-padding-destro-15 { padding-right: 15%;  }
+ .alyo-padding-destro-20 { padding-right: 20%;  }
+ .alyo-padding-destro-25 { padding-right: 25%;  }
+ .alyo-padding-destro-30 { padding-right: 30%;  }
+ .alyo-padding-destro-35 { padding-right: 35%;  }
+ .alyo-padding-destro-40 { padding-right: 40%;  }
+ .alyo-padding-destro-45 { padding-right: 45%;  }
+ .alyo-padding-destro-50 { padding-right: 50%;  }
+ .alyo-padding-destro-55 { padding-right: 55%;  }
+ .alyo-padding-destro-60 { padding-right: 60%;  }
+ .alyo-padding-destro-65 { padding-right: 65%;  }
+ .alyo-padding-destro-70 { padding-right: 70%;  }
+ .alyo-padding-destro-75 { padding-right: 75%;  }
+ .alyo-padding-destro-80 { padding-right: 80%;  }
+ .alyo-padding-destro-85 { padding-right: 85%;  }
+ .alyo-padding-destro-90 { padding-right: 90%;  }
+ .alyo-padding-destro-95 { padding-right: 95%;  }
+ .alyo-padding-destro-100 { padding-right: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Sopra %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-sopra-0 { padding-top: 0%;  }
+ .alyo-padding-sopra-5 { padding-top: 5%;  }
+ .alyo-padding-sopra-10 { padding-top: 10%;  }
+ .alyo-padding-sopra-15 { padding-top: 15%;  }
+ .alyo-padding-sopra-20 { padding-top: 20%;  }
+ .alyo-padding-sopra-25 { padding-top: 25%;  }
+ .alyo-padding-sopra-30 { padding-top: 30%;  }
+ .alyo-padding-sopra-35 { padding-top: 35%;  }
+ .alyo-padding-sopra-40 { padding-top: 40%;  }
+ .alyo-padding-sopra-45 { padding-top: 45%;  }
+ .alyo-padding-sopra-50 { padding-top: 50%;  }
+ .alyo-padding-sopra-55 { padding-top: 55%;  }
+ .alyo-padding-sopra-60 { padding-top: 60%;  }
+ .alyo-padding-sopra-65 { padding-top: 65%;  }
+ .alyo-padding-sopra-70 { padding-top: 70%;  }
+ .alyo-padding-sopra-75 { padding-top: 75%;  }
+ .alyo-padding-sopra-80 { padding-top: 80%;  }
+ .alyo-padding-sopra-85 { padding-top: 85%;  }
+ .alyo-padding-sopra-90 { padding-top: 90%;  }
+ .alyo-padding-sopra-95 { padding-top: 95%;  }
+ .alyo-padding-sopra-100 { padding-top: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Padding Sotto %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-padding-sotto-0 { padding-bottom: 0%;  }
+ .alyo-padding-sotto-5 { padding-bottom: 5%;  }
+ .alyo-padding-sotto-10 { padding-bottom: 10%;  }
+ .alyo-padding-sotto-15 { padding-bottom: 15%;  }
+ .alyo-padding-sotto-20 { padding-bottom: 20%;  }
+ .alyo-padding-sotto-25 { padding-bottom: 25%;  }
+ .alyo-padding-sotto-30 { padding-bottom: 30%;  }
+ .alyo-padding-sotto-35 { padding-bottom: 35%;  }
+ .alyo-padding-sotto-40 { padding-bottom: 40%;  }
+ .alyo-padding-sotto-45 { padding-bottom: 45%;  }
+ .alyo-padding-sotto-50 { padding-bottom: 50%;  }
+ .alyo-padding-sotto-55 { padding-bottom: 55%;  }
+ .alyo-padding-sotto-60 { padding-bottom: 60%;  }
+ .alyo-padding-sotto-65 { padding-bottom: 65%;  }
+ .alyo-padding-sotto-70 { padding-bottom: 70%;  }
+ .alyo-padding-sotto-75 { padding-bottom: 75%;  }
+ .alyo-padding-sotto-80 { padding-bottom: 80%;  }
+ .alyo-padding-sotto-85 { padding-bottom: 85%;  }
+ .alyo-padding-sotto-90 { padding-bottom: 90%;  }
+ .alyo-padding-sotto-95 { padding-bottom: 95%;  }
+ .alyo-padding-sotto-100 { padding-bottom: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-0 { margin: 0%;  }
+ .alyo-margine-5 { margin: 5%;  }
+ .alyo-margine-10 { margin: 10%;  }
+ .alyo-margine-15 { margin: 15%;  }
+ .alyo-margine-20 { margin: 20%;  }
+ .alyo-margine-25 { margin: 25%;  }
+ .alyo-margine-30 { margin: 30%;  }
+ .alyo-margine-35 { margin: 35%;  }
+ .alyo-margine-40 { margin: 40%;  }
+ .alyo-margine-45 { margin: 45%;  }
+ .alyo-margine-50 { margin: 50%;  }
+ .alyo-margine-55 { margin: 55%;  }
+ .alyo-margine-60 { margin: 60%;  }
+ .alyo-margine-65 { margin: 65%;  }
+ .alyo-margine-70 { margin: 70%;  }
+ .alyo-margine-75 { margin: 75%;  }
+ .alyo-margine-80 { margin: 80%;  }
+ .alyo-margine-85 { margin: 85%;  }
+ .alyo-margine-90 { margin: 90%;  }
+ .alyo-margine-95 { margin: 95%;  }
+ .alyo-margine-100 { margin: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Sinistro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-sinistro-0 { margin-left: 0%;  }
+ .alyo-margine-sinistro-5 { margin-left: 5%;  }
+ .alyo-margine-sinistro-10 { margin-left: 10%;  }
+ .alyo-margine-sinistro-15 { margin-left: 15%;  }
+ .alyo-margine-sinistro-20 { margin-left: 20%;  }
+ .alyo-margine-sinistro-25 { margin-left: 25%;  }
+ .alyo-margine-sinistro-30 { margin-left: 30%;  }
+ .alyo-margine-sinistro-35 { margin-left: 35%;  }
+ .alyo-margine-sinistro-40 { margin-left: 40%;  }
+ .alyo-margine-sinistro-45 { margin-left: 45%;  }
+ .alyo-margine-sinistro-50 { margin-left: 50%;  }
+ .alyo-margine-sinistro-55 { margin-left: 55%;  }
+ .alyo-margine-sinistro-60 { margin-left: 60%;  }
+ .alyo-margine-sinistro-65 { margin-left: 65%;  }
+ .alyo-margine-sinistro-70 { margin-left: 70%;  }
+ .alyo-margine-sinistro-75 { margin-left: 75%;  }
+ .alyo-margine-sinistro-80 { margin-left: 80%;  }
+ .alyo-margine-sinistro-85 { margin-left: 85%;  }
+ .alyo-margine-sinistro-90 { margin-left: 90%;  }
+ .alyo-margine-sinistro-95 { margin-left: 95%;  }
+ .alyo-margine-sinistro-100 { margin-left: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Destro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-destro-0 { margin-right: 0%;  }
+ .alyo-margine-destro-5 { margin-right: 5%;  }
+ .alyo-margine-destro-10 { margin-right: 10%;  }
+ .alyo-margine-destro-15 { margin-right: 15%;  }
+ .alyo-margine-destro-20 { margin-right: 20%;  }
+ .alyo-margine-destro-25 { margin-right: 25%;  }
+ .alyo-margine-destro-30 { margin-right: 30%;  }
+ .alyo-margine-destro-35 { margin-right: 35%;  }
+ .alyo-margine-destro-40 { margin-right: 40%;  }
+ .alyo-margine-destro-45 { margin-right: 45%;  }
+ .alyo-margine-destro-50 { margin-right: 50%;  }
+ .alyo-margine-destro-55 { margin-right: 55%;  }
+ .alyo-margine-destro-60 { margin-right: 60%;  }
+ .alyo-margine-destro-65 { margin-right: 65%;  }
+ .alyo-margine-destro-70 { margin-right: 70%;  }
+ .alyo-margine-destro-75 { margin-right: 75%;  }
+ .alyo-margine-destro-80 { margin-right: 80%;  }
+ .alyo-margine-destro-85 { margin-right: 85%;  }
+ .alyo-margine-destro-90 { margin-right: 90%;  }
+ .alyo-margine-destro-95 { margin-right: 95%;  }
+ .alyo-margine-destro-100 { margin-right: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Sopra %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-sopra-0 { margin-top: 0%;  }
+ .alyo-margine-sopra-5 { margin-top: 5%;  }
+ .alyo-margine-sopra-10 { margin-top: 10%;  }
+ .alyo-margine-sopra-15 { margin-top: 15%;  }
+ .alyo-margine-sopra-20 { margin-top: 20%;  }
+ .alyo-margine-sopra-25 { margin-top: 25%;  }
+ .alyo-margine-sopra-30 { margin-top: 30%;  }
+ .alyo-margine-sopra-35 { margin-top: 35%;  }
+ .alyo-margine-sopra-40 { margin-top: 40%;  }
+ .alyo-margine-sopra-45 { margin-top: 45%;  }
+ .alyo-margine-sopra-50 { margin-top: 50%;  }
+ .alyo-margine-sopra-55 { margin-top: 55%;  }
+ .alyo-margine-sopra-60 { margin-top: 60%;  }
+ .alyo-margine-sopra-65 { margin-top: 65%;  }
+ .alyo-margine-sopra-70 { margin-top: 70%;  }
+ .alyo-margine-sopra-75 { margin-top: 75%;  }
+ .alyo-margine-sopra-80 { margin-top: 80%;  }
+ .alyo-margine-sopra-85 { margin-top: 85%;  }
+ .alyo-margine-sopra-90 { margin-top: 90%;  }
+ .alyo-margine-sopra-95 { margin-top: 95%;  }
+ .alyo-margine-sopra-100 { margin-top: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                margine Sotto %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-margine-sotto-0 { margin-bottom: 0%;  }
+ .alyo-margine-sotto-5 { margin-bottom: 5%;  }
+ .alyo-margine-sotto-10 { margin-bottom: 10%;  }
+ .alyo-margine-sotto-15 { margin-bottom: 15%;  }
+ .alyo-margine-sotto-20 { margin-bottom: 20%;  }
+ .alyo-margine-sotto-25 { margin-bottom: 25%;  }
+ .alyo-margine-sotto-30 { margin-bottom: 30%;  }
+ .alyo-margine-sotto-35 { margin-bottom: 35%;  }
+ .alyo-margine-sotto-40 { margin-bottom: 40%;  }
+ .alyo-margine-sotto-45 { margin-bottom: 45%;  }
+ .alyo-margine-sotto-50 { margin-bottom: 50%;  }
+ .alyo-margine-sotto-55 { margin-bottom: 55%;  }
+ .alyo-margine-sotto-60 { margin-bottom: 60%;  }
+ .alyo-margine-sotto-65 { margin-bottom: 65%;  }
+ .alyo-margine-sotto-70 { margin-bottom: 70%;  }
+ .alyo-margine-sotto-75 { margin-bottom: 75%;  }
+ .alyo-margine-sotto-80 { margin-bottom: 80%;  }
+ .alyo-margine-sotto-85 { margin-bottom: 85%;  }
+ .alyo-margine-sotto-90 { margin-bottom: 90%;  }
+ .alyo-margine-sotto-95 { margin-bottom: 95%;  }
+ .alyo-margine-sotto-100 { margin-bottom: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-0 { border-radius: 0%;  }
+ .alyo-bordo-rotondo-5 { border-radius: 5%;  }
+ .alyo-bordo-rotondo-10 { border-radius: 10%;  }
+ .alyo-bordo-rotondo-15 { border-radius: 15%;  }
+ .alyo-bordo-rotondo-20 { border-radius: 20%;  }
+ .alyo-bordo-rotondo-25 { border-radius: 25%;  }
+ .alyo-bordo-rotondo-30 { border-radius: 30%;  }
+ .alyo-bordo-rotondo-35 { border-radius: 35%;  }
+ .alyo-bordo-rotondo-40 { border-radius: 40%;  }
+ .alyo-bordo-rotondo-45 { border-radius: 45%;  }
+ .alyo-bordo-rotondo-50 { border-radius: 50%;  }
+ .alyo-bordo-rotondo-55 { border-radius: 55%;  }
+ .alyo-bordo-rotondo-60 { border-radius: 60%;  }
+ .alyo-bordo-rotondo-65 { border-radius: 65%;  }
+ .alyo-bordo-rotondo-70 { border-radius: 70%;  }
+ .alyo-bordo-rotondo-75 { border-radius: 75%;  }
+ .alyo-bordo-rotondo-80 { border-radius: 80%;  }
+ .alyo-bordo-rotondo-85 { border-radius: 85%;  }
+ .alyo-bordo-rotondo-90 { border-radius: 90%;  }
+ .alyo-bordo-rotondo-95 { border-radius: 95%;  }
+ .alyo-bordo-rotondo-100 { border-radius: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sopra Snistro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sopra-sinistro-0 { border-top-left-radius: 0%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-5 { border-top-left-radius: 5%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-10 { border-top-left-radius: 10%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-15 { border-top-left-radius: 15%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-20 { border-top-left-radius: 20%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-25 { border-top-left-radius: 25%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-30 { border-top-left-radius: 30%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-35 { border-top-left-radius: 35%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-40 { border-top-left-radius: 40%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-45 { border-top-left-radius: 45%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-50 { border-top-left-radius: 50%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-55 { border-top-left-radius: 55%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-60 { border-top-left-radius: 60%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-65 { border-top-left-radius: 65%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-70 { border-top-left-radius: 70%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-75 { border-top-left-radius: 75%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-80 { border-top-left-radius: 80%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-85 { border-top-left-radius: 85%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-90 { border-top-left-radius: 90%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-95 { border-top-left-radius: 95%;  }
+ .alyo-bordo-rotondo-sopra-sinistro-100 { border-top-left-radius: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sopra Destro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sopra-destro-0 { border-top-right-radius: 0%;  }
+ .alyo-bordo-rotondo-sopra-destro-5 { border-top-right-radius: 5%;  }
+ .alyo-bordo-rotondo-sopra-destro-10 { border-top-right-radius: 10%;  }
+ .alyo-bordo-rotondo-sopra-destro-15 { border-top-right-radius: 15%;  }
+ .alyo-bordo-rotondo-sopra-destro-20 { border-top-right-radius: 20%;  }
+ .alyo-bordo-rotondo-sopra-destro-25 { border-top-right-radius: 25%;  }
+ .alyo-bordo-rotondo-sopra-destro-30 { border-top-right-radius: 30%;  }
+ .alyo-bordo-rotondo-sopra-destro-35 { border-top-right-radius: 35%;  }
+ .alyo-bordo-rotondo-sopra-destro-40 { border-top-right-radius: 40%;  }
+ .alyo-bordo-rotondo-sopra-destro-45 { border-top-right-radius: 45%;  }
+ .alyo-bordo-rotondo-sopra-destro-50 { border-top-right-radius: 50%;  }
+ .alyo-bordo-rotondo-sopra-destro-55 { border-top-right-radius: 55%;  }
+ .alyo-bordo-rotondo-sopra-destro-60 { border-top-right-radius: 60%;  }
+ .alyo-bordo-rotondo-sopra-destro-65 { border-top-right-radius: 65%;  }
+ .alyo-bordo-rotondo-sopra-destro-70 { border-top-right-radius: 70%;  }
+ .alyo-bordo-rotondo-sopra-destro-75 { border-top-right-radius: 75%;  }
+ .alyo-bordo-rotondo-sopra-destro-80 { border-top-right-radius: 80%;  }
+ .alyo-bordo-rotondo-sopra-destro-85 { border-top-right-radius: 85%;  }
+ .alyo-bordo-rotondo-sopra-destro-90 { border-top-right-radius: 90%;  }
+ .alyo-bordo-rotondo-sopra-destro-95 { border-top-right-radius: 95%;  }
+ .alyo-bordo-rotondo-sopra-destro-100 { border-top-right-radius: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sotto Sinistro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sotto-sinistro-0 { border-bottom-left-radius: 0%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-5 { border-bottom-left-radius: 5%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-10 { border-bottom-left-radius: 10%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-15 { border-bottom-left-radius: 15%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-20 { border-bottom-left-radius: 20%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-25 { border-bottom-left-radius: 25%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-30 { border-bottom-left-radius: 30%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-35 { border-bottom-left-radius: 35%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-40 { border-bottom-left-radius: 40%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-45 { border-bottom-left-radius: 45%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-50 { border-bottom-left-radius: 50%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-55 { border-bottom-left-radius: 55%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-60 { border-bottom-left-radius: 60%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-65 { border-bottom-left-radius: 65%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-70 { border-bottom-left-radius: 70%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-75 { border-bottom-left-radius: 75%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-80 { border-bottom-left-radius: 80%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-85 { border-bottom-left-radius: 85%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-90 { border-bottom-left-radius: 90%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-95 { border-bottom-left-radius: 95%;  }
+ .alyo-bordo-rotondo-sotto-sinistro-100 { border-bottom-left-radius: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sotto Destro %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-rotondo-sotto-destro-0 { border-bottom-right-radius: 0%;  }
+ .alyo-bordo-rotondo-sotto-destro-5 { border-bottom-right-radius: 5%;  }
+ .alyo-bordo-rotondo-sotto-destro-10 { border-bottom-right-radius: 10%;  }
+ .alyo-bordo-rotondo-sotto-destro-15 { border-bottom-right-radius: 15%;  }
+ .alyo-bordo-rotondo-sotto-destro-20 { border-bottom-right-radius: 20%;  }
+ .alyo-bordo-rotondo-sotto-destro-25 { border-bottom-right-radius: 25%;  }
+ .alyo-bordo-rotondo-sotto-destro-30 { border-bottom-right-radius: 30%;  }
+ .alyo-bordo-rotondo-sotto-destro-35 { border-bottom-right-radius: 35%;  }
+ .alyo-bordo-rotondo-sotto-destro-40 { border-bottom-right-radius: 40%;  }
+ .alyo-bordo-rotondo-sotto-destro-45 { border-bottom-right-radius: 45%;  }
+ .alyo-bordo-rotondo-sotto-destro-50 { border-bottom-right-radius: 50%;  }
+ .alyo-bordo-rotondo-sotto-destro-55 { border-bottom-right-radius: 55%;  }
+ .alyo-bordo-rotondo-sotto-destro-60 { border-bottom-right-radius: 60%;  }
+ .alyo-bordo-rotondo-sotto-destro-65 { border-bottom-right-radius: 65%;  }
+ .alyo-bordo-rotondo-sotto-destro-70 { border-bottom-right-radius: 70%;  }
+ .alyo-bordo-rotondo-sotto-destro-75 { border-bottom-right-radius: 75%;  }
+ .alyo-bordo-rotondo-sotto-destro-80 { border-bottom-right-radius: 80%;  }
+ .alyo-bordo-rotondo-sotto-destro-85 { border-bottom-right-radius: 85%;  }
+ .alyo-bordo-rotondo-sotto-destro-90 { border-bottom-right-radius: 90%;  }
+ .alyo-bordo-rotondo-sotto-destro-95 { border-bottom-right-radius: 95%;  }
+ .alyo-bordo-rotondo-sotto-destro-100 { border-bottom-right-radius: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza Fissa %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-larghezza-fisso-0 { width: 0%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-5 { width: 5%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-10 { width: 10%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-15 { width: 15%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-20 { width: 20%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-25 { width: 25%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-30 { width: 30%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-35 { width: 35%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-40 { width: 40%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-45 { width: 45%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-50 { width: 50%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-55 { width: 55%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-60 { width: 60%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-65 { width: 65%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-70 { width: 70%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-75 { width: 75%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-80 { width: 80%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-85 { width: 85%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-90 { width: 90%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-95 { width: 95%;  position: relative;  float: left;  }
+ .alyo-larghezza-fisso-100 { width: 100%;  position: relative;  float: left;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza Massimo %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-larghezza-massima-0 { max-width: 0%;  }
+ .alyo-larghezza-massima-5 { max-width: 5%;  }
+ .alyo-larghezza-massima-10 { max-width: 10%;  }
+ .alyo-larghezza-massima-15 { max-width: 15%;  }
+ .alyo-larghezza-massima-20 { max-width: 20%;  }
+ .alyo-larghezza-massima-25 { max-width: 25%;  }
+ .alyo-larghezza-massima-30 { max-width: 30%;  }
+ .alyo-larghezza-massima-35 { max-width: 35%;  }
+ .alyo-larghezza-massima-40 { max-width: 40%;  }
+ .alyo-larghezza-massima-45 { max-width: 45%;  }
+ .alyo-larghezza-massima-50 { max-width: 50%;  }
+ .alyo-larghezza-massima-55 { max-width: 55%;  }
+ .alyo-larghezza-massima-60 { max-width: 60%;  }
+ .alyo-larghezza-massima-65 { max-width: 65%;  }
+ .alyo-larghezza-massima-70 { max-width: 70%;  }
+ .alyo-larghezza-massima-75 { max-width: 75%;  }
+ .alyo-larghezza-massima-80 { max-width: 80%;  }
+ .alyo-larghezza-massima-85 { max-width: 85%;  }
+ .alyo-larghezza-massima-90 { max-width: 90%;  }
+ .alyo-larghezza-massima-95 { max-width: 95%;  }
+ .alyo-larghezza-massima-100 { max-width: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza Minimo %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-larghezza-minima-0 { min-width: 0%;  }
+ .alyo-larghezza-minima-5 { min-width: 5%;  }
+ .alyo-larghezza-minima-10 { min-width: 10%;  }
+ .alyo-larghezza-minima-15 { min-width: 15%;  }
+ .alyo-larghezza-minima-20 { min-width: 20%;  }
+ .alyo-larghezza-minima-25 { min-width: 25%;  }
+ .alyo-larghezza-minima-30 { min-width: 30%;  }
+ .alyo-larghezza-minima-35 { min-width: 35%;  }
+ .alyo-larghezza-minima-40 { min-width: 40%;  }
+ .alyo-larghezza-minima-45 { min-width: 45%;  }
+ .alyo-larghezza-minima-50 { min-width: 50%;  }
+ .alyo-larghezza-minima-55 { min-width: 55%;  }
+ .alyo-larghezza-minima-60 { min-width: 60%;  }
+ .alyo-larghezza-minima-65 { min-width: 65%;  }
+ .alyo-larghezza-minima-70 { min-width: 70%;  }
+ .alyo-larghezza-minima-75 { min-width: 75%;  }
+ .alyo-larghezza-minima-80 { min-width: 80%;  }
+ .alyo-larghezza-minima-85 { min-width: 85%;  }
+ .alyo-larghezza-minima-90 { min-width: 90%;  }
+ .alyo-larghezza-minima-95 { min-width: 95%;  }
+ .alyo-larghezza-minima-100 { min-width: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Altezza %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-altezza-0 { height: 0%;  }
+ .alyo-altezza-5 { height: 5%;  }
+ .alyo-altezza-10 { height: 10%;  }
+ .alyo-altezza-15 { height: 15%;  }
+ .alyo-altezza-20 { height: 20%;  }
+ .alyo-altezza-25 { height: 25%;  }
+ .alyo-altezza-30 { height: 30%;  }
+ .alyo-altezza-35 { height: 35%;  }
+ .alyo-altezza-40 { height: 40%;  }
+ .alyo-altezza-45 { height: 45%;  }
+ .alyo-altezza-50 { height: 50%;  }
+ .alyo-altezza-55 { height: 55%;  }
+ .alyo-altezza-60 { height: 60%;  }
+ .alyo-altezza-65 { height: 65%;  }
+ .alyo-altezza-70 { height: 70%;  }
+ .alyo-altezza-75 { height: 75%;  }
+ .alyo-altezza-80 { height: 80%;  }
+ .alyo-altezza-85 { height: 85%;  }
+ .alyo-altezza-90 { height: 90%;  }
+ .alyo-altezza-95 { height: 95%;  }
+ .alyo-altezza-100 { height: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Altezza Massimo %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-altezza-massima-0 { max-height: 0%;  }
+ .alyo-altezza-massima-5 { max-height: 5%;  }
+ .alyo-altezza-massima-10 { max-height: 10%;  }
+ .alyo-altezza-massima-15 { max-height: 15%;  }
+ .alyo-altezza-massima-20 { max-height: 20%;  }
+ .alyo-altezza-massima-25 { max-height: 25%;  }
+ .alyo-altezza-massima-30 { max-height: 30%;  }
+ .alyo-altezza-massima-35 { max-height: 35%;  }
+ .alyo-altezza-massima-40 { max-height: 40%;  }
+ .alyo-altezza-massima-45 { max-height: 45%;  }
+ .alyo-altezza-massima-50 { max-height: 50%;  }
+ .alyo-altezza-massima-55 { max-height: 55%;  }
+ .alyo-altezza-massima-60 { max-height: 60%;  }
+ .alyo-altezza-massima-65 { max-height: 65%;  }
+ .alyo-altezza-massima-70 { max-height: 70%;  }
+ .alyo-altezza-massima-75 { max-height: 75%;  }
+ .alyo-altezza-massima-80 { max-height: 80%;  }
+ .alyo-altezza-massima-85 { max-height: 85%;  }
+ .alyo-altezza-massima-90 { max-height: 90%;  }
+ .alyo-altezza-massima-95 { max-height: 95%;  }
+ .alyo-altezza-massima-100 { max-height: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Altezza Minimo %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-altezza-minima-0 { min-height: 0%;  }
+ .alyo-altezza-minima-5 { min-height: 5%;  }
+ .alyo-altezza-minima-10 { min-height: 10%;  }
+ .alyo-altezza-minima-15 { min-height: 15%;  }
+ .alyo-altezza-minima-20 { min-height: 20%;  }
+ .alyo-altezza-minima-25 { min-height: 25%;  }
+ .alyo-altezza-minima-30 { min-height: 30%;  }
+ .alyo-altezza-minima-35 { min-height: 35%;  }
+ .alyo-altezza-minima-40 { min-height: 40%;  }
+ .alyo-altezza-minima-45 { min-height: 45%;  }
+ .alyo-altezza-minima-50 { min-height: 50%;  }
+ .alyo-altezza-minima-55 { min-height: 55%;  }
+ .alyo-altezza-minima-60 { min-height: 60%;  }
+ .alyo-altezza-minima-65 { min-height: 65%;  }
+ .alyo-altezza-minima-70 { min-height: 70%;  }
+ .alyo-altezza-minima-75 { min-height: 75%;  }
+ .alyo-altezza-minima-80 { min-height: 80%;  }
+ .alyo-altezza-minima-85 { min-height: 85%;  }
+ .alyo-altezza-minima-90 { min-height: 90%;  }
+ .alyo-altezza-minima-95 { min-height: 95%;  }
+ .alyo-altezza-minima-100 { min-height: 100%;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Testo px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-testo-0px { font-size: 0px;  }
+ .alyo-testo-1px { font-size: 1px;  }
+ .alyo-testo-2px { font-size: 2px;  }
+ .alyo-testo-3px { font-size: 3px;  }
+ .alyo-testo-4px { font-size: 4px;  }
+ .alyo-testo-5px { font-size: 5px;  }
+ .alyo-testo-6px { font-size: 6px;  }
+ .alyo-testo-7px { font-size: 7px;  }
+ .alyo-testo-8px { font-size: 8px;  }
+ .alyo-testo-9px { font-size: 9px;  }
+ .alyo-testo-10px { font-size: 10px;  }
+ .alyo-testo-11px { font-size: 11px;  }
+ .alyo-testo-12px { font-size: 12px;  }
+ .alyo-testo-13px { font-size: 13px;  }
+ .alyo-testo-14px { font-size: 14px;  }
+ .alyo-testo-15px { font-size: 15px;  }
+ .alyo-testo-16px { font-size: 16px;  }
+ .alyo-testo-17px { font-size: 17px;  }
+ .alyo-testo-18px { font-size: 18px;  }
+ .alyo-testo-19px { font-size: 19px;  }
+ .alyo-testo-20px { font-size: 20px;  }
+ .alyo-testo-21px { font-size: 21px;  }
+ .alyo-testo-22px { font-size: 22px;  }
+ .alyo-testo-23px { font-size: 23px;  }
+ .alyo-testo-24px { font-size: 24px;  }
+ .alyo-testo-25px { font-size: 25px;  }
+ .alyo-testo-26px { font-size: 26px;  }
+ .alyo-testo-27px { font-size: 27px;  }
+ .alyo-testo-28px { font-size: 28px;  }
+ .alyo-testo-29px { font-size: 29px;  }
+ .alyo-testo-30px { font-size: 30px;  }
+ .alyo-testo-31px { font-size: 31px;  }
+ .alyo-testo-32px { font-size: 32px;  }
+ .alyo-testo-33px { font-size: 33px;  }
+ .alyo-testo-34px { font-size: 34px;  }
+ .alyo-testo-35px { font-size: 35px;  }
+ .alyo-testo-36px { font-size: 36px;  }
+ .alyo-testo-37px { font-size: 37px;  }
+ .alyo-testo-38px { font-size: 38px;  }
+ .alyo-testo-39px { font-size: 39px;  }
+ .alyo-testo-40px { font-size: 40px;  }
+ .alyo-testo-41px { font-size: 41px;  }
+ .alyo-testo-42px { font-size: 42px;  }
+ .alyo-testo-43px { font-size: 43px;  }
+ .alyo-testo-44px { font-size: 44px;  }
+ .alyo-testo-45px { font-size: 45px;  }
+ .alyo-testo-46px { font-size: 46px;  }
+ .alyo-testo-47px { font-size: 47px;  }
+ .alyo-testo-48px { font-size: 48px;  }
+ .alyo-testo-49px { font-size: 49px;  }
+ .alyo-testo-50px { font-size: 50px;  }
+ .alyo-testo-51px { font-size: 51px;  }
+ .alyo-testo-52px { font-size: 52px;  }
+ .alyo-testo-53px { font-size: 53px;  }
+ .alyo-testo-54px { font-size: 54px;  }
+ .alyo-testo-55px { font-size: 55px;  }
+ .alyo-testo-56px { font-size: 56px;  }
+ .alyo-testo-57px { font-size: 57px;  }
+ .alyo-testo-58px { font-size: 58px;  }
+ .alyo-testo-59px { font-size: 59px;  }
+ .alyo-testo-60px { font-size: 60px;  }
+ .alyo-testo-61px { font-size: 61px;  }
+ .alyo-testo-62px { font-size: 62px;  }
+ .alyo-testo-63px { font-size: 63px;  }
+ .alyo-testo-64px { font-size: 64px;  }
+ .alyo-testo-65px { font-size: 65px;  }
+ .alyo-testo-66px { font-size: 66px;  }
+ .alyo-testo-67px { font-size: 67px;  }
+ .alyo-testo-68px { font-size: 68px;  }
+ .alyo-testo-69px { font-size: 69px;  }
+ .alyo-testo-70px { font-size: 70px;  }
+ .alyo-testo-71px { font-size: 71px;  }
+ .alyo-testo-72px { font-size: 72px;  }
+ .alyo-testo-73px { font-size: 73px;  }
+ .alyo-testo-74px { font-size: 74px;  }
+ .alyo-testo-75px { font-size: 75px;  }
+ .alyo-testo-76px { font-size: 76px;  }
+ .alyo-testo-77px { font-size: 77px;  }
+ .alyo-testo-78px { font-size: 78px;  }
+ .alyo-testo-79px { font-size: 79px;  }
+ .alyo-testo-80px { font-size: 80px;  }
+ .alyo-testo-81px { font-size: 81px;  }
+ .alyo-testo-82px { font-size: 82px;  }
+ .alyo-testo-83px { font-size: 83px;  }
+ .alyo-testo-84px { font-size: 84px;  }
+ .alyo-testo-85px { font-size: 85px;  }
+ .alyo-testo-86px { font-size: 86px;  }
+ .alyo-testo-87px { font-size: 87px;  }
+ .alyo-testo-88px { font-size: 88px;  }
+ .alyo-testo-89px { font-size: 89px;  }
+ .alyo-testo-90px { font-size: 90px;  }
+ .alyo-testo-91px { font-size: 91px;  }
+ .alyo-testo-92px { font-size: 92px;  }
+ .alyo-testo-93px { font-size: 93px;  }
+ .alyo-testo-94px { font-size: 94px;  }
+ .alyo-testo-95px { font-size: 95px;  }
+ .alyo-testo-96px { font-size: 96px;  }
+ .alyo-testo-97px { font-size: 97px;  }
+ .alyo-testo-98px { font-size: 98px;  }
+ .alyo-testo-99px { font-size: 99px;  }
+ .alyo-testo-100px { font-size: 100px;  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Testo %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-testo-0 { font-size: 0%;  }
+ .alyo-testo-1 { font-size: 1%;  }
+ .alyo-testo-2 { font-size: 2%;  }
+ .alyo-testo-3 { font-size: 3%;  }
+ .alyo-testo-4 { font-size: 4%;  }
+ .alyo-testo-5 { font-size: 5%;  }
+ .alyo-testo-6 { font-size: 6%;  }
+ .alyo-testo-7 { font-size: 7%;  }
+ .alyo-testo-8 { font-size: 8%;  }
+ .alyo-testo-9 { font-size: 9%;  }
+ .alyo-testo-10 { font-size: 10%;  }
+ .alyo-testo-11 { font-size: 11%;  }
+ .alyo-testo-12 { font-size: 12%;  }
+ .alyo-testo-13 { font-size: 13%;  }
+ .alyo-testo-14 { font-size: 14%;  }
+ .alyo-testo-15 { font-size: 15%;  }
+ .alyo-testo-16 { font-size: 16%;  }
+ .alyo-testo-17 { font-size: 17%;  }
+ .alyo-testo-18 { font-size: 18%;  }
+ .alyo-testo-19 { font-size: 19%;  }
+ .alyo-testo-20 { font-size: 20%;  }
+ .alyo-testo-21 { font-size: 21%;  }
+ .alyo-testo-22 { font-size: 22%;  }
+ .alyo-testo-23 { font-size: 23%;  }
+ .alyo-testo-24 { font-size: 24%;  }
+ .alyo-testo-25 { font-size: 25%;  }
+ .alyo-testo-26 { font-size: 26%;  }
+ .alyo-testo-27 { font-size: 27%;  }
+ .alyo-testo-28 { font-size: 28%;  }
+ .alyo-testo-29 { font-size: 29%;  }
+ .alyo-testo-30 { font-size: 30%;  }
+ .alyo-testo-31 { font-size: 31%;  }
+ .alyo-testo-32 { font-size: 32%;  }
+ .alyo-testo-33 { font-size: 33%;  }
+ .alyo-testo-34 { font-size: 34%;  }
+ .alyo-testo-35 { font-size: 35%;  }
+ .alyo-testo-36 { font-size: 36%;  }
+ .alyo-testo-37 { font-size: 37%;  }
+ .alyo-testo-38 { font-size: 38%;  }
+ .alyo-testo-39 { font-size: 39%;  }
+ .alyo-testo-40 { font-size: 40%;  }
+ .alyo-testo-41 { font-size: 41%;  }
+ .alyo-testo-42 { font-size: 42%;  }
+ .alyo-testo-43 { font-size: 43%;  }
+ .alyo-testo-44 { font-size: 44%;  }
+ .alyo-testo-45 { font-size: 45%;  }
+ .alyo-testo-46 { font-size: 46%;  }
+ .alyo-testo-47 { font-size: 47%;  }
+ .alyo-testo-48 { font-size: 48%;  }
+ .alyo-testo-49 { font-size: 49%;  }
+ .alyo-testo-50 { font-size: 50%;  }
+ .alyo-testo-51 { font-size: 51%;  }
+ .alyo-testo-52 { font-size: 52%;  }
+ .alyo-testo-53 { font-size: 53%;  }
+ .alyo-testo-54 { font-size: 54%;  }
+ .alyo-testo-55 { font-size: 55%;  }
+ .alyo-testo-56 { font-size: 56%;  }
+ .alyo-testo-57 { font-size: 57%;  }
+ .alyo-testo-58 { font-size: 58%;  }
+ .alyo-testo-59 { font-size: 59%;  }
+ .alyo-testo-60 { font-size: 60%;  }
+ .alyo-testo-61 { font-size: 61%;  }
+ .alyo-testo-62 { font-size: 62%;  }
+ .alyo-testo-63 { font-size: 63%;  }
+ .alyo-testo-64 { font-size: 64%;  }
+ .alyo-testo-65 { font-size: 65%;  }
+ .alyo-testo-66 { font-size: 66%;  }
+ .alyo-testo-67 { font-size: 67%;  }
+ .alyo-testo-68 { font-size: 68%;  }
+ .alyo-testo-69 { font-size: 69%;  }
+ .alyo-testo-70 { font-size: 70%;  }
+ .alyo-testo-71 { font-size: 71%;  }
+ .alyo-testo-72 { font-size: 72%;  }
+ .alyo-testo-73 { font-size: 73%;  }
+ .alyo-testo-74 { font-size: 74%;  }
+ .alyo-testo-75 { font-size: 75%;  }
+ .alyo-testo-76 { font-size: 76%;  }
+ .alyo-testo-77 { font-size: 77%;  }
+ .alyo-testo-78 { font-size: 78%;  }
+ .alyo-testo-79 { font-size: 79%;  }
+ .alyo-testo-80 { font-size: 80%;  }
+ .alyo-testo-81 { font-size: 81%;  }
+ .alyo-testo-82 { font-size: 82%;  }
+ .alyo-testo-83 { font-size: 83%;  }
+ .alyo-testo-84 { font-size: 84%;  }
+ .alyo-testo-85 { font-size: 85%;  }
+ .alyo-testo-86 { font-size: 86%;  }
+ .alyo-testo-87 { font-size: 87%;  }
+ .alyo-testo-88 { font-size: 88%;  }
+ .alyo-testo-89 { font-size: 89%;  }
+ .alyo-testo-90 { font-size: 90%;  }
+ .alyo-testo-91 { font-size: 91%;  }
+ .alyo-testo-92 { font-size: 92%;  }
+ .alyo-testo-93 { font-size: 93%;  }
+ .alyo-testo-94 { font-size: 94%;  }
+ .alyo-testo-95 { font-size: 95%;  }
+ .alyo-testo-96 { font-size: 96%;  }
+ .alyo-testo-97 { font-size: 97%;  }
+ .alyo-testo-98 { font-size: 98%;  }
+ .alyo-testo-99 { font-size: 99%;  }
+ .alyo-testo-100 { font-size: 100%;  }
+
+ .alyo-testo-14vw {
+    font-size: 2vw;
+ }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-0px { border: 0px solid black; }
+ .alyo-bordo-0px { border: 0px solid red; }
+ .alyo-bordo-0px { border: 0px solid green; }
+ .alyo-bordo-0px { border: 0px solid gray; }
+ .alyo-bordo-1px { border: 1px solid black; }
+ .alyo-bordo-1px { border: 1px solid red; }
+ .alyo-bordo-1px { border: 1px solid green; }
+ .alyo-bordo-1px { border: 1px solid gray; }
+ .alyo-bordo-2px { border: 2px solid black; }
+ .alyo-bordo-2px { border: 2px solid red; }
+ .alyo-bordo-2px { border: 2px solid green; }
+ .alyo-bordo-2px { border: 2px solid gray; }
+ .alyo-bordo-3px { border: 3px solid black; }
+ .alyo-bordo-3px { border: 3px solid red; }
+ .alyo-bordo-3px { border: 3px solid green; }
+ .alyo-bordo-3px { border: 3px solid gray; }
+ .alyo-bordo-4px { border: 4px solid black; }
+ .alyo-bordo-4px { border: 4px solid red; }
+ .alyo-bordo-4px { border: 4px solid green; }
+ .alyo-bordo-4px { border: 4px solid gray; }
+ .alyo-bordo-5px { border: 5px solid black; }
+ .alyo-bordo-5px { border: 5px solid red; }
+ .alyo-bordo-5px { border: 5px solid green; }
+ .alyo-bordo-5px { border: 5px solid gray; }
+ .alyo-bordo-6px { border: 6px solid black; }
+ .alyo-bordo-6px { border: 6px solid red; }
+ .alyo-bordo-6px { border: 6px solid green; }
+ .alyo-bordo-6px { border: 6px solid gray; }
+ .alyo-bordo-7px { border: 7px solid black; }
+ .alyo-bordo-7px { border: 7px solid red; }
+ .alyo-bordo-7px { border: 7px solid green; }
+ .alyo-bordo-7px { border: 7px solid gray; }
+ .alyo-bordo-8px { border: 8px solid black; }
+ .alyo-bordo-8px { border: 8px solid red; }
+ .alyo-bordo-8px { border: 8px solid green; }
+ .alyo-bordo-8px { border: 8px solid gray; }
+ .alyo-bordo-9px { border: 9px solid black; }
+ .alyo-bordo-9px { border: 9px solid red; }
+ .alyo-bordo-9px { border: 9px solid green; }
+ .alyo-bordo-9px { border: 9px solid gray; }
+ .alyo-bordo-10px { border: 10px solid black; }
+ .alyo-bordo-10px { border: 10px solid red; }
+ .alyo-bordo-10px { border: 10px solid green; }
+ .alyo-bordo-10px { border: 10px solid gray; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sopra px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-sopra-0px { border-top: 0px solid black; }
+ .alyo-bordo-sopra-0px { border-top: 0px solid red; }
+ .alyo-bordo-sopra-0px { border-top: 0px solid green; }
+ .alyo-bordo-sopra-0px { border-top: 0px solid gray; }
+ .alyo-bordo-sopra-1px { border-top: 1px solid black; }
+ .alyo-bordo-sopra-1px { border-top: 1px solid red; }
+ .alyo-bordo-sopra-1px { border-top: 1px solid green; }
+ .alyo-bordo-sopra-1px { border-top: 1px solid gray; }
+ .alyo-bordo-sopra-2px { border-top: 2px solid black; }
+ .alyo-bordo-sopra-2px { border-top: 2px solid red; }
+ .alyo-bordo-sopra-2px { border-top: 2px solid green; }
+ .alyo-bordo-sopra-2px { border-top: 2px solid gray; }
+ .alyo-bordo-sopra-3px { border-top: 3px solid black; }
+ .alyo-bordo-sopra-3px { border-top: 3px solid red; }
+ .alyo-bordo-sopra-3px { border-top: 3px solid green; }
+ .alyo-bordo-sopra-3px { border-top: 3px solid gray; }
+ .alyo-bordo-sopra-4px { border-top: 4px solid black; }
+ .alyo-bordo-sopra-4px { border-top: 4px solid red; }
+ .alyo-bordo-sopra-4px { border-top: 4px solid green; }
+ .alyo-bordo-sopra-4px { border-top: 4px solid gray; }
+ .alyo-bordo-sopra-5px { border-top: 5px solid black; }
+ .alyo-bordo-sopra-5px { border-top: 5px solid red; }
+ .alyo-bordo-sopra-5px { border-top: 5px solid green; }
+ .alyo-bordo-sopra-5px { border-top: 5px solid gray; }
+ .alyo-bordo-sopra-6px { border-top: 6px solid black; }
+ .alyo-bordo-sopra-6px { border-top: 6px solid red; }
+ .alyo-bordo-sopra-6px { border-top: 6px solid green; }
+ .alyo-bordo-sopra-6px { border-top: 6px solid gray; }
+ .alyo-bordo-sopra-7px { border-top: 7px solid black; }
+ .alyo-bordo-sopra-7px { border-top: 7px solid red; }
+ .alyo-bordo-sopra-7px { border-top: 7px solid green; }
+ .alyo-bordo-sopra-7px { border-top: 7px solid gray; }
+ .alyo-bordo-sopra-8px { border-top: 8px solid black; }
+ .alyo-bordo-sopra-8px { border-top: 8px solid red; }
+ .alyo-bordo-sopra-8px { border-top: 8px solid green; }
+ .alyo-bordo-sopra-8px { border-top: 8px solid gray; }
+ .alyo-bordo-sopra-9px { border-top: 9px solid black; }
+ .alyo-bordo-sopra-9px { border-top: 9px solid red; }
+ .alyo-bordo-sopra-9px { border-top: 9px solid green; }
+ .alyo-bordo-sopra-9px { border-top: 9px solid gray; }
+ .alyo-bordo-sopra-10px { border-top: 10px solid black; }
+ .alyo-bordo-sopra-10px { border-top: 10px solid red; }
+ .alyo-bordo-sopra-10px { border-top: 10px solid green; }
+ .alyo-bordo-sopra-10px { border-top: 10px solid gray; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Destro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-destro-0px { border-right: 0px solid black; }
+ .alyo-bordo-destro-0px { border-right: 0px solid red; }
+ .alyo-bordo-destro-0px { border-right: 0px solid green; }
+ .alyo-bordo-destro-0px { border-right: 0px solid gray; }
+ .alyo-bordo-destro-1px { border-right: 1px solid black; }
+ .alyo-bordo-destro-1px { border-right: 1px solid red; }
+ .alyo-bordo-destro-1px { border-right: 1px solid green; }
+ .alyo-bordo-destro-1px { border-right: 1px solid gray; }
+ .alyo-bordo-destro-2px { border-right: 2px solid black; }
+ .alyo-bordo-destro-2px { border-right: 2px solid red; }
+ .alyo-bordo-destro-2px { border-right: 2px solid green; }
+ .alyo-bordo-destro-2px { border-right: 2px solid gray; }
+ .alyo-bordo-destro-3px { border-right: 3px solid black; }
+ .alyo-bordo-destro-3px { border-right: 3px solid red; }
+ .alyo-bordo-destro-3px { border-right: 3px solid green; }
+ .alyo-bordo-destro-3px { border-right: 3px solid gray; }
+ .alyo-bordo-destro-4px { border-right: 4px solid black; }
+ .alyo-bordo-destro-4px { border-right: 4px solid red; }
+ .alyo-bordo-destro-4px { border-right: 4px solid green; }
+ .alyo-bordo-destro-4px { border-right: 4px solid gray; }
+ .alyo-bordo-destro-5px { border-right: 5px solid black; }
+ .alyo-bordo-destro-5px { border-right: 5px solid red; }
+ .alyo-bordo-destro-5px { border-right: 5px solid green; }
+ .alyo-bordo-destro-5px { border-right: 5px solid gray; }
+ .alyo-bordo-destro-6px { border-right: 6px solid black; }
+ .alyo-bordo-destro-6px { border-right: 6px solid red; }
+ .alyo-bordo-destro-6px { border-right: 6px solid green; }
+ .alyo-bordo-destro-6px { border-right: 6px solid gray; }
+ .alyo-bordo-destro-7px { border-right: 7px solid black; }
+ .alyo-bordo-destro-7px { border-right: 7px solid red; }
+ .alyo-bordo-destro-7px { border-right: 7px solid green; }
+ .alyo-bordo-destro-7px { border-right: 7px solid gray; }
+ .alyo-bordo-destro-8px { border-right: 8px solid black; }
+ .alyo-bordo-destro-8px { border-right: 8px solid red; }
+ .alyo-bordo-destro-8px { border-right: 8px solid green; }
+ .alyo-bordo-destro-8px { border-right: 8px solid gray; }
+ .alyo-bordo-destro-9px { border-right: 9px solid black; }
+ .alyo-bordo-destro-9px { border-right: 9px solid red; }
+ .alyo-bordo-destro-9px { border-right: 9px solid green; }
+ .alyo-bordo-destro-9px { border-right: 9px solid gray; }
+ .alyo-bordo-destro-10px { border-right: 10px solid black; }
+ .alyo-bordo-destro-10px { border-right: 10px solid red; }
+ .alyo-bordo-destro-10px { border-right: 10px solid green; }
+ .alyo-bordo-destro-10px { border-right: 10px solid gray; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sinistro px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-sinistro-0px { border-left: 0px solid black; }
+ .alyo-bordo-sinistro-0px { border-left: 0px solid red; }
+ .alyo-bordo-sinistro-0px { border-left: 0px solid green; }
+ .alyo-bordo-sinistro-0px { border-left: 0px solid gray; }
+ .alyo-bordo-sinistro-1px { border-left: 1px solid black; }
+ .alyo-bordo-sinistro-1px { border-left: 1px solid red; }
+ .alyo-bordo-sinistro-1px { border-left: 1px solid green; }
+ .alyo-bordo-sinistro-1px { border-left: 1px solid gray; }
+ .alyo-bordo-sinistro-2px { border-left: 2px solid black; }
+ .alyo-bordo-sinistro-2px { border-left: 2px solid red; }
+ .alyo-bordo-sinistro-2px { border-left: 2px solid green; }
+ .alyo-bordo-sinistro-2px { border-left: 2px solid gray; }
+ .alyo-bordo-sinistro-3px { border-left: 3px solid black; }
+ .alyo-bordo-sinistro-3px { border-left: 3px solid red; }
+ .alyo-bordo-sinistro-3px { border-left: 3px solid green; }
+ .alyo-bordo-sinistro-3px { border-left: 3px solid gray; }
+ .alyo-bordo-sinistro-4px { border-left: 4px solid black; }
+ .alyo-bordo-sinistro-4px { border-left: 4px solid red; }
+ .alyo-bordo-sinistro-4px { border-left: 4px solid green; }
+ .alyo-bordo-sinistro-4px { border-left: 4px solid gray; }
+ .alyo-bordo-sinistro-5px { border-left: 5px solid black; }
+ .alyo-bordo-sinistro-5px { border-left: 5px solid red; }
+ .alyo-bordo-sinistro-5px { border-left: 5px solid green; }
+ .alyo-bordo-sinistro-5px { border-left: 5px solid gray; }
+ .alyo-bordo-sinistro-6px { border-left: 6px solid black; }
+ .alyo-bordo-sinistro-6px { border-left: 6px solid red; }
+ .alyo-bordo-sinistro-6px { border-left: 6px solid green; }
+ .alyo-bordo-sinistro-6px { border-left: 6px solid gray; }
+ .alyo-bordo-sinistro-7px { border-left: 7px solid black; }
+ .alyo-bordo-sinistro-7px { border-left: 7px solid red; }
+ .alyo-bordo-sinistro-7px { border-left: 7px solid green; }
+ .alyo-bordo-sinistro-7px { border-left: 7px solid gray; }
+ .alyo-bordo-sinistro-8px { border-left: 8px solid black; }
+ .alyo-bordo-sinistro-8px { border-left: 8px solid red; }
+ .alyo-bordo-sinistro-8px { border-left: 8px solid green; }
+ .alyo-bordo-sinistro-8px { border-left: 8px solid gray; }
+ .alyo-bordo-sinistro-9px { border-left: 9px solid black; }
+ .alyo-bordo-sinistro-9px { border-left: 9px solid red; }
+ .alyo-bordo-sinistro-9px { border-left: 9px solid green; }
+ .alyo-bordo-sinistro-9px { border-left: 9px solid gray; }
+ .alyo-bordo-sinistro-10px { border-left: 10px solid black; }
+ .alyo-bordo-sinistro-10px { border-left: 10px solid red; }
+ .alyo-bordo-sinistro-10px { border-left: 10px solid green; }
+ .alyo-bordo-sinistro-10px { border-left: 10px solid gray; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Bordo Rotondo Sotto px
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-bordo-sotto-0px { border-bottom: 0px solid black; }
+ .alyo-bordo-sotto-0px { border-bottom: 0px solid red; }
+ .alyo-bordo-sotto-0px { border-bottom: 0px solid green; }
+ .alyo-bordo-sotto-0px { border-bottom: 0px solid gray; }
+ .alyo-bordo-sotto-1px { border-bottom: 1px solid black; }
+ .alyo-bordo-sotto-1px { border-bottom: 1px solid red; }
+ .alyo-bordo-sotto-1px { border-bottom: 1px solid green; }
+ .alyo-bordo-sotto-1px { border-bottom: 1px solid gray; }
+ .alyo-bordo-sotto-2px { border-bottom: 2px solid black; }
+ .alyo-bordo-sotto-2px { border-bottom: 2px solid red; }
+ .alyo-bordo-sotto-2px { border-bottom: 2px solid green; }
+ .alyo-bordo-sotto-2px { border-bottom: 2px solid gray; }
+ .alyo-bordo-sotto-3px { border-bottom: 3px solid black; }
+ .alyo-bordo-sotto-3px { border-bottom: 3px solid red; }
+ .alyo-bordo-sotto-3px { border-bottom: 3px solid green; }
+ .alyo-bordo-sotto-3px { border-bottom: 3px solid gray; }
+ .alyo-bordo-sotto-4px { border-bottom: 4px solid black; }
+ .alyo-bordo-sotto-4px { border-bottom: 4px solid red; }
+ .alyo-bordo-sotto-4px { border-bottom: 4px solid green; }
+ .alyo-bordo-sotto-4px { border-bottom: 4px solid gray; }
+ .alyo-bordo-sotto-5px { border-bottom: 5px solid black; }
+ .alyo-bordo-sotto-5px { border-bottom: 5px solid red; }
+ .alyo-bordo-sotto-5px { border-bottom: 5px solid green; }
+ .alyo-bordo-sotto-5px { border-bottom: 5px solid gray; }
+ .alyo-bordo-sotto-6px { border-bottom: 6px solid black; }
+ .alyo-bordo-sotto-6px { border-bottom: 6px solid red; }
+ .alyo-bordo-sotto-6px { border-bottom: 6px solid green; }
+ .alyo-bordo-sotto-6px { border-bottom: 6px solid gray; }
+ .alyo-bordo-sotto-7px { border-bottom: 7px solid black; }
+ .alyo-bordo-sotto-7px { border-bottom: 7px solid red; }
+ .alyo-bordo-sotto-7px { border-bottom: 7px solid green; }
+ .alyo-bordo-sotto-7px { border-bottom: 7px solid gray; }
+ .alyo-bordo-sotto-8px { border-bottom: 8px solid black; }
+ .alyo-bordo-sotto-8px { border-bottom: 8px solid red; }
+ .alyo-bordo-sotto-8px { border-bottom: 8px solid green; }
+ .alyo-bordo-sotto-8px { border-bottom: 8px solid gray; }
+ .alyo-bordo-sotto-9px { border-bottom: 9px solid black; }
+ .alyo-bordo-sotto-9px { border-bottom: 9px solid red; }
+ .alyo-bordo-sotto-9px { border-bottom: 9px solid green; }
+ .alyo-bordo-sotto-9px { border-bottom: 9px solid gray; }
+ .alyo-bordo-sotto-10px { border-bottom: 10px solid black; }
+ .alyo-bordo-sotto-10px { border-bottom: 10px solid red; }
+ .alyo-bordo-sotto-10px { border-bottom: 10px solid green; }
+ .alyo-bordo-sotto-10px { border-bottom: 10px solid gray; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Opaco
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-opaco-0 { opacity: 0; }
+ .alyo-opaco-1 { opacity: 0.1; }
+ .alyo-opaco-2 { opacity: 0.2; }
+ .alyo-opaco-3 { opacity: 0.3; }
+ .alyo-opaco-4 { opacity: 0.4; }
+ .alyo-opaco-5 { opacity: 0.5; }
+ .alyo-opaco-6 { opacity: 0.6; }
+ .alyo-opaco-7 { opacity: 0.7; }
+ .alyo-opaco-8 { opacity: 0.8; }
+ .alyo-opaco-9 { opacity: 0.9; }
+ .alyo-opaco-10 { opacity: 1; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Colore Sfondo
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-acquamarina {  background-color: #7FFFD4; }
+ .alyo-albicocca {  background-color: #FBCEB1; }
+ .alyo-amaranto {  background-color: #E52B50; }
+ .alyo-ambra {  background-color: #FFBF00; }
+ .alyo-ametista {  background-color: #884DA7; }
+ .alyo-anguria {  background-color: #FC6C85; }
+ .alyo-antracite {  background-color: #293133; }
+ .alyo-aragosta {  background-color: #ED7465; }
+ .alyo-arancione {  background-color: #FF6600; }
+ .alyo-ardesia {  background-color: #708090; }
+ .alyo-argento {  background-color: #C0C0C0; }
+ .alyo-asparago {  background-color: #87A96B; }
+ .alyo-avio {  background-color: #5D8AA8; }
+ .alyo-avorio {  background-color: #FFFFF0; }
+ .alyo-azalea {  background-color: #D3305D; }
+ .alyo-azzurro {  background-color: #007FFF; }
+ .alyo-azzurrofiordaliso {  background-color: #ABCDEF; }
+ .alyo-beige {  background-color: #F5F5DC; }
+ .alyo-beige-olivachiaro {  background-color: #908435; }
+ .alyo-beigeverdastro {  background-color: #BEBD7F; }
+ .alyo-bianco {  background-color: #FFFFFF; }
+ .alyo-biancoantico {  background-color: #FFFEEF; }
+ .alyo-biancoanti-flash {  background-color: #F2F3F4; }
+ .alyo-biancodititanio {  background-color: #FAEBD7; }
+ .alyo-biancodizinco {  background-color: #FEFEE9; }
+ .alyo-biancofantasma {  background-color: #F8F8FF; }
+ .alyo-biancofloreale {  background-color: #FFFAF0; }
+ .alyo-biancofumo {  background-color: #F5F5F5; }
+ .alyo-biancoNavajo {  background-color: #FFDEAD; }
+ .alyo-biscotto {  background-color: #FFE4C4; }
+ .alyo-bistro {  background-color: #3D2B1F; }
+ .alyo-blu {  background-color: #0000FF; }
+ .alyo-bluacciaio {  background-color: #4682B4; }
+ .alyo-blualice {  background-color: #F0F8FF; }
+ .alyo-bluBondi {  background-color: #0095B6; }
+ .alyo-blucadetto {  background-color: #5F9EA0; }
+ .alyo-bluceruleo {  background-color: #2A52BE; }
+ .alyo-blucomandostellare {  background-color: #007BB8; }
+ .alyo-bludiPersia {  background-color: #1C39BB; }
+ .alyo-bludiPrussia {  background-color: #003153; }
+ .alyo-bluDodger {  background-color: #1E90FF; }
+ .alyo-bluelettrico {  background-color: #003399; }
+ .alyo-blumarino {  background-color: #000080; }
+ .alyo-blumedio {  background-color: #0000CD; }
+ .alyo-blunotte {  background-color: #191970; }
+ .alyo-bluoltremare {  background-color: #120A8F; }
+ .alyo-blupolvere {  background-color: #B0E0E6; }
+ .alyo-blupolverescuro {  background-color: #003399; }
+ .alyo-blureale {  background-color: #4169E1; }
+ .alyo-bluscuro {  background-color: #00008B; }
+ .alyo-bordeaux {  background-color: #800000; }
+ .alyo-borgogna {  background-color: #800020; }
+ .alyo-bronzo {  background-color: #CD7F32; }
+ .alyo-bronzoantico {  background-color: #75663F; }
+ .alyo-camoscio {  background-color: #F0DC82; }
+ .alyo-carbone {  background-color: #050402; }
+ .alyo-cardo {  background-color: #D8BFD8; }
+ .alyo-carminio {  background-color: #960018; }
+ .alyo-cartadazucchero {  background-color: #E0FFFF; }
+ .alyo-castagno {  background-color: #CD5C5C; }
+ .alyo-castagnoscuro {  background-color: #986960; }
+ .alyo-castagnochiaro {  background-color: #DDADAF; }
+ .alyo-catrame {  background-color: #D2B48C; }
+ .alyo-catramescuro {  background-color: #918151; }
+ .alyo-celadon {  background-color: #ACE1AF; }
+ .alyo-celeste {  background-color: #99CBFF; }
+ .alyo-ceruleo {  background-color: #007BA7; }
+ .alyo-ceruleoscuro {  background-color: #08457E; }
+ .alyo-chartreuse {  background-color: #7FFF00; }
+ .alyo-ciano {  background-color: #00FFFF; }
+ .alyo-ciliegia {  background-color: #DE3163; }
+ .alyo-cioccolato {  background-color: #D2691E; }
+ .alyo-cobalto {  background-color: #0047AB; }
+ .alyo-conchiglia {  background-color: #FFF5EE; }
+ .alyo-corallo {  background-color: #FF7F50; }
+ .alyo-crema {  background-color: #FFFDD0; }
+ .alyo-cremisi {  background-color: #DC143C; }
+ .alyo-denim {  background-color: #1560BD; }
+ .alyo-denimchiaro {  background-color: #5E86C1; }
+ .alyo-eliotropo {  background-color: #DF73FF; }
+ .alyo-ecru {  background-color: #C2B280; }
+ .alyo-fioredigranturco {  background-color: #6495ED; }
+ .alyo-fogliaditÃ¨ {  background-color: #008080; }
+ .alyo-fucsia {  background-color: #F400A1; }
+ .alyo-fulvo {  background-color: #EBB55F; }
+ .alyo-gainsboro {  background-color: #DCDCDC; }
+ .alyo-giada {  background-color: #00A86B; }
+ .alyo-giallo {  background-color: #FFFF00; }
+ .alyo-giallomiele {  background-color: #A98307; }
+ .alyo-gialloNapoli {  background-color: #F7E89F; }
+ .alyo-giallopastello {  background-color: #FFFF66; }
+ .alyo-giallosabbia {  background-color: #C6A664; }
+ .alyo-giallosegnale {  background-color: #E5BE01; }
+ .alyo-gialloscuolabus {  background-color: #FFD800; }
+ .alyo-glicine {  background-color: #C9A0DC; }
+ .alyo-granata {  background-color: #7B1B02; }
+ .alyo-grano {  background-color: #F5DEB3; }
+ .alyo-grigio5 {  background-color: #F7F7F7; }
+ .alyo-grigio10 {  background-color: #EFEFEF; }
+ .alyo-grigio15 {  background-color: #E1E1E1; }
+ .alyo-grigio20 {  background-color: #D2D2D2; }
+ .alyo-grigio25 {  background-color: #C0C0C0; }
+ .alyo-grigio30 {  background-color: #B2B2B2; }
+ .alyo-grigio35 {  background-color: #A2A2A2; }
+ .alyo-grigio40 {  background-color: #8F8F8F; }
+ .alyo-grigio50 {  background-color: #808080; }
+ .alyo-grigio60 {  background-color: #5F5F5F; }
+ .alyo-grigio70 {  background-color: #4F4F4F; }
+ .alyo-grigio75 {  background-color: #404040; }
+ .alyo-grigio80 {  background-color: #2F2F2F; }
+ .alyo-grigioasparago {  background-color: #465945; }
+ .alyo-grigioardesiascuro {  background-color: #2F4F4F; }
+ .alyo-grigioardesiachiaro {  background-color: #778899; }
+ .alyo-grigiocenere {  background-color: #E4E5E0; }
+ .alyo-grigiotopo {  background-color: #646B63; }
+ .alyo-incarnatoprugna {  background-color: #CC8899; }
+ .alyo-indaco {  background-color: #4B0082; }
+ .alyo-indacoelettrico {  background-color: #6F00FF; }
+ .alyo-indacoscuro {  background-color: #310062; }
+ .alyo-internationalKleinBlue {  background-color: #002FA7; }
+ .alyo-isabella {  background-color: #F4F0EC; }
+ .alyo-kaki {  background-color: #C3B091; }
+ .alyo-kakichiaro {  background-color: #F0E68C; }
+ .alyo-kakiscuro {  background-color: #BDB76B; }
+ .alyo-lampone {  background-color: #E30B5C; }
+ .alyo-lavanda {  background-color: #E6E6FA; }
+ .alyo-lavandapallido {  background-color: #DABAD0; }
+ .alyo-lavandarosata {  background-color: #FFF0F5; }
+ .alyo-limone {  background-color: #FDE910; }
+ .alyo-limonecrema {  background-color: #FFFACD; }
+ .alyo-lilla {  background-color: #C8A2C8; }
+ .alyo-lime {  background-color: #CCFF00; }
+ .alyo-lino {  background-color: #FAF0E6; }
+ .alyo-magenta {  background-color: #FF00FF; }
+ .alyo-magentachiaro {  background-color: #F984E5; }
+ .alyo-magnolia {  background-color: #F8F4FF; }
+ .alyo-malva {  background-color: #E0B0FF; }
+ .alyo-malvachiaro {  background-color: #996666; }
+ .alyo-mandarino {  background-color: #FFCC00; }
+ .alyo-marrone {  background-color: #964B00; }
+ .alyo-marronechiaro {  background-color: #CD853F; }
+ .alyo-marronepastello {  background-color: #987654; }
+ .alyo-marrone-rosso {  background-color: #993300; }
+ .alyo-marronesabbiachiaro {  background-color: #DABDAB; }
+ .alyo-marronescuro {  background-color: #654321; }
+ .alyo-melanzana {  background-color: #990066; }
+ .alyo-mogano {  background-color: #C04000; }
+ .alyo-nero {  background-color: #000000; }
+ .alyo-ocra {  background-color: #CC7722; }
+ .alyo-olivina {  background-color: #9AB973; }
+ .alyo-orchidea {  background-color: #DA70D6; }
+ .alyo-oro {  background-color: #FFD700; }
+ .alyo-orovecchio {  background-color: #CFB53B; }
+ .alyo-ottoneantico {  background-color: #CC9966; }
+ .alyo-papaia {  background-color: #FFEFD5; }
+ .alyo-pera {  background-color: #D1E231; }
+ .alyo-pervinca {  background-color: #CCCCFF; }
+ .alyo-pesca {  background-color: #FFE5B4; }
+ .alyo-pescascuro {  background-color: #FFDAB9; }
+ .alyo-pesca-arancio {  background-color: #FFCC99; }
+ .alyo-pesca-giallo {  background-color: #FADFAD; }
+ .alyo-pistacchio {  background-color: #93C572; }
+ .alyo-platino {  background-color: #E5E4E2; }
+ .alyo-porpora {  background-color: #B20000; }
+ .alyo-prugna {  background-color: #660066; }
+ .alyo-rame {  background-color: #B87333; }
+ .alyo-rosa {  background-color: #FFC0CB; }
+ .alyo-rosaarancio {  background-color: #FF9966; }
+ .alyo-rosamedio {  background-color: #DB244F; }
+ .alyo-rosaMountbatten {  background-color: #997A8D; }
+ .alyo-rosapallido {  background-color: #FADADD; }
+ .alyo-rosapastello {  background-color: #FFD1DC; }
+ .alyo-rosascuro {  background-color: #E75480; }
+ .alyo-rosashocking {  background-color: #FC0FC0; }
+ .alyo-rosavivo {  background-color: #FF007F; }
+ .alyo-rosso {  background-color: #FF0000; }
+ .alyo-rossoaragosta {  background-color: #CC5500; }
+ .alyo-rossocardinale {  background-color: #C41E3A; }
+ .alyo-rossocorsa {  background-color: #CC0000; }
+ .alyo-rossoFalun {  background-color: #801818; }
+ .alyo-rossofragola {  background-color: #CE3018; }
+ .alyo-rossofuoco {  background-color: #A61022; }
+ .alyo-rossomattone {  background-color: #B22222; }
+ .alyo-rossomattonechiaro {  background-color: #BD8E80; }
+ .alyo-rossopomodoro {  background-color: #FF6347; }
+ .alyo-rossopompeiano {  background-color: #D21F1B; }
+ .alyo-rossorosa {  background-color: #FF6088; }
+ .alyo-rossosangue {  background-color: #500000; }
+ .alyo-rossosegnale {  background-color: #A52019; }
+ .alyo-rossoTiziano {  background-color: #BA6262; }
+ .alyo-rossoveneziano {  background-color: #C80815; }
+ .alyo-rossoviolettochiaro {  background-color: #DB7093; }
+ .alyo-rubino {  background-color: #B72755; }
+ .alyo-sabbia {  background-color: #F4A460; }
+ .alyo-salmone {  background-color: #FF8C69; }
+ .alyo-salmonescuro {  background-color: #E9967A; }
+ .alyo-sangria {  background-color: #92000A; }
+ .alyo-scarlatto {  background-color: #FF2400; }
+ .alyo-scarlattoscuro {  background-color: #560319; }
+ .alyo-senape {  background-color: #FFDB58; }
+ .alyo-seppia {  background-color: #704214; }
+ .alyo-solidago {  background-color: #DAA520; }
+ .alyo-solidagoscuro {  background-color: #B8860B; }
+ .alyo-tan {  background-color: #D2B48C; }
+ .alyo-tennÃ© {  background-color: #CD5700; }
+ .alyo-terraombra {  background-color: #635147; }
+ .alyo-terraombrabruciata {  background-color: #8A3324; }
+ .alyo-terradiSiena {  background-color: #E97451; }
+ .alyo-terradiSienabruciata {  background-color: #531B00; }
+ .alyo-testadimoro {  background-color: #754909; }
+ .alyo-taverde {  background-color: #D0F0C0; }
+ .alyo-tronco {  background-color: #79443B; }
+ .alyo-turchese {  background-color: #30D5C8; }
+ .alyo-turchesechiaro {  background-color: #08E8DE; }
+ .alyo-turchesepallido {  background-color: #99FFCC; }
+ .alyo-turchesescuro {  background-color: #116062; }
+ .alyo-uovodipettirosso {  background-color: #00CCCC; }
+ .alyo-uovodipettirossochiaro {  background-color: #96DED1; }
+ .alyo-verde {  background-color: #00FF00; }
+ .alyo-verdeCaraibi {  background-color: #00CC99; }
+ .alyo-verdeforesta {  background-color: #228B22; }
+ .alyo-verdechiaro {  background-color: #66FF00; }
+ .alyo-verde-giallo {  background-color: #ADFF2F; }
+ .alyo-verdemarino {  background-color: #2E8B57; }
+ .alyo-verdemarinomedio {  background-color: #3CB371; }
+ .alyo-verdemarinoscuro {  background-color: #8FBC8F; }
+ .alyo-verdementa {  background-color: #98FF98; }
+ .alyo-verdementachiaro {  background-color: #A6FBB2; }
+ .alyo-verdemuschio {  background-color: #ADDFAD; }
+ .alyo-verdeoliva {  background-color: #808000; }
+ .alyo-verdeolivastro {  background-color: #6B8E23; }
+ .alyo-verdeolivascuro {  background-color: #556B2F; }
+ .alyo-verdepastello {  background-color: #77DD77; }
+ .alyo-verdepino {  background-color: #01796F; }
+ .alyo-verdeprimavera {  background-color: #00FF7F; }
+ .alyo-verdeprimaverascuro {  background-color: #177245; }
+ .alyo-verdeufficio {  background-color: #008000; }
+ .alyo-verdesmeraldo {  background-color: #50C878; }
+ .alyo-verdeVeronese {  background-color: #40826D; }
+ .alyo-vermiglio {  background-color: #FF4D00; }
+ .alyo-viola {  background-color: #800080; }
+ .alyo-violachiaro {  background-color: #9F00FF; }
+ .alyo-violamelanzana {  background-color: #991199; }
+ .alyo-violetto {  background-color: #8000FF; }
+ .alyo-vinaccia {  background-color: #C0007F; }
+ .alyo-zafferano {  background-color: #F4C430; }
+ .alyo-zafferanoprofondo {  background-color: #FF9933; }
+ .alyo-zaffiro {  background-color: #0F52BA; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Testo
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-testo-acquamarina {  color: #7FFFD4; }
+ .alyo-testo-albicocca {  color: #FBCEB1; }
+ .alyo-testo-amaranto {  color: #E52B50; }
+ .alyo-testo-ambra {  color: #FFBF00; }
+ .alyo-testo-ametista {  color: #884DA7; }
+ .alyo-testo-anguria {  color: #FC6C85; }
+ .alyo-testo-antracite {  color: #293133; }
+ .alyo-testo-aragosta {  color: #ED7465; }
+ .alyo-testo-arancione {  color: #FF6600; }
+ .alyo-testo-ardesia {  color: #708090; }
+ .alyo-testo-argento {  color: #C0C0C0; }
+ .alyo-testo-asparago {  color: #87A96B; }
+ .alyo-testo-avio {  color: #5D8AA8; }
+ .alyo-testo-avorio {  color: #FFFFF0; }
+ .alyo-testo-azalea {  color: #D3305D; }
+ .alyo-testo-azzurro {  color: #007FFF; }
+ .alyo-testo-azzurrofiordaliso {  color: #ABCDEF; }
+ .alyo-testo-beige {  color: #F5F5DC; }
+ .alyo-testo-beige-olivachiaro {  color: #908435; }
+ .alyo-testo-beigeverdastro {  color: #BEBD7F; }
+ .alyo-testo-bianco {  color: #FFFFFF; }
+ .alyo-testo-biancoantico {  color: #FFFEEF; }
+ .alyo-testo-biancoanti-flash {  color: #F2F3F4; }
+ .alyo-testo-biancodititanio {  color: #FAEBD7; }
+ .alyo-testo-biancodizinco {  color: #FEFEE9; }
+ .alyo-testo-biancofantasma {  color: #F8F8FF; }
+ .alyo-testo-biancofloreale {  color: #FFFAF0; }
+ .alyo-testo-biancofumo {  color: #F5F5F5; }
+ .alyo-testo-biancoNavajo {  color: #FFDEAD; }
+ .alyo-testo-biscotto {  color: #FFE4C4; }
+ .alyo-testo-bistro {  color: #3D2B1F; }
+ .alyo-testo-blu {  color: #0000FF; }
+ .alyo-testo-bluacciaio {  color: #4682B4; }
+ .alyo-testo-blualice {  color: #F0F8FF; }
+ .alyo-testo-bluBondi {  color: #0095B6; }
+ .alyo-testo-blucadetto {  color: #5F9EA0; }
+ .alyo-testo-bluceruleo {  color: #2A52BE; }
+ .alyo-testo-blucomandostellare {  color: #007BB8; }
+ .alyo-testo-bludiPersia {  color: #1C39BB; }
+ .alyo-testo-bludiPrussia {  color: #003153; }
+ .alyo-testo-bluDodger {  color: #1E90FF; }
+ .alyo-testo-bluelettrico {  color: #003399; }
+ .alyo-testo-blumarino {  color: #000080; }
+ .alyo-testo-blumedio {  color: #0000CD; }
+ .alyo-testo-blunotte {  color: #191970; }
+ .alyo-testo-bluoltremare {  color: #120A8F; }
+ .alyo-testo-blupolvere {  color: #B0E0E6; }
+ .alyo-testo-blupolverescuro {  color: #003399; }
+ .alyo-testo-blureale {  color: #4169E1; }
+ .alyo-testo-bluscuro {  color: #00008B; }
+ .alyo-testo-bordeaux {  color: #800000; }
+ .alyo-testo-borgogna {  color: #800020; }
+ .alyo-testo-bronzo {  color: #CD7F32; }
+ .alyo-testo-bronzoantico {  color: #75663F; }
+ .alyo-testo-camoscio {  color: #F0DC82; }
+ .alyo-testo-carbone {  color: #050402; }
+ .alyo-testo-cardo {  color: #D8BFD8; }
+ .alyo-testo-carminio {  color: #960018; }
+ .alyo-testo-cartadazucchero {  color: #E0FFFF; }
+ .alyo-testo-castagno {  color: #CD5C5C; }
+ .alyo-testo-castagnoscuro {  color: #986960; }
+ .alyo-testo-castagnochiaro {  color: #DDADAF; }
+ .alyo-testo-catrame {  color: #D2B48C; }
+ .alyo-testo-catramescuro {  color: #918151; }
+ .alyo-testo-celadon {  color: #ACE1AF; }
+ .alyo-testo-celeste {  color: #99CBFF; }
+ .alyo-testo-ceruleo {  color: #007BA7; }
+ .alyo-testo-ceruleoscuro {  color: #08457E; }
+ .alyo-testo-chartreuse {  color: #7FFF00; }
+ .alyo-testo-ciano {  color: #00FFFF; }
+ .alyo-testo-ciliegia {  color: #DE3163; }
+ .alyo-testo-cioccolato {  color: #D2691E; }
+ .alyo-testo-cobalto {  color: #0047AB; }
+ .alyo-testo-conchiglia {  color: #FFF5EE; }
+ .alyo-testo-corallo {  color: #FF7F50; }
+ .alyo-testo-crema {  color: #FFFDD0; }
+ .alyo-testo-cremisi {  color: #DC143C; }
+ .alyo-testo-denim {  color: #1560BD; }
+ .alyo-testo-denimchiaro {  color: #5E86C1; }
+ .alyo-testo-eliotropo {  color: #DF73FF; }
+ .alyo-testo-ecru {  color: #C2B280; }
+ .alyo-testo-fioredigranturco {  color: #6495ED; }
+ .alyo-testo-fogliaditÃ¨ {  color: #008080; }
+ .alyo-testo-fucsia {  color: #F400A1; }
+ .alyo-testo-fulvo {  color: #EBB55F; }
+ .alyo-testo-gainsboro {  color: #DCDCDC; }
+ .alyo-testo-giada {  color: #00A86B; }
+ .alyo-testo-giallo {  color: #FFFF00; }
+ .alyo-testo-giallomiele {  color: #A98307; }
+ .alyo-testo-gialloNapoli {  color: #F7E89F; }
+ .alyo-testo-giallopastello {  color: #FFFF66; }
+ .alyo-testo-giallosabbia {  color: #C6A664; }
+ .alyo-testo-giallosegnale {  color: #E5BE01; }
+ .alyo-testo-gialloscuolabus {  color: #FFD800; }
+ .alyo-testo-glicine {  color: #C9A0DC; }
+ .alyo-testo-granata {  color: #7B1B02; }
+ .alyo-testo-grano {  color: #F5DEB3; }
+ .alyo-testo-grigio5 {  color: #F7F7F7; }
+ .alyo-testo-grigio10 {  color: #EFEFEF; }
+ .alyo-testo-grigio15 {  color: #E1E1E1; }
+ .alyo-testo-grigio20 {  color: #D2D2D2; }
+ .alyo-testo-grigio25 {  color: #C0C0C0; }
+ .alyo-testo-grigio30 {  color: #B2B2B2; }
+ .alyo-testo-grigio35 {  color: #A2A2A2; }
+ .alyo-testo-grigio40 {  color: #8F8F8F; }
+ .alyo-testo-grigio50 {  color: #808080; }
+ .alyo-testo-grigio60 {  color: #5F5F5F; }
+ .alyo-testo-grigio70 {  color: #4F4F4F; }
+ .alyo-testo-grigio75 {  color: #404040; }
+ .alyo-testo-grigio80 {  color: #2F2F2F; }
+ .alyo-testo-grigioasparago {  color: #465945; }
+ .alyo-testo-grigioardesiascuro {  color: #2F4F4F; }
+ .alyo-testo-grigioardesiachiaro {  color: #778899; }
+ .alyo-testo-grigiocenere {  color: #E4E5E0; }
+ .alyo-testo-grigiotopo {  color: #646B63; }
+ .alyo-testo-incarnatoprugna {  color: #CC8899; }
+ .alyo-testo-indaco {  color: #4B0082; }
+ .alyo-testo-indacoelettrico {  color: #6F00FF; }
+ .alyo-testo-indacoscuro {  color: #310062; }
+ .alyo-testo-internationalKleinBlue {  color: #002FA7; }
+ .alyo-testo-isabella {  color: #F4F0EC; }
+ .alyo-testo-kaki {  color: #C3B091; }
+ .alyo-testo-kakichiaro {  color: #F0E68C; }
+ .alyo-testo-kakiscuro {  color: #BDB76B; }
+ .alyo-testo-lampone {  color: #E30B5C; }
+ .alyo-testo-lavanda {  color: #E6E6FA; }
+ .alyo-testo-lavandapallido {  color: #DABAD0; }
+ .alyo-testo-lavandarosata {  color: #FFF0F5; }
+ .alyo-testo-limone {  color: #FDE910; }
+ .alyo-testo-limonecrema {  color: #FFFACD; }
+ .alyo-testo-lilla {  color: #C8A2C8; }
+ .alyo-testo-lime {  color: #CCFF00; }
+ .alyo-testo-lino {  color: #FAF0E6; }
+ .alyo-testo-magenta {  color: #FF00FF; }
+ .alyo-testo-magentachiaro {  color: #F984E5; }
+ .alyo-testo-magnolia {  color: #F8F4FF; }
+ .alyo-testo-malva {  color: #E0B0FF; }
+ .alyo-testo-malvachiaro {  color: #996666; }
+ .alyo-testo-mandarino {  color: #FFCC00; }
+ .alyo-testo-marrone {  color: #964B00; }
+ .alyo-testo-marronechiaro {  color: #CD853F; }
+ .alyo-testo-marronepastello {  color: #987654; }
+ .alyo-testo-marrone-rosso {  color: #993300; }
+ .alyo-testo-marronesabbiachiaro {  color: #DABDAB; }
+ .alyo-testo-marronescuro {  color: #654321; }
+ .alyo-testo-melanzana {  color: #990066; }
+ .alyo-testo-mogano {  color: #C04000; }
+ .alyo-testo-nero {  color: #000000; }
+ .alyo-testo-ocra {  color: #CC7722; }
+ .alyo-testo-olivina {  color: #9AB973; }
+ .alyo-testo-orchidea {  color: #DA70D6; }
+ .alyo-testo-oro {  color: #FFD700; }
+ .alyo-testo-orovecchio {  color: #CFB53B; }
+ .alyo-testo-ottoneantico {  color: #CC9966; }
+ .alyo-testo-papaia {  color: #FFEFD5; }
+ .alyo-testo-pera {  color: #D1E231; }
+ .alyo-testo-pervinca {  color: #CCCCFF; }
+ .alyo-testo-pesca {  color: #FFE5B4; }
+ .alyo-testo-pescascuro {  color: #FFDAB9; }
+ .alyo-testo-pesca-arancio {  color: #FFCC99; }
+ .alyo-testo-pesca-giallo {  color: #FADFAD; }
+ .alyo-testo-pistacchio {  color: #93C572; }
+ .alyo-testo-platino {  color: #E5E4E2; }
+ .alyo-testo-porpora {  color: #B20000; }
+ .alyo-testo-prugna {  color: #660066; }
+ .alyo-testo-rame {  color: #B87333; }
+ .alyo-testo-rosa {  color: #FFC0CB; }
+ .alyo-testo-rosaarancio {  color: #FF9966; }
+ .alyo-testo-rosamedio {  color: #DB244F; }
+ .alyo-testo-rosaMountbatten {  color: #997A8D; }
+ .alyo-testo-rosapallido {  color: #FADADD; }
+ .alyo-testo-rosapastello {  color: #FFD1DC; }
+ .alyo-testo-rosascuro {  color: #E75480; }
+ .alyo-testo-rosashocking {  color: #FC0FC0; }
+ .alyo-testo-rosavivo {  color: #FF007F; }
+ .alyo-testo-rosso {  color: #FF0000; }
+ .alyo-testo-rossoaragosta {  color: #CC5500; }
+ .alyo-testo-rossocardinale {  color: #C41E3A; }
+ .alyo-testo-rossocorsa {  color: #CC0000; }
+ .alyo-testo-rossoFalun {  color: #801818; }
+ .alyo-testo-rossofragola {  color: #CE3018; }
+ .alyo-testo-rossofuoco {  color: #A61022; }
+ .alyo-testo-rossomattone {  color: #B22222; }
+ .alyo-testo-rossomattonechiaro {  color: #BD8E80; }
+ .alyo-testo-rossopomodoro {  color: #FF6347; }
+ .alyo-testo-rossopompeiano {  color: #D21F1B; }
+ .alyo-testo-rossorosa {  color: #FF6088; }
+ .alyo-testo-rossosangue {  color: #500000; }
+ .alyo-testo-rossosegnale {  color: #A52019; }
+ .alyo-testo-rossoTiziano {  color: #BA6262; }
+ .alyo-testo-rossoveneziano {  color: #C80815; }
+ .alyo-testo-rossoviolettochiaro {  color: #DB7093; }
+ .alyo-testo-rubino {  color: #B72755; }
+ .alyo-testo-sabbia {  color: #F4A460; }
+ .alyo-testo-salmone {  color: #FF8C69; }
+ .alyo-testo-salmonescuro {  color: #E9967A; }
+ .alyo-testo-sangria {  color: #92000A; }
+ .alyo-testo-scarlatto {  color: #FF2400; }
+ .alyo-testo-scarlattoscuro {  color: #560319; }
+ .alyo-testo-senape {  color: #FFDB58; }
+ .alyo-testo-seppia {  color: #704214; }
+ .alyo-testo-solidago {  color: #DAA520; }
+ .alyo-testo-solidagoscuro {  color: #B8860B; }
+ .alyo-testo-tan {  color: #D2B48C; }
+ .alyo-testo-tennÃ© {  color: #CD5700; }
+ .alyo-testo-terraombra {  color: #635147; }
+ .alyo-testo-terraombrabruciata {  color: #8A3324; }
+ .alyo-testo-terradiSiena {  color: #E97451; }
+ .alyo-testo-terradiSienabruciata {  color: #531B00; }
+ .alyo-testo-testadimoro {  color: #754909; }
+ .alyo-testo-tÃ¨verde {  color: #D0F0C0; }
+ .alyo-testo-tronco {  color: #79443B; }
+ .alyo-testo-turchese {  color: #30D5C8; }
+ .alyo-testo-turchesechiaro {  color: #08E8DE; }
+ .alyo-testo-turchesepallido {  color: #99FFCC; }
+ .alyo-testo-turchesescuro {  color: #116062; }
+ .alyo-testo-uovodipettirosso {  color: #00CCCC; }
+ .alyo-testo-uovodipettirossochiaro {  color: #96DED1; }
+ .alyo-testo-verde {  color: #00FF00; }
+ .alyo-testo-verdeCaraibi {  color: #00CC99; }
+ .alyo-testo-verdeforesta {  color: #228B22; }
+ .alyo-testo-verdechiaro {  color: #66FF00; }
+ .alyo-testo-verde-giallo {  color: #ADFF2F; }
+ .alyo-testo-verdemarino {  color: #2E8B57; }
+ .alyo-testo-verdemarinomedio {  color: #3CB371; }
+ .alyo-testo-verdemarinoscuro {  color: #8FBC8F; }
+ .alyo-testo-verdementa {  color: #98FF98; }
+ .alyo-testo-verdementachiaro {  color: #A6FBB2; }
+ .alyo-testo-verdemuschio {  color: #ADDFAD; }
+ .alyo-testo-verdeoliva {  color: #808000; }
+ .alyo-testo-verdeolivastro {  color: #6B8E23; }
+ .alyo-testo-verdeolivascuro {  color: #556B2F; }
+ .alyo-testo-verdepastello {  color: #77DD77; }
+ .alyo-testo-verdepino {  color: #01796F; }
+ .alyo-testo-verdeprimavera {  color: #00FF7F; }
+ .alyo-testo-verdeprimaverascuro {  color: #177245; }
+ .alyo-testo-verdeufficio {  color: #008000; }
+ .alyo-testo-verdesmeraldo {  color: #50C878; }
+ .alyo-testo-verdeVeronese {  color: #40826D; }
+ .alyo-testo-vermiglio {  color: #FF4D00; }
+ .alyo-testo-viola {  color: #800080; }
+ .alyo-testo-violachiaro {  color: #9F00FF; }
+ .alyo-testo-violamelanzana {  color: #991199; }
+ .alyo-testo-violetto {  color: #8000FF; }
+ .alyo-testo-vinaccia {  color: #C0007F; }
+ .alyo-testo-zafferano {  color: #F4C430; }
+ .alyo-testo-zafferanoprofondo {  color: #FF9933; }
+ .alyo-testo-zaffiro {  color: #0F52BA; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Display
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-display-0 {  display: none; }
+ .alyo-display-blocco-inlinea {  display: inline-block; }
+ .alyo-display-blocco {  display: block; }
+ .alyo-display-inlinea {  display: inline; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Posizione
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-posizione-fisso {  position: fixed; }
+ .alyo-posizione-assoluto {  position: absolute; }
+ .alyo-posizione-relativo {  position: relative; }
+ .alyo-posizione-fisso {  position: fixed; }
+ .alyo-posizione-sticky {  position: sticky; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Overflow
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-overflow-visibile {  overflow: visible; }
+ .alyo-overflow-nascosto {  overflow: hidden; }
+ .alyo-overflow-scrollo {  overflow: scroll; }
+ .alyo-overflow-auto {  overflow: auto; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Float
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-float-sinistro {  float: left; }
+ .alyo-float-destro {  float: right; }
+ .alyo-float-nessuno {  float: none; }
+ .alyo-float-ereditato {  float: inherit; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Testo
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-testo-sinistro {  text-align: left; }
+ .alyo-testo-destro {  text-align: right; }
+ .alyo-testo-centro {  text-align: center; }
+ .alyo-testo-giustificato {  text-align: justify; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Ombra
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-ombra {  box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);  }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Ombra
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-testo-minuscolo {  text-transform: lowercase; }
+ .alyo-testo-maiuscolo {  text-transform: uppercase; }
+ .alyo-testo-1letteremaiuscole {  text-transform: capitalize; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Testo
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-testo-white-space { text-align: nowrap; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Elenco
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-elenco-cerchio {  list-style-type: circle; }
+ .alyo-elenco-quadrato {  list-style-type: square; }
+ .alyo-elenco-romano {  list-style-type: upper-roman; }
+ .alyo-elenco-alfabetico {  list-style-type: lower-alpha; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Alineamento Verticale
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-verticale-sopra {  vertical-align: top; }
+ .alyo-verticale-centro {  vertical-align: center; }
+ .alyo-verticale-sotto {  vertical-align: bottom; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Zoom Interno
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-zoom-interno {  object-fit: cover; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Ridimensionamento
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-ridimensione-0 {  resize: none; }
+ .alyo-ridimensione-orrizontale {  resize: horizontal; }
+ .alyo-ridimensione-verticale {  resize: vertical; }
+ .alyo-ridimensione-entrambi {  resize: both; }
+
+ /*-------------------------------------------------------------------------------------------------------------------------
+                Fonts
+-------------------------------------------------------------------------------------------------------------------------*/
+
+.alyo-font-arial {  font-family: 'Arial', sans-serif; }
+ .alyo-font-arialblack {  font-family: 'Arial Black', sans-serif; }
+ .alyo-font-verdana {  font-family: 'verdana', sans-serif; }
+ .alyo-font-tahoma  {  font-family: 'Tahoma', sans-serif; }
+ .alyo-font-trebuchetms {  font-family: 'trebuchet MS', sans-serif; }
+ .alyo-font-impatto {  font-family: 'Impatto', sans-serif; }
+ .alyo-font-timesnewroman {  font-family: 'Times New Roman', sans-serif; }
+ .alyo-font-didot {  font-family: 'Didot', sans-serif; }
+ .alyo-font-georgia {  font-family: 'Georgia', sans-serif; }
+ .alyo-font-macchinadascrivereamericana {  font-family: 'Macchina da scrivere americana', sans-serif; }
+ .alyo-font-corriere {  font-family: 'Corriere', sans-serif; }
+ .alyo-font-lucidaconsole {  font-family: 'Lucida Console', sans-serif; }
+ .alyo-font-monaco {  font-family: 'Monaco', sans-serif; }
+ .alyo-font-bradleyhand {  font-family: 'Bradley Hand', sans-serif; }
+ .alyo-font-brushscriptmt {  font-family: 'Brush Script MT', sans-serif; }
+
+
+/*------------------- MEDIA Larghezza Minima 768px --------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------
+                Larghezza %
+-------------------------------------------------------------------------------------------------------------------------*/
+
+ .alyo-larghezza-0 { width: 0%;   }
+ .alyo-larghezza-5 { width: 5%;   }
+ .alyo-larghezza-10 { width: 10%;   }
+ .alyo-larghezza-15 { width: 15%;   }
+ .alyo-larghezza-20 { width: 20%;   }
+ .alyo-larghezza-25 { width: 25%;   }
+ .alyo-larghezza-30 { width: 30%;   }
+ .alyo-larghezza-35 { width: 35%;   }
+ .alyo-larghezza-40 { width: 40%;   }
+ .alyo-larghezza-45 { width: 45%;   }
+ .alyo-larghezza-50 { width: 50%;   }
+ .alyo-larghezza-55 { width: 55%;   }
+ .alyo-larghezza-60 { width: 60%;   }
+ .alyo-larghezza-65 { width: 65%;   }
+ .alyo-larghezza-70 { width: 70%;   }
+ .alyo-larghezza-75 { width: 75%;   }
+ .alyo-larghezza-80 { width: 80%;   }
+ .alyo-larghezza-85 { width: 85%;   }
+ .alyo-larghezza-90 { width: 90%;   }
+ .alyo-larghezza-95 { width: 95%;   }
+ .alyo-larghezza-100 { width: 100%;   }
+
+
+.alyo-larghezza-33 {
+  width: 33.33333333%;
+}
+
+.alyo-larghezza-33 {
+  float: left;
+}
+
+.alyo-hover-efefef:hover {
+    background-color: #efefef;
+}
+
+.alyo-colonna:after, .alyo-colonna:before {
+  display: table;
+  content: " ";
+}
+
+.alyo-colonna:after {
+   clear: both;
+}
+
+.alyo-colonna {
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+.alyo-5-colonne, .alyo-4-colonne, .alyo-3-colonne, .alyo-2-colonne { position: relative; }
+.alyo-5-colonne, .alyo-4-colonne, .alyo-3-colonne, .alyo-2-colonne { float: left; }
+
+.alyo-5-colonne { width: 20%; }
+.alyo-3-colonne { width: 33.33333333%; }
+.alyo-4-colonne { width: 25%; }
+.alyo-2-colonne { width: 50%; }
+
+.alyo-sfocato-nero-50 {
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.alyo-sfocato-bianco-50 {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.alyo-sfocato-bianco-0 {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.alyo-sfocato-bianco-30 {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.alyo-sfocato-bianco-80 {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.alyo-bianco-0 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.alyo-hover-bianco-50:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.alyo-testo-2rem { font-size: 2rem;  }
+
+
+body {
+  background-image:  url("./assets/sfondo/sfondo1.gif");
+}
+
+.alyo-bordo-efefef {
+  border: 1px solid #efefef;
+}
+
+.alyo-altezza-40vmin {
+  height: 40vmax;
+}
+
+.alyo-biaco-opaco-03 {
+     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.alyo-biaco-opaco-05 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.alyo-overflow-scrollo-nascosto::-webkit-scrollbar {
+  display: none;
+}
