@@ -7,7 +7,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { HttpClient } from '@angular/common/http';
 import { NameService } from './name.services';
 
-// <!--versione 2.0-->
+// <!--versione 3.1-->
 
 @Component({
   selector: 'app-home',
@@ -295,7 +295,7 @@ export class HomeComponent implements OnInit {
 
   modifica(server: string[],testo: string){
 
-    console.log("TABELLA [ "+server[0]+"]  ATTRIBUTO [ "+server[1]+" ] ID [ "+server[2]+" ] VALORE [ "+testo.valore+" ]")
+    console.log("TABELLA [ "+server[0]+"]  ATTRIBUTO [ "+server[1]+" ] ID [ "+server[2]+" ] VALORE [ "+testo+" ]")
     var formdate = new FormData();
     formdate.append("tabella",server[0]);
     formdate.append("attributo",server[1]);

@@ -105,4 +105,4 @@ export class AlyoInputFontsComponent implements OnInit {
 }
 
 
-// <!--versione 2.0-->
+// <!--versione 3.1-->

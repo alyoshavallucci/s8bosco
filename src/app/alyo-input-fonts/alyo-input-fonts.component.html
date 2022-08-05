@@ -1,4 +1,4 @@
-<!--versione 2.0-->
+<!--versione 3.1-->
 <div class="alyo-posizione-relativo alyo-larghezza-100 " >
 
     <input class="{{ stile }}"  type="text"  [(ngModel)]="testo.valore" (keyup)="testo.valore = convertiTesto(testo.item,onkey($event)); testo_originale = convertiTestoOriginale(testo.item,onkey($event));  lunghezza_testo(); modifica();" (focusin)="lunghezza_testo();" placeholder="{{ placeholder }}"  >
