@@ -171,7 +171,7 @@
 
       <div class="alyo-padding-5px">
          <div class="row alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-ombra alyo-margine-0" style="margin: 0;">
-            <div class="col-xs-6" style="margin: 0; width: 50%;"><button (click)="lista_video_dinamico.push({src: '',titolo: ''})" class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-testo-grigio30" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faPlus></fa-icon></button></div>
+            <div class="col-xs-6" style="margin: 0; width: 50%;"><button (click)="lista_video_dinamico.push({url: '',titolo: ''})" class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-testo-grigio30" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faPlus></fa-icon></button></div>
             <div class="col-xs-6 alyo-testo-destro" style="margin: 0;  width: 50%;"><button [ngStyle]="{'color': mostra_bottoni_elimina[0] ? 'red' : '#B2B2B2'}" (click)="mostra_bottoni_elimina[0] = !mostra_bottoni_elimina[0]" class="alyo-padding-10px alyo-testo-efefef alyo-bordo-rotondo-10px alyo-bordo-0" style="border: none;  background-color: rgba(255, 255, 255, 0);"><fa-icon [icon]=faTrashCan></fa-icon></button></div>
          </div>
       </div>
@@ -182,10 +182,10 @@
 
            <fa-icon *ngIf="mostra_bottoni_elimina[0]" class="alyo-posizione-assoluto alyo-testo-rosso alyo-bordo-rotondo-50" style="top: -5px; right: -5px; padding: 1px;" (click)="elimina(i)" [icon]=faMinusCircle></fa-icon>
 
-           <iframe class="alyo-bordo-rotondo-10px alyo-larghezza-100  alyo-margine-sotto-10px" style="background-color: rgba(255, 255, 255, 0.3);" [src]="item.src"  frameborder="0" allowfullscreen></iframe>
-           <input class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-larghezza-100 alyo-margine-sotto-10px" [value]="item.url" (keyup)="item.url = onkey($event); item.src = this.sanitize(onkey($event));" style="background-color: rgba(255, 255, 255, 0.5); border: none;" placeholder="Inserisci URL">
+           <iframe class="alyo-bordo-rotondo-10px alyo-larghezza-100  alyo-margine-sotto-10px" style="background-color: rgba(255, 255, 255, 0.3);" [src]="item.src_sanitize"  frameborder="0" allowfullscreen></iframe>
+           <input class="alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0 alyo-larghezza-100 alyo-margine-sotto-10px" [value]="item.url" (keyup)="item.url = onkey($event); item.url_sanitize = this.sanitize(onkey($event)); modifica(['dirette','url',item.id],item.url);" style="background-color: rgba(255, 255, 255, 0.5); border: none;" placeholder="Inserisci URL">
 
-           <alyo-input-fonts [testo]="item.titolo" [placeholder]="'Inserisci Titolo'" [stile]="'alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px alyo-larghezza-100 alyo-biaco-opaco-05'" ></alyo-input-fonts>
+           <alyo-input-fonts [testo]="item.titolo" [placeholder]="'Inserisci Titolo'" [stile]="'alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px alyo-larghezza-100 alyo-biaco-opaco-05'" [server]="['dirette','titolo',item.id]" ></alyo-input-fonts>
 
 
         </div>
@@ -197,31 +197,26 @@
     <!--EVENTI-->
     <div *ngIf="sezioni_sito[1]" class="row alyo-padding-5px alyo-larghezza-100 alyo-bordo-rotondo-20px  alyo-margine-0" style="margin: 0px; padding: 5px;">
 
-      <div *ngFor="let item of lista_eventi_dinamico" class="row"  style="margin: 0px; padding: 0px;">
-        <div class="alyo-padding-5px alyo-margine-sopra-10px" style="padding: 5px;">
-            <h1 class="alyo-sfocato-bianco-80 alyo-ombra alyo-bordo-rotondo-20px alyo-padding-10px alyo-margine-0px">{{ item.mese }}</h1>
-        </div>
-        <div *ngFor="let item2 of item.lista" class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px;">
-                <div class="row alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-ombra " [class]="item2.colore" style="margin: 0px; padding: 5px;">
+        <div *ngFor="let item of lista_eventi_dinamico" class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px;">
+                <div class="row alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-ombra " style="margin: 0px; padding: 5px;">
                    <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px; ">
-                      <div *ngIf="item2.tipo == 'immagine'; else elseBlock" ><img class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="item2.src">
+                      <!-- <div *ngIf="item.tipo == 'immagine'; else elseBlock" ><img class="alyo-bordo-rotondo-10px alyo-larghezza-100" src="item.src">
                       </div>
-                      <ng-template #elseBlock>
+                      <ng-template #elseBlock> -->
                           <video class="alyo-bordo-rotondo-10px alyo-larghezza-100" controls>
-                             <source src="{{ item2.src }}" >
+                             <source src="{{ item.src }}" >
                          </video>
-                      </ng-template>
+                      <!-- </ng-template> -->
                    </div>
                    <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px; ">
-                       <alyo-input-fonts [testo]="item2.titolo" [placeholder]="'Inserisci Titolo'" [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px'" ></alyo-input-fonts>
-                       <input  [value]="item2.data" class="alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px " (keyup)="item2.data = onkey($event);"  placeholder="Inserisci Data">
-                       <alyo-input-fonts [testo]="item2.luogo" [placeholder]="'Inserisci Luogo'" [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px '"  ></alyo-input-fonts>
+                       <alyo-input-fonts [testo]="item.titolo" [placeholder]="'Inserisci Titolo'" [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px'" [server]="['eventi','titolo',item.id]" ></alyo-input-fonts>
+                       <alyo-input-fonts [testo]="item.data"   [placeholder]="'Inserisci Data'"   [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px'" [server]="['eventi','data',item.id]" ></alyo-input-fonts>
+                       <alyo-input-fonts [testo]="item.luogo"  [placeholder]="'Inserisci Luogo'"  [stile]="'alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px'" [server]="['eventi','luogo',item.id]" ></alyo-input-fonts>
                        <button class="alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-padding-10px alyo-bordo-0px ">Carica Immagine</button>
                    </div>
                 </div>
         </div>
-      </div>
-
+      
     </div>
 
     <!--CONDUTTORI-->
@@ -237,8 +232,7 @@
         <div class="alyo-ombra alyo-bordo-rotondo-20px alyo-sfocato-bianco-80 alyo-padding-10px">
            <fa-icon *ngIf="mostra_bottoni_elimina[1]" class="alyo-posizione-assoluto alyo-posizione-assoluto alyo-testo-rosso alyo-bordo-rotondo-50" style="top: -5px; right: -5px; padding: 1px;" (click)="elimina_conduttore(i)" [icon]=faMinusCircle></fa-icon>
            <img class="alyo-larghezza-100 alyo-bordo-rotondo-10px alyo-zoom-interno alyo-margine-sotto-10px alyo-bordo alyo-bordo-efefef" style="margin-bottom: 10px; height: 40vmin;" [src]="item.url">
-           <!-- <input class="alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px" [value]="item.nome" style="background-color: rgba(255, 255, 255, 0.3);">-->
-           <alyo-input-fonts [testo]="item.nome" [placeholder]="'Inserisci Nome'" [stile]="'alyo-biaco-opaco-05 alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px'"  ></alyo-input-fonts>
+           <alyo-input-fonts [testo]="item.nome" [placeholder]="'Inserisci Nome'" [stile]="'alyo-biaco-opaco-05 alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px'" [server]="['conduttori','nome',item.id]"  ></alyo-input-fonts>
 
           </div>
      </div>
@@ -259,7 +253,7 @@
            <alyo-input-fonts [testo]="{valore: '',item: null}" [placeholder]="'Inserisci Nome Radio'" [stile]="'alyo-biaco-opaco-05 alyo-larghezza-100 alyo-padding-10px alyo-bordo-rotondo-10px alyo-bordo-0px'"  ></alyo-input-fonts>
 
            <p class="alyo-margine-0px">Mappe: </p>
-           <input class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03" placeholder="Inserisci Url" value="">
+           <input  class="alyo-testo-centro alyo-bordo-0px alyo-padding-10px alyo-bordo-rotondo-10px alyo-larghezza-100 alyo-biaco-opaco-03" placeholder="Inserisci Url" value="">
           </div>
        </div>
        <div class="col-sm-6 alyo-padding-5px" style="margin: 0px; padding: 5px;">

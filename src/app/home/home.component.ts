@@ -54,138 +54,54 @@ export class HomeComponent implements OnInit {
   faAddressCard =  faAddressCard;
   loading = false;
 
-  lista_video = [{src: "https://www.youtube.com/embed/c3oQSQmOqb4", titolo: "londra"},
-                 {src: "https://www.youtube.com/embed/jXJwcqR5P0E", titolo: "Formentera"},
-                 {src: "https://www.youtube.com/embed/ue05b88zb8A", titolo: "ciao"},
-                 {src: "https://www.youtube.com/embed/lcruLvCn1Fg", titolo: "ciao"},
+  lista_video = [{id: 1,url: "https://www.youtube.com/embed/c3oQSQmOqb4", titolo: "londra"},
+                 {id: 2,url: "https://www.youtube.com/embed/jXJwcqR5P0E", titolo: "Formentera"},
+                 {id: 3,url: "https://www.youtube.com/embed/ue05b88zb8A", titolo: "ciao"},
+                 {id: 4,url: "https://www.youtube.com/embed/lcruLvCn1Fg", titolo: "ciao"},
   ]
 
-  lista_conduttori = [{
+  lista_conduttori = [{ id: 1,
                         nome: "Jack Irriverente",
                         url: this.percorso[0]+"image1.jpeg"
                       },
-                      {
+                      { id: 2,
                         nome: "Mister IXI",
                         url: this.percorso[0]+"image2.jpeg"
                       },
-                      {
+                      { id: 3,
                         nome: "Principessa Figa",
                         url: this.percorso[0]+"image3.jpeg"
                       },
-                      {
+                      { id: 4,
                         nome: "Strabueno",
                         url: this.percorso[0]+"image4.jpeg"
                       },
-                      {
+                      { id: 5,
                         nome: "Signor Robbinson",
                         url: this.percorso[0]+"image5.jpeg"
                       },
-                      {
+                      { id: 6,
                         nome: "Pacca",
                         url: this.percorso[0]+"image6.jpeg"
                       }];
 
-  lista_eventi = [{mese: "Agosto",
-                   lista: [{tipo: "video",src: this.percorso[1]+"video1.MOV", titolo: "TUTTI ALLA GRIGLIATA",data: "10 Settembre 2022",luogo : "Carpi", colore: "alyo-grigio10"}]
-                  },
-                  {mese: "Luglio",
-                   lista: [{tipo: "video",src: this.percorso[1]+"video2.MOV", titolo: "",data: "10 Settembre 2022",luogo : "Carpi", colore: "alyo-grigio10"},
-                           {tipo: "video",src: this.percorso[1]+"video3.MOV", titolo: "",data: "10 Settembre 2022",luogo : "Carpi", colore: "alyo-grigio10"}
-                          ]
-                  }
-                  ]
+  lista_eventi = [{id: 1,tipo: "video",src: this.percorso[1]+"video1.MOV", titolo: "TUTTI ALLA GRIGLIATA",data: "10 Settembre 2022",luogo : "Carpi"},
+                  {id: 2,tipo: "video",src: this.percorso[1]+"video2.MOV", titolo: "",data: "10 Settembre 2022",luogo : "Carpi"},
+                  {id: 3,tipo: "video",src: this.percorso[1]+"video3.MOV", titolo: "",data: "10 Settembre 2022",luogo : "Carpi"}
+                 ]
 
   lista_sfondi = [this.percorso[3]+"sfondo1.gif",this.percorso[3]+"sfondo2.gif",this.percorso[3]+"sfondo3.gif",this.percorso[3]+"sfondo4.gif"]
 
-  constructor(private _sanitizer: DomSanitizer,private nameService: NameService) {
+  constructor(private _sanitizer: DomSanitizer,private service: NameService) {
   }
 
   ngOnInit(): void {
 
-    for(let item of this.lista_video){
-       this.lista_video_dinamico.push({src: this.sanitize(item.src),url: item.src, titolo: {valore: item.titolo, item: null}})
-    }
-
-    for(let item of this.lista_conduttori){
-      this.lista_conduttori_dinamico.push({nome: {valore: item.nome, item: null}, url: item.url})
-    }
-
-    for(let item of this.lista_eventi){
-      var lista3 = [];
-      for(let item2 of item.lista){
-          lista3.push({tipo: item2.tipo, src: item2.src, titolo: {valore: item2.titolo, item: null},data : item2.data, luogo : {valore: item2.luogo, item: null}})
-      }
-
-      this.lista_eventi_dinamico.push({mese: item.mese, lista: lista3})
-    }
-
-    this.lista_video_dinamico = this.lista_video_dinamico.reverse();
+    this.caricamentoDati()
 
     this.cont_contenuti_primopiano = 0;
     this.cont_sfondi = 1;
     this.cont = 2;
-
-    setInterval(() => {
-
-                if(this.cont_sfondi > this.lista_sfondi.length-1){ this.cont_sfondi = 0; }
-                if(this.cont > this.lista_nome_profilo.length-1){ this.cont = 0;}
-                if(this.cont_contenuti_primopiano > this.lista_contenuti_primopiano.length-1){ this.cont_contenuti_primopiano = 0;}
-                if(this.cont_sfondi > this.lista_sfondi.length-1){ this.cont_sfondi = 0;}
-
-                $("body").css({"background-image":"url("+this.lista_sfondi[this.cont_sfondi]+")"})
-
-                // let codice = "<div class='alyo-np-div alyo-posizione-assoluto alyo-padding-10px alyo-altezza-100 alyo-larghezza-100' style='top: 50%; left: 250%;  transform: translate(-50%, -50%);'>"
-
-                // if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].tipo == 1) {
-                //   codice +=  "<img class='alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100' src='"+this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].url+"'>"
-                // }
-
-                // if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].tipo == 2) {
-                //   codice += "<iframe class='alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100' src='"+this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].url+this.autoplay+"' name='youtube embed' allow='autoplay; encrypted-media' allow='autoplay' frameborder='0' allowfullscreen>"
-                //          +"  </iframe>"
-                // }
-
-                // if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].tipo == 3) {
-
-                //   codice += "<div class='row alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100 "+this.lista_contenuti_primopiano[1].url.colore+"' style='margin: 0px; padding: 10px;'>"
-                //          +" <div  style='width: 20%; margin: 0px; padding: 0px; overflow: hidden;'>"
-                //   if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].url.tipo == 'immagine'){
-                //      codice +="<img class='alyo-bordo-rotondo-10px alyo-larghezza-100' src='"+this.lista_contenuti_primopiano[1].url.src+"'>"
-                //   }
-                //   else{
-                //   codice +="<video class='alyo-zoom-interno alyo-larghezza-100 alyo-bordo-rotondo-10px' style='border-radius: 10px;' controls >"
-                //          +"<source src='"+this.lista_contenuti_primopiano[1].url.src+"' >"
-                //          +"</video>"
-                //   }
-                //   codice +=" </div>"
-                //          +" <div class='alyo-padding-5px' style='margin: 0px; padding: 5px; width: 80%;'>"
-                //          +"   <h3 class='alyo-testo-centro'>"+this.lista_contenuti_primopiano[1].url.titolo +"</h3>"
-                //          +"   <h3 class='alyo-testo-centro'>"+this.lista_contenuti_primopiano[1].url.luogo +"</h3>"
-                //          +"   <h3 class='alyo-testo-centro'>"+this.lista_contenuti_primopiano[1].url.data +"</h3>"
-                //          +" </div>"
-                //   +"</div>";
-
-                // }
-
-                $("#nome_profilo").append("<h1 class='alyo-np-h1 alyo-posizione-assoluto alyo-sfocato-bianco-80 alyo-padding-10px alyo-bordo-rotondo-10px alyo-ombra' style='top: 50%; left: 250%; transform: translate(-50%, -50%);'>"+this.lista_nome_profilo[this.cont]+"</h1>");
-
-                $(".alyo-np-h1:eq(0), .alyo-np-div:eq(0)").animate({left: '-=100%'},"linear");
-                $(".alyo-np-h1:eq(1), .alyo-np-div:eq(1)").animate({left: '-=100%'},"linear");
-                $(".alyo-np-h1:eq(2), .alyo-np-div:eq(2)").animate({left: '-=100%'},"linear");
-                $(".alyo-np-h1:eq(3), .alyo-np-div:eq(3)").animate({left: '-=100%'},"linear");
-
-
-                setTimeout(() => {
-
-                    $(".alyo-np-div:eq("+this.cont_contenuti_primopiano+")").css({"left": "250%"});
-                    $(".alyo-np-h1:eq(0)").remove();
-                    this.cont_contenuti_primopiano = this.cont_contenuti_primopiano+1;
-                }, 1000);
-
-                this.cont = this.cont+1;
-                this.cont_sfondi = this.cont_sfondi+1;
-
-    },10000);
 
     setInterval(this.intervallo,10000);
 
@@ -194,16 +110,57 @@ export class HomeComponent implements OnInit {
     this.lista_contenuti_primopiano = [
       {tipo: 1, url: this.percorso[2]+"image2.jpeg"},                       //img gufo
       {tipo: 1, url: this.percorso[2]+"image1.jpeg"},                       //img jek irriverente
-      {tipo: 2, url: this.sanitize(this.lista_video[3].src+this.autoplay)}, //iframe yotutube
+      {tipo: 2, url: this.sanitize(this.lista_video[3].url+this.autoplay)}, //iframe yotutube
       {tipo: 1, url: this.percorso[2]+"image1.jpeg"},                       //img jek irriverente
     ]
-
-    this.loadDirette();
   }
 
-  loadDirette(): void {
-   // this.nameService.onService().subscribe(res => {console.log("VETTORE: "+res)}, err=>{console.log("ERRORE: "+err)});
-    this.nameService.onService();
+  caricamentoDati(): void {
+
+    var formdate = new FormData();
+    formdate.append("tabella","dirette");
+
+    this.service.alyo_load(formdate).subscribe(dati => {
+       for(let item of dati){
+           this.lista_video_dinamico.push({id: item.id, url_sanitize: this.sanitize(item.url), url: item.url, titolo: {valore: item.titolo, item: null}})
+       }
+    });
+
+    formdate = new FormData();
+    formdate.append("tabella","eventi")    
+
+    this.service.alyo_load(formdate).subscribe(dati => {
+      for(let item of dati){
+        this.lista_eventi_dinamico({id: item.id, tipo: item.tipo, src: item.src, titolo: {valore: item.titolo, item: null},data : item.data, luogo : {valore: item.luogo, item: null}})
+      }
+    });
+
+    formdate = new FormData();
+    formdate.append("tabella","conduttori")
+
+    this.service.alyo_load(formdate).subscribe(dati => {
+       for(let item of dati){
+          this.lista_conduttori_dinamico.push({id: item.id, nome: {valore: item.nome, item: null}, url: item.url})
+       }
+    });
+
+    this.lista_eventi_dinamico = [];
+    this.lista_conduttori_dinamico = [];
+    this.lista_contenuti_primopiano = [];
+
+
+    for(let item of this.lista_video){
+        this.lista_video_dinamico.push({id: item.id, url_sanitize: this.sanitize(item.url), url: item.url, titolo: {valore: item.titolo, item: null}})
+    }
+
+    for(let item of this.lista_eventi){
+        this.lista_eventi_dinamico({id: item.id, tipo: item.tipo, src: item.src, titolo: {valore: item.titolo, item: null},data : item.data, luogo : {valore: item.luogo, item: null}})
+    }
+
+    for(let item of this.lista_conduttori){
+        this.lista_conduttori_dinamico.push({id: item.id, nome: {valore: item.nome, item: null}, url: item.url})
+    }
+
   }
 
 
@@ -215,39 +172,6 @@ export class HomeComponent implements OnInit {
       if(this.cont_sfondi > this.lista_sfondi.length-1){ this.cont_sfondi = 0;}
 
       $("body").css({"background-image":"url("+this.lista_sfondi[this.cont_sfondi]+")"})
-
-      // let codice = "<div class='alyo-np-div alyo-posizione-assoluto alyo-padding-10px alyo-altezza-100 alyo-larghezza-100' style='top: 50%; left: 250%;  transform: translate(-50%, -50%);'>"
-
-      // if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].tipo == 1) {
-      //   codice +=  "<img class='alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100' src='"+this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].url+"'>"
-      // }
-
-      // if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].tipo == 2) {
-      //   codice += "<iframe class='alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100' src='"+this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].url+this.autoplay+"' name='youtube embed' allow='autoplay; encrypted-media' allow='autoplay' frameborder='0' allowfullscreen>"
-      //          +"  </iframe>"
-      // }
-
-      // if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].tipo == 3) {
-
-      //   codice += "<div class='row alyo-bordo-efefef alyo-bordo-rotondo-20px alyo-ombra alyo-altezza-100 alyo-larghezza-100 "+this.lista_contenuti_primopiano[1].url.colore+"' style='margin: 0px; padding: 10px;'>"
-      //          +" <div  style='width: 20%; margin: 0px; padding: 0px; overflow: hidden;'>"
-      //   if(this.lista_contenuti_primopiano[this.cont_contenuti_primopiano].url.tipo == 'immagine'){
-      //      codice +="<img class='alyo-bordo-rotondo-10px alyo-larghezza-100' src='"+this.lista_contenuti_primopiano[1].url.src+"'>"
-      //   }
-      //   else{
-      //   codice +="<video class='alyo-zoom-interno alyo-larghezza-100 alyo-bordo-rotondo-10px' style='border-radius: 10px;' controls >"
-      //          +"<source src='"+this.lista_contenuti_primopiano[1].url.src+"' >"
-      //          +"</video>"
-      //   }
-      //   codice +=" </div>"
-      //          +" <div class='alyo-padding-5px' style='margin: 0px; padding: 5px; width: 80%;'>"
-      //          +"   <h3 class='alyo-testo-centro'>"+this.lista_contenuti_primopiano[1].url.titolo +"</h3>"
-      //          +"   <h3 class='alyo-testo-centro'>"+this.lista_contenuti_primopiano[1].url.luogo +"</h3>"
-      //          +"   <h3 class='alyo-testo-centro'>"+this.lista_contenuti_primopiano[1].url.data +"</h3>"
-      //          +" </div>"
-      //   +"</div>";
-
-      // }
 
       $("#nome_profilo").append("<h1 class='alyo-np-h1 alyo-posizione-assoluto alyo-sfocato-bianco-80 alyo-padding-10px alyo-bordo-rotondo-10px alyo-ombra' style='top: 50%; left: 250%; transform: translate(-50%, -50%);'>"+this.lista_nome_profilo[this.cont]+"</h1>");
 
@@ -368,4 +292,20 @@ export class HomeComponent implements OnInit {
     }, 1500);
 
   }
+
+  modifica(server: string[],testo: string){
+
+    console.log("TABELLA [ "+server[0]+"]  ATTRIBUTO [ "+server[1]+" ] ID [ "+server[2]+" ] VALORE [ "+testo.valore+" ]")
+    var formdate = new FormData();
+    formdate.append("tabella",server[0]);
+    formdate.append("attributo",server[1]);
+    formdate.append("id",server[2]);
+    formdate.append(server[1],testo);
+
+    this.service.alyo_modifica(formdate).subscribe(dati => {
+        console.log("MESSAGGIO: "+dati);
+    });
+
+  }
+
 }

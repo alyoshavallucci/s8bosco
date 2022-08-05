@@ -1,6 +1,8 @@
 import { Component, Input, OnInit, Output } from '@angular/core';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import { ignoreElements } from 'rxjs';
+import { NameService } from '../home/name.services';
+
 
 
 @Component({
@@ -19,13 +21,14 @@ export class AlyoInputFontsComponent implements OnInit {
   @Input() placeholder: string = "";
   @Input() testo: any = "";
   @Input() stile: string = "";
+  @Input() server: string[] = [];
 
   panello_lista_fonts = false;
   testo_originale = "";
 
   faCircleXmark = faCircleXmark;
 
-  constructor() {
+  constructor(private service: NameService) {
 
   }
 
@@ -82,6 +85,21 @@ export class AlyoInputFontsComponent implements OnInit {
       return carattere;
     }
     else { return testo; }
+  }
+
+  modifica(){
+
+    console.log("TABELLA [ "+this.server[0]+"]  ATTRIBUTO [ "+this.server[1]+" ] ID [ "+this.server[2]+" ] VALORE [ "+this.testo.valore+" ]")
+    var formdate = new FormData();
+    formdate.append("tabella",this.server[0]);
+    formdate.append("attributo",this.server[1]);
+    formdate.append("id",this.server[2]);
+    formdate.append(this.server[1],this.testo.valore);
+
+    this.service.alyo_modifica(formdate).subscribe(dati => {
+        console.log("MESSAGGIO: "+dati);
+    });
+
   }
 
 }
