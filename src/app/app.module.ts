@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
 import { NameService } from './home/name.services'
 
+//<!--versione 2.0-->
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { AlyoInputFontsComponent } from './alyo-input-fonts.component';
+
+// <!--versione 2.0-->
 
 describe('AlyoInputFontsComponent', () => {
   let component: AlyoInputFontsComponent;

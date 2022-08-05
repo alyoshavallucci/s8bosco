@@ -7,6 +7,8 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { HttpClient } from '@angular/common/http';
 import { NameService } from './name.services';
 
+// <!--versione 2.0-->
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
